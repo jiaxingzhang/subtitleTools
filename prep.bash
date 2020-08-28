@@ -35,7 +35,14 @@ case "$1" in
 	rm .tmp.this.json
 	;;
     -r)
-	curl -X GET -H "Authorization: Bearer "$(gcloud auth application-default print-access-token) https://videointelligence.googleapis.com/v1/$2 > .raw.tmp
+	while true; do
+	    curl -X GET -H "Authorization: Bearer "$(gcloud auth application-default print-access-token) https://videointelligence.googleapis.com/v1/$2 > .raw.tmp
+	    ready=$(cat .raw.tmp | jq .done)
+	    if [ $ready == "true" ]; then
+		break
+	    fi
+	    sleep 5
+	done
 	node combine.js .raw.tmp | jq .
 	rm .raw.tmp
 	;;

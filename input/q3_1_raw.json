@@ -1,0 +1,1279 @@
+{
+  "name": "projects/637000999429/locations/us-west1/operations/3453206648859329230",
+  "metadata": {
+    "@type": "type.googleapis.com/google.cloud.videointelligence.v1.AnnotateVideoProgress",
+    "annotationProgress": [
+      {
+        "inputUri": "/minqa/trimmed/Q3_1.mp4",
+        "progressPercent": 100,
+        "startTime": "2020-08-28T14:06:16.603039Z",
+        "updateTime": "2020-08-28T14:07:02.159243Z"
+      }
+    ]
+  },
+  "done": true,
+  "response": {
+    "@type": "type.googleapis.com/google.cloud.videointelligence.v1.AnnotateVideoResponse",
+    "annotationResults": [
+      {
+        "inputUri": "/minqa/trimmed/Q3_1.mp4",
+        "segment": {
+          "startTimeOffset": "0s",
+          "endTimeOffset": "106.922666s"
+        },
+        "speechTranscriptions": [
+          {
+            "alternatives": [
+              {
+                "transcript": "Evidence is a hugely important thing and we need to clear up a total misunderstanding. And that is that say my Christian faith is not evidence based faith is believing where you know, there's no evidence. That is utter nonsense.",
+                "confidence": 0.90481305,
+                "words": [
+                  {
+                    "startTime": "2s",
+                    "endTime": "3s",
+                    "word": "Evidence"
+                  },
+                  {
+                    "startTime": "3.200s",
+                    "endTime": "3.400s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "3.400s",
+                    "endTime": "3.600s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "3.600s",
+                    "endTime": "4.300s",
+                    "word": "hugely"
+                  },
+                  {
+                    "startTime": "4.300s",
+                    "endTime": "5s",
+                    "word": "important"
+                  },
+                  {
+                    "startTime": "5s",
+                    "endTime": "5.500s",
+                    "word": "thing"
+                  },
+                  {
+                    "startTime": "6.200s",
+                    "endTime": "6.800s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "7.500s",
+                    "endTime": "7.700s",
+                    "word": "we"
+                  },
+                  {
+                    "startTime": "7.700s",
+                    "endTime": "8s",
+                    "word": "need"
+                  },
+                  {
+                    "startTime": "8s",
+                    "endTime": "8.200s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "8.200s",
+                    "endTime": "8.700s",
+                    "word": "clear"
+                  },
+                  {
+                    "startTime": "8.700s",
+                    "endTime": "9.200s",
+                    "word": "up"
+                  },
+                  {
+                    "startTime": "9.500s",
+                    "endTime": "9.600s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "9.600s",
+                    "endTime": "10.300s",
+                    "word": "total"
+                  },
+                  {
+                    "startTime": "10.300s",
+                    "endTime": "11.600s",
+                    "word": "misunderstanding."
+                  },
+                  {
+                    "startTime": "12s",
+                    "endTime": "12.200s",
+                    "word": "And"
+                  },
+                  {
+                    "startTime": "12.200s",
+                    "endTime": "12.600s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "12.600s",
+                    "endTime": "13.200s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "13.500s",
+                    "endTime": "13.900s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "14.400s",
+                    "endTime": "14.800s",
+                    "word": "say"
+                  },
+                  {
+                    "startTime": "14.800s",
+                    "endTime": "15.100s",
+                    "word": "my"
+                  },
+                  {
+                    "startTime": "15.100s",
+                    "endTime": "15.700s",
+                    "word": "Christian"
+                  },
+                  {
+                    "startTime": "15.700s",
+                    "endTime": "16.100s",
+                    "word": "faith"
+                  },
+                  {
+                    "startTime": "16.100s",
+                    "endTime": "16.300s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "16.300s",
+                    "endTime": "16.700s",
+                    "word": "not"
+                  },
+                  {
+                    "startTime": "16.700s",
+                    "endTime": "17.300s",
+                    "word": "evidence"
+                  },
+                  {
+                    "startTime": "17.300s",
+                    "endTime": "18.100s",
+                    "word": "based"
+                  },
+                  {
+                    "startTime": "18.100s",
+                    "endTime": "18.600s",
+                    "word": "faith"
+                  },
+                  {
+                    "startTime": "18.600s",
+                    "endTime": "18.900s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "18.900s",
+                    "endTime": "19.600s",
+                    "word": "believing"
+                  },
+                  {
+                    "startTime": "19.600s",
+                    "endTime": "19.900s",
+                    "word": "where"
+                  },
+                  {
+                    "startTime": "19.900s",
+                    "endTime": "20.100s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "20.100s",
+                    "endTime": "20.600s",
+                    "word": "know,"
+                  },
+                  {
+                    "startTime": "20.600s",
+                    "endTime": "20.900s",
+                    "word": "there's"
+                  },
+                  {
+                    "startTime": "20.900s",
+                    "endTime": "21.100s",
+                    "word": "no"
+                  },
+                  {
+                    "startTime": "21.100s",
+                    "endTime": "22s",
+                    "word": "evidence."
+                  },
+                  {
+                    "startTime": "22.400s",
+                    "endTime": "22.600s",
+                    "word": "That"
+                  },
+                  {
+                    "startTime": "22.600s",
+                    "endTime": "23s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "23.100s",
+                    "endTime": "23.800s",
+                    "word": "utter"
+                  },
+                  {
+                    "startTime": "24s",
+                    "endTime": "25.200s",
+                    "word": "nonsense."
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": " Why do I believe it because I believe there's powerful evidence. If you ask the basic document of the Christian faith what it means by faith if will tell you directly and let me give you a quotation of the purpose of the Gospel of John the Fourth gospel. It says this many other signs Jesus did in the presence of his disciples which are not written in this book, but these are written that",
+                "confidence": 0.8022844,
+                "words": [
+                  {
+                    "startTime": "26.300s",
+                    "endTime": "26.500s",
+                    "word": "Why"
+                  },
+                  {
+                    "startTime": "26.500s",
+                    "endTime": "26.800s",
+                    "word": "do"
+                  },
+                  {
+                    "startTime": "26.800s",
+                    "endTime": "27s",
+                    "word": "I"
+                  },
+                  {
+                    "startTime": "27s",
+                    "endTime": "27.400s",
+                    "word": "believe"
+                  },
+                  {
+                    "startTime": "27.400s",
+                    "endTime": "27.600s",
+                    "word": "it"
+                  },
+                  {
+                    "startTime": "27.600s",
+                    "endTime": "28s",
+                    "word": "because"
+                  },
+                  {
+                    "startTime": "28s",
+                    "endTime": "28.100s",
+                    "word": "I"
+                  },
+                  {
+                    "startTime": "28.100s",
+                    "endTime": "28.500s",
+                    "word": "believe"
+                  },
+                  {
+                    "startTime": "28.500s",
+                    "endTime": "28.800s",
+                    "word": "there's"
+                  },
+                  {
+                    "startTime": "28.800s",
+                    "endTime": "29.500s",
+                    "word": "powerful"
+                  },
+                  {
+                    "startTime": "29.500s",
+                    "endTime": "30.400s",
+                    "word": "evidence."
+                  },
+                  {
+                    "startTime": "30.800s",
+                    "endTime": "31.100s",
+                    "word": "If"
+                  },
+                  {
+                    "startTime": "31.100s",
+                    "endTime": "31.300s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "31.300s",
+                    "endTime": "31.900s",
+                    "word": "ask"
+                  },
+                  {
+                    "startTime": "31.900s",
+                    "endTime": "31.900s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "31.900s",
+                    "endTime": "32.500s",
+                    "word": "basic"
+                  },
+                  {
+                    "startTime": "32.500s",
+                    "endTime": "33.100s",
+                    "word": "document"
+                  },
+                  {
+                    "startTime": "33.100s",
+                    "endTime": "33.200s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "33.200s",
+                    "endTime": "33.400s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "33.400s",
+                    "endTime": "33.900s",
+                    "word": "Christian"
+                  },
+                  {
+                    "startTime": "33.900s",
+                    "endTime": "34.500s",
+                    "word": "faith"
+                  },
+                  {
+                    "startTime": "34.900s",
+                    "endTime": "35.100s",
+                    "word": "what"
+                  },
+                  {
+                    "startTime": "35.100s",
+                    "endTime": "35.300s",
+                    "word": "it"
+                  },
+                  {
+                    "startTime": "35.300s",
+                    "endTime": "35.900s",
+                    "word": "means"
+                  },
+                  {
+                    "startTime": "35.900s",
+                    "endTime": "36.100s",
+                    "word": "by"
+                  },
+                  {
+                    "startTime": "36.100s",
+                    "endTime": "36.700s",
+                    "word": "faith"
+                  },
+                  {
+                    "startTime": "36.700s",
+                    "endTime": "36.800s",
+                    "word": "if"
+                  },
+                  {
+                    "startTime": "36.800s",
+                    "endTime": "37s",
+                    "word": "will"
+                  },
+                  {
+                    "startTime": "37s",
+                    "endTime": "37.300s",
+                    "word": "tell"
+                  },
+                  {
+                    "startTime": "37.300s",
+                    "endTime": "37.500s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "37.500s",
+                    "endTime": "38.400s",
+                    "word": "directly"
+                  },
+                  {
+                    "startTime": "38.900s",
+                    "endTime": "39s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "39s",
+                    "endTime": "39.200s",
+                    "word": "let"
+                  },
+                  {
+                    "startTime": "39.200s",
+                    "endTime": "39.300s",
+                    "word": "me"
+                  },
+                  {
+                    "startTime": "39.300s",
+                    "endTime": "39.500s",
+                    "word": "give"
+                  },
+                  {
+                    "startTime": "39.500s",
+                    "endTime": "39.800s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "39.800s",
+                    "endTime": "39.900s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "39.900s",
+                    "endTime": "40.800s",
+                    "word": "quotation"
+                  },
+                  {
+                    "startTime": "40.800s",
+                    "endTime": "41.300s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "41.300s",
+                    "endTime": "41.400s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "41.400s",
+                    "endTime": "41.900s",
+                    "word": "purpose"
+                  },
+                  {
+                    "startTime": "41.900s",
+                    "endTime": "42.100s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "42.100s",
+                    "endTime": "42.300s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "42.300s",
+                    "endTime": "42.800s",
+                    "word": "Gospel"
+                  },
+                  {
+                    "startTime": "42.800s",
+                    "endTime": "42.900s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "42.900s",
+                    "endTime": "43.200s",
+                    "word": "John"
+                  },
+                  {
+                    "startTime": "43.200s",
+                    "endTime": "43.400s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "43.400s",
+                    "endTime": "43.600s",
+                    "word": "Fourth"
+                  },
+                  {
+                    "startTime": "43.600s",
+                    "endTime": "44.300s",
+                    "word": "gospel."
+                  },
+                  {
+                    "startTime": "45.200s",
+                    "endTime": "45.400s",
+                    "word": "It"
+                  },
+                  {
+                    "startTime": "45.400s",
+                    "endTime": "45.700s",
+                    "word": "says"
+                  },
+                  {
+                    "startTime": "45.700s",
+                    "endTime": "46.200s",
+                    "word": "this"
+                  },
+                  {
+                    "startTime": "47.300s",
+                    "endTime": "47.700s",
+                    "word": "many"
+                  },
+                  {
+                    "startTime": "47.700s",
+                    "endTime": "48s",
+                    "word": "other"
+                  },
+                  {
+                    "startTime": "48s",
+                    "endTime": "48.600s",
+                    "word": "signs"
+                  },
+                  {
+                    "startTime": "48.600s",
+                    "endTime": "49.200s",
+                    "word": "Jesus"
+                  },
+                  {
+                    "startTime": "49.200s",
+                    "endTime": "49.400s",
+                    "word": "did"
+                  },
+                  {
+                    "startTime": "49.400s",
+                    "endTime": "49.500s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "49.500s",
+                    "endTime": "49.700s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "49.700s",
+                    "endTime": "50.100s",
+                    "word": "presence"
+                  },
+                  {
+                    "startTime": "50.100s",
+                    "endTime": "50.300s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "50.300s",
+                    "endTime": "50.500s",
+                    "word": "his"
+                  },
+                  {
+                    "startTime": "50.500s",
+                    "endTime": "51.200s",
+                    "word": "disciples"
+                  },
+                  {
+                    "startTime": "51.200s",
+                    "endTime": "51.400s",
+                    "word": "which"
+                  },
+                  {
+                    "startTime": "51.400s",
+                    "endTime": "51.600s",
+                    "word": "are"
+                  },
+                  {
+                    "startTime": "51.600s",
+                    "endTime": "52s",
+                    "word": "not"
+                  },
+                  {
+                    "startTime": "52s",
+                    "endTime": "52.400s",
+                    "word": "written"
+                  },
+                  {
+                    "startTime": "52.400s",
+                    "endTime": "52.500s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "52.500s",
+                    "endTime": "52.800s",
+                    "word": "this"
+                  },
+                  {
+                    "startTime": "52.800s",
+                    "endTime": "53.300s",
+                    "word": "book,"
+                  },
+                  {
+                    "startTime": "53.700s",
+                    "endTime": "54.100s",
+                    "word": "but"
+                  },
+                  {
+                    "startTime": "54.100s",
+                    "endTime": "54.500s",
+                    "word": "these"
+                  },
+                  {
+                    "startTime": "54.500s",
+                    "endTime": "54.800s",
+                    "word": "are"
+                  },
+                  {
+                    "startTime": "54.800s",
+                    "endTime": "55.300s",
+                    "word": "written"
+                  },
+                  {
+                    "startTime": "55.600s",
+                    "endTime": "55.900s",
+                    "word": "that"
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": " You might believe that Jesus is the Messiah the Son of God and that believing you might have life in his name. In other words, John is saying these things that I've collected and written down they are to form the basis of belief that is there evidence. Now, of course you want to know at what level or evidence and we could go all night talking about that. But the crucial thing to perceive is when Christianity was launched on the world.",
+                "confidence": 0.86579573,
+                "words": [
+                  {
+                    "startTime": "56.300s",
+                    "endTime": "56.800s",
+                    "word": "You"
+                  },
+                  {
+                    "startTime": "56.900s",
+                    "endTime": "57.400s",
+                    "word": "might"
+                  },
+                  {
+                    "startTime": "57.400s",
+                    "endTime": "58.600s",
+                    "word": "believe"
+                  },
+                  {
+                    "startTime": "59.100s",
+                    "endTime": "59.300s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "59.300s",
+                    "endTime": "59.800s",
+                    "word": "Jesus"
+                  },
+                  {
+                    "startTime": "59.800s",
+                    "endTime": "60.100s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "60.100s",
+                    "endTime": "60.100s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "60.100s",
+                    "endTime": "60.700s",
+                    "word": "Messiah"
+                  },
+                  {
+                    "startTime": "60.700s",
+                    "endTime": "60.900s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "60.900s",
+                    "endTime": "61.100s",
+                    "word": "Son"
+                  },
+                  {
+                    "startTime": "61.100s",
+                    "endTime": "61.300s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "61.300s",
+                    "endTime": "61.900s",
+                    "word": "God"
+                  },
+                  {
+                    "startTime": "61.900s",
+                    "endTime": "62.100s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "62.100s",
+                    "endTime": "62.300s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "62.300s",
+                    "endTime": "62.800s",
+                    "word": "believing"
+                  },
+                  {
+                    "startTime": "62.800s",
+                    "endTime": "62.900s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "62.900s",
+                    "endTime": "63.200s",
+                    "word": "might"
+                  },
+                  {
+                    "startTime": "63.200s",
+                    "endTime": "63.400s",
+                    "word": "have"
+                  },
+                  {
+                    "startTime": "63.400s",
+                    "endTime": "63.700s",
+                    "word": "life"
+                  },
+                  {
+                    "startTime": "63.700s",
+                    "endTime": "63.800s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "63.800s",
+                    "endTime": "64s",
+                    "word": "his"
+                  },
+                  {
+                    "startTime": "64s",
+                    "endTime": "64.200s",
+                    "word": "name."
+                  },
+                  {
+                    "startTime": "64.200s",
+                    "endTime": "64.400s",
+                    "word": "In"
+                  },
+                  {
+                    "startTime": "64.400s",
+                    "endTime": "64.500s",
+                    "word": "other"
+                  },
+                  {
+                    "startTime": "64.500s",
+                    "endTime": "64.800s",
+                    "word": "words,"
+                  },
+                  {
+                    "startTime": "64.800s",
+                    "endTime": "65.100s",
+                    "word": "John"
+                  },
+                  {
+                    "startTime": "65.100s",
+                    "endTime": "65.300s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "65.300s",
+                    "endTime": "65.800s",
+                    "word": "saying"
+                  },
+                  {
+                    "startTime": "66.200s",
+                    "endTime": "66.500s",
+                    "word": "these"
+                  },
+                  {
+                    "startTime": "66.500s",
+                    "endTime": "66.900s",
+                    "word": "things"
+                  },
+                  {
+                    "startTime": "66.900s",
+                    "endTime": "67.100s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "67.100s",
+                    "endTime": "67.300s",
+                    "word": "I've"
+                  },
+                  {
+                    "startTime": "67.300s",
+                    "endTime": "67.900s",
+                    "word": "collected"
+                  },
+                  {
+                    "startTime": "67.900s",
+                    "endTime": "68.100s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "68.100s",
+                    "endTime": "68.500s",
+                    "word": "written"
+                  },
+                  {
+                    "startTime": "68.500s",
+                    "endTime": "69.200s",
+                    "word": "down"
+                  },
+                  {
+                    "startTime": "70s",
+                    "endTime": "70.500s",
+                    "word": "they"
+                  },
+                  {
+                    "startTime": "70.500s",
+                    "endTime": "70.700s",
+                    "word": "are"
+                  },
+                  {
+                    "startTime": "70.700s",
+                    "endTime": "70.900s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "70.900s",
+                    "endTime": "71.400s",
+                    "word": "form"
+                  },
+                  {
+                    "startTime": "71.400s",
+                    "endTime": "71.700s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "71.700s",
+                    "endTime": "72.400s",
+                    "word": "basis"
+                  },
+                  {
+                    "startTime": "72.400s",
+                    "endTime": "72.600s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "72.600s",
+                    "endTime": "73.100s",
+                    "word": "belief"
+                  },
+                  {
+                    "startTime": "73.100s",
+                    "endTime": "73.300s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "73.300s",
+                    "endTime": "73.600s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "73.600s",
+                    "endTime": "73.800s",
+                    "word": "there"
+                  },
+                  {
+                    "startTime": "73.800s",
+                    "endTime": "74.700s",
+                    "word": "evidence."
+                  },
+                  {
+                    "startTime": "74.900s",
+                    "endTime": "75.100s",
+                    "word": "Now,"
+                  },
+                  {
+                    "startTime": "75.100s",
+                    "endTime": "75.200s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "75.200s",
+                    "endTime": "75.500s",
+                    "word": "course"
+                  },
+                  {
+                    "startTime": "75.500s",
+                    "endTime": "75.700s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "75.700s",
+                    "endTime": "76s",
+                    "word": "want"
+                  },
+                  {
+                    "startTime": "76s",
+                    "endTime": "76s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "76s",
+                    "endTime": "76.400s",
+                    "word": "know"
+                  },
+                  {
+                    "startTime": "76.400s",
+                    "endTime": "76.600s",
+                    "word": "at"
+                  },
+                  {
+                    "startTime": "76.600s",
+                    "endTime": "76.800s",
+                    "word": "what"
+                  },
+                  {
+                    "startTime": "76.800s",
+                    "endTime": "77.100s",
+                    "word": "level"
+                  },
+                  {
+                    "startTime": "77.100s",
+                    "endTime": "77.300s",
+                    "word": "or"
+                  },
+                  {
+                    "startTime": "77.300s",
+                    "endTime": "77.800s",
+                    "word": "evidence"
+                  },
+                  {
+                    "startTime": "77.800s",
+                    "endTime": "77.900s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "77.900s",
+                    "endTime": "78.100s",
+                    "word": "we"
+                  },
+                  {
+                    "startTime": "78.100s",
+                    "endTime": "78.300s",
+                    "word": "could"
+                  },
+                  {
+                    "startTime": "78.300s",
+                    "endTime": "78.400s",
+                    "word": "go"
+                  },
+                  {
+                    "startTime": "78.400s",
+                    "endTime": "78.600s",
+                    "word": "all"
+                  },
+                  {
+                    "startTime": "78.600s",
+                    "endTime": "79s",
+                    "word": "night"
+                  },
+                  {
+                    "startTime": "79s",
+                    "endTime": "79.300s",
+                    "word": "talking"
+                  },
+                  {
+                    "startTime": "79.300s",
+                    "endTime": "79.600s",
+                    "word": "about"
+                  },
+                  {
+                    "startTime": "79.600s",
+                    "endTime": "80s",
+                    "word": "that."
+                  },
+                  {
+                    "startTime": "80.200s",
+                    "endTime": "80.400s",
+                    "word": "But"
+                  },
+                  {
+                    "startTime": "80.400s",
+                    "endTime": "80.500s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "80.500s",
+                    "endTime": "81.200s",
+                    "word": "crucial"
+                  },
+                  {
+                    "startTime": "81.200s",
+                    "endTime": "81.500s",
+                    "word": "thing"
+                  },
+                  {
+                    "startTime": "81.500s",
+                    "endTime": "81.700s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "81.700s",
+                    "endTime": "82.500s",
+                    "word": "perceive"
+                  },
+                  {
+                    "startTime": "82.500s",
+                    "endTime": "83s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "83.300s",
+                    "endTime": "83.500s",
+                    "word": "when"
+                  },
+                  {
+                    "startTime": "83.500s",
+                    "endTime": "84.500s",
+                    "word": "Christianity"
+                  },
+                  {
+                    "startTime": "84.500s",
+                    "endTime": "84.800s",
+                    "word": "was"
+                  },
+                  {
+                    "startTime": "84.800s",
+                    "endTime": "85.300s",
+                    "word": "launched"
+                  },
+                  {
+                    "startTime": "85.300s",
+                    "endTime": "85.400s",
+                    "word": "on"
+                  },
+                  {
+                    "startTime": "85.400s",
+                    "endTime": "85.500s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "85.500s",
+                    "endTime": "85.900s",
+                    "word": "world."
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": " World it was launched On The World by people.",
+                "confidence": 0.7106051,
+                "words": [
+                  {
+                    "startTime": "86s",
+                    "endTime": "86.200s",
+                    "word": "World"
+                  },
+                  {
+                    "startTime": "86.200s",
+                    "endTime": "86.400s",
+                    "word": "it"
+                  },
+                  {
+                    "startTime": "86.400s",
+                    "endTime": "86.600s",
+                    "word": "was"
+                  },
+                  {
+                    "startTime": "86.600s",
+                    "endTime": "87s",
+                    "word": "launched"
+                  },
+                  {
+                    "startTime": "87s",
+                    "endTime": "87.100s",
+                    "word": "On"
+                  },
+                  {
+                    "startTime": "87.100s",
+                    "endTime": "87.200s",
+                    "word": "The"
+                  },
+                  {
+                    "startTime": "87.200s",
+                    "endTime": "87.700s",
+                    "word": "World"
+                  },
+                  {
+                    "startTime": "87.700s",
+                    "endTime": "87.900s",
+                    "word": "by"
+                  },
+                  {
+                    "startTime": "87.900s",
+                    "endTime": "88.700s",
+                    "word": "people."
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": " From a very unexpected background a Jewish background who started to say that they had evidence of meeting Jesus Christ risen from the dead. So my Christian faith is based on evidence.",
+                "confidence": 0.90367794,
+                "words": [
+                  {
+                    "startTime": "89.700s",
+                    "endTime": "90s",
+                    "word": "From"
+                  },
+                  {
+                    "startTime": "90s",
+                    "endTime": "90.100s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "90.100s",
+                    "endTime": "90.500s",
+                    "word": "very"
+                  },
+                  {
+                    "startTime": "90.500s",
+                    "endTime": "91.300s",
+                    "word": "unexpected"
+                  },
+                  {
+                    "startTime": "91.300s",
+                    "endTime": "91.900s",
+                    "word": "background"
+                  },
+                  {
+                    "startTime": "91.900s",
+                    "endTime": "92s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "92s",
+                    "endTime": "92.500s",
+                    "word": "Jewish"
+                  },
+                  {
+                    "startTime": "92.500s",
+                    "endTime": "93.500s",
+                    "word": "background"
+                  },
+                  {
+                    "startTime": "93.800s",
+                    "endTime": "94s",
+                    "word": "who"
+                  },
+                  {
+                    "startTime": "94s",
+                    "endTime": "94.500s",
+                    "word": "started"
+                  },
+                  {
+                    "startTime": "94.500s",
+                    "endTime": "94.700s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "94.700s",
+                    "endTime": "95s",
+                    "word": "say"
+                  },
+                  {
+                    "startTime": "95s",
+                    "endTime": "95.300s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "95.300s",
+                    "endTime": "95.600s",
+                    "word": "they"
+                  },
+                  {
+                    "startTime": "95.600s",
+                    "endTime": "96s",
+                    "word": "had"
+                  },
+                  {
+                    "startTime": "96.100s",
+                    "endTime": "97.200s",
+                    "word": "evidence"
+                  },
+                  {
+                    "startTime": "97.700s",
+                    "endTime": "98s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "98s",
+                    "endTime": "98.500s",
+                    "word": "meeting"
+                  },
+                  {
+                    "startTime": "98.500s",
+                    "endTime": "99s",
+                    "word": "Jesus"
+                  },
+                  {
+                    "startTime": "99s",
+                    "endTime": "99.400s",
+                    "word": "Christ"
+                  },
+                  {
+                    "startTime": "99.400s",
+                    "endTime": "99.800s",
+                    "word": "risen"
+                  },
+                  {
+                    "startTime": "99.800s",
+                    "endTime": "100s",
+                    "word": "from"
+                  },
+                  {
+                    "startTime": "100s",
+                    "endTime": "100.100s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "100.100s",
+                    "endTime": "100.600s",
+                    "word": "dead."
+                  },
+                  {
+                    "startTime": "100.800s",
+                    "endTime": "101.200s",
+                    "word": "So"
+                  },
+                  {
+                    "startTime": "101.500s",
+                    "endTime": "101.900s",
+                    "word": "my"
+                  },
+                  {
+                    "startTime": "101.900s",
+                    "endTime": "102.500s",
+                    "word": "Christian"
+                  },
+                  {
+                    "startTime": "102.500s",
+                    "endTime": "103.200s",
+                    "word": "faith"
+                  },
+                  {
+                    "startTime": "103.800s",
+                    "endTime": "104s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "104s",
+                    "endTime": "104.500s",
+                    "word": "based"
+                  },
+                  {
+                    "startTime": "104.500s",
+                    "endTime": "104.800s",
+                    "word": "on"
+                  },
+                  {
+                    "startTime": "104.800s",
+                    "endTime": "105.700s",
+                    "word": "evidence."
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          }
+        ]
+      }
+    ]
+  }
+}

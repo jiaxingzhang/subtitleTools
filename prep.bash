@@ -32,6 +32,7 @@ case "$1" in
 	}
 	" > .tmp.this.json
 	curl -X POST -H "Authorization: Bearer "$(gcloud auth application-default print-access-token) -H "Content-Type: application/json; charset=utf-8" -d @.tmp.this.json https://videointelligence.googleapis.com/v1/videos:annotate | jq -r '.name'
+	rm .tmp.this.json
 	;;
     -r)
 	curl -X GET -H "Authorization: Bearer "$(gcloud auth application-default print-access-token) https://videointelligence.googleapis.com/v1/$2
@@ -43,5 +44,6 @@ case "$1" in
 	    perl -p -e 's/\. /."\n"/' | perl -p -e 's/\n/,\n/' >> .control.tmp
        echo "    ]
 	}" >> .control.tmp
-	cat .control.tmp
+       cat .control.tmp
+       rm .control.tmp
 esac

@@ -69,7 +69,6 @@ function combine(trans) {
 
 // Given a subtitle line, create a sub object that contains the line and start and end time
 function makeSubLib(text, words) {
-    console.log(words[0]);
     var sub = {text: "", start: "", end : ""};
     sub.text = text;
     sub.start = words[0].startTime;

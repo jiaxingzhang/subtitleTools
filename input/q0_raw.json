@@ -1,0 +1,1093 @@
+{
+  "name": "projects/637000999429/locations/us-east1/operations/11649549972894427892",
+  "metadata": {
+    "@type": "type.googleapis.com/google.cloud.videointelligence.v1.AnnotateVideoProgress",
+    "annotationProgress": [
+      {
+        "inputUri": "/minqa/trimmed/Q0.mp4",
+        "progressPercent": 100,
+        "startTime": "2020-08-28T14:05:37.804719Z",
+        "updateTime": "2020-08-28T14:06:29.935001Z"
+      }
+    ]
+  },
+  "done": true,
+  "response": {
+    "@type": "type.googleapis.com/google.cloud.videointelligence.v1.AnnotateVideoResponse",
+    "annotationResults": [
+      {
+        "inputUri": "/minqa/trimmed/Q0.mp4",
+        "segment": {
+          "startTimeOffset": "0s",
+          "endTimeOffset": "62.122666s"
+        },
+        "speechTranscriptions": [
+          {
+            "alternatives": [
+              {
+                "transcript": "Do you think it's a belief?",
+                "confidence": 0.83428204,
+                "words": [
+                  {
+                    "startTime": "0s",
+                    "endTime": "0.200s",
+                    "word": "Do"
+                  },
+                  {
+                    "startTime": "0.200s",
+                    "endTime": "0.200s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "0.200s",
+                    "endTime": "0.400s",
+                    "word": "think"
+                  },
+                  {
+                    "startTime": "0.400s",
+                    "endTime": "0.500s",
+                    "word": "it's"
+                  },
+                  {
+                    "startTime": "0.500s",
+                    "endTime": "0.600s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "0.600s",
+                    "endTime": "1.100s",
+                    "word": "belief?"
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": " No, it's science. It's the way it happened. It's logical. When did you stop believing when I took my first biology class? I generally trust the scientific Community makes more sense than any religion or anything. The fossils are found of all the other cavemen the homo sapiens dinosaurs. It shows clear evidence. Could you give me some observable evidence that evolution is true something I don't have to receive by faith. Yeah some observable evidence. I mean take a look at what happened 65 million years ago. Hang on.",
+                "confidence": 0.8057718,
+                "words": [
+                  {
+                    "startTime": "2.300s",
+                    "endTime": "2.500s",
+                    "word": "No,"
+                  },
+                  {
+                    "startTime": "2.500s",
+                    "endTime": "2.700s",
+                    "word": "it's"
+                  },
+                  {
+                    "startTime": "2.700s",
+                    "endTime": "3.300s",
+                    "word": "science."
+                  },
+                  {
+                    "startTime": "3.400s",
+                    "endTime": "3.600s",
+                    "word": "It's"
+                  },
+                  {
+                    "startTime": "3.600s",
+                    "endTime": "3.700s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "3.700s",
+                    "endTime": "3.900s",
+                    "word": "way"
+                  },
+                  {
+                    "startTime": "3.900s",
+                    "endTime": "4s",
+                    "word": "it"
+                  },
+                  {
+                    "startTime": "4s",
+                    "endTime": "4.300s",
+                    "word": "happened."
+                  },
+                  {
+                    "startTime": "4.300s",
+                    "endTime": "4.500s",
+                    "word": "It's"
+                  },
+                  {
+                    "startTime": "4.500s",
+                    "endTime": "5s",
+                    "word": "logical."
+                  },
+                  {
+                    "startTime": "5s",
+                    "endTime": "5.100s",
+                    "word": "When"
+                  },
+                  {
+                    "startTime": "5.100s",
+                    "endTime": "5.300s",
+                    "word": "did"
+                  },
+                  {
+                    "startTime": "5.300s",
+                    "endTime": "5.300s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "5.300s",
+                    "endTime": "5.600s",
+                    "word": "stop"
+                  },
+                  {
+                    "startTime": "5.600s",
+                    "endTime": "6.100s",
+                    "word": "believing"
+                  },
+                  {
+                    "startTime": "7s",
+                    "endTime": "7.200s",
+                    "word": "when"
+                  },
+                  {
+                    "startTime": "7.200s",
+                    "endTime": "7.200s",
+                    "word": "I"
+                  },
+                  {
+                    "startTime": "7.200s",
+                    "endTime": "7.400s",
+                    "word": "took"
+                  },
+                  {
+                    "startTime": "7.400s",
+                    "endTime": "7.500s",
+                    "word": "my"
+                  },
+                  {
+                    "startTime": "7.500s",
+                    "endTime": "7.700s",
+                    "word": "first"
+                  },
+                  {
+                    "startTime": "7.700s",
+                    "endTime": "8.100s",
+                    "word": "biology"
+                  },
+                  {
+                    "startTime": "8.100s",
+                    "endTime": "8.700s",
+                    "word": "class?"
+                  },
+                  {
+                    "startTime": "8.800s",
+                    "endTime": "9.600s",
+                    "word": "I"
+                  },
+                  {
+                    "startTime": "9.600s",
+                    "endTime": "10s",
+                    "word": "generally"
+                  },
+                  {
+                    "startTime": "10s",
+                    "endTime": "10.200s",
+                    "word": "trust"
+                  },
+                  {
+                    "startTime": "10.200s",
+                    "endTime": "10.300s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "10.300s",
+                    "endTime": "10.700s",
+                    "word": "scientific"
+                  },
+                  {
+                    "startTime": "10.700s",
+                    "endTime": "11.200s",
+                    "word": "Community"
+                  },
+                  {
+                    "startTime": "11.400s",
+                    "endTime": "11.600s",
+                    "word": "makes"
+                  },
+                  {
+                    "startTime": "11.600s",
+                    "endTime": "11.700s",
+                    "word": "more"
+                  },
+                  {
+                    "startTime": "11.700s",
+                    "endTime": "12s",
+                    "word": "sense"
+                  },
+                  {
+                    "startTime": "12s",
+                    "endTime": "12.500s",
+                    "word": "than"
+                  },
+                  {
+                    "startTime": "12.500s",
+                    "endTime": "12.700s",
+                    "word": "any"
+                  },
+                  {
+                    "startTime": "12.700s",
+                    "endTime": "13.100s",
+                    "word": "religion"
+                  },
+                  {
+                    "startTime": "13.100s",
+                    "endTime": "13.200s",
+                    "word": "or"
+                  },
+                  {
+                    "startTime": "13.200s",
+                    "endTime": "13.800s",
+                    "word": "anything."
+                  },
+                  {
+                    "startTime": "13.900s",
+                    "endTime": "14s",
+                    "word": "The"
+                  },
+                  {
+                    "startTime": "14s",
+                    "endTime": "14.400s",
+                    "word": "fossils"
+                  },
+                  {
+                    "startTime": "14.400s",
+                    "endTime": "14.600s",
+                    "word": "are"
+                  },
+                  {
+                    "startTime": "14.600s",
+                    "endTime": "15s",
+                    "word": "found"
+                  },
+                  {
+                    "startTime": "15s",
+                    "endTime": "15.100s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "15.100s",
+                    "endTime": "15.200s",
+                    "word": "all"
+                  },
+                  {
+                    "startTime": "15.200s",
+                    "endTime": "15.700s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "16.100s",
+                    "endTime": "16.200s",
+                    "word": "other"
+                  },
+                  {
+                    "startTime": "16.200s",
+                    "endTime": "16.800s",
+                    "word": "cavemen"
+                  },
+                  {
+                    "startTime": "16.800s",
+                    "endTime": "16.900s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "16.900s",
+                    "endTime": "17.100s",
+                    "word": "homo"
+                  },
+                  {
+                    "startTime": "17.100s",
+                    "endTime": "17.600s",
+                    "word": "sapiens"
+                  },
+                  {
+                    "startTime": "17.600s",
+                    "endTime": "18.400s",
+                    "word": "dinosaurs."
+                  },
+                  {
+                    "startTime": "18.500s",
+                    "endTime": "18.600s",
+                    "word": "It"
+                  },
+                  {
+                    "startTime": "18.600s",
+                    "endTime": "18.800s",
+                    "word": "shows"
+                  },
+                  {
+                    "startTime": "18.800s",
+                    "endTime": "19s",
+                    "word": "clear"
+                  },
+                  {
+                    "startTime": "19s",
+                    "endTime": "19.500s",
+                    "word": "evidence."
+                  },
+                  {
+                    "startTime": "19.500s",
+                    "endTime": "19.600s",
+                    "word": "Could"
+                  },
+                  {
+                    "startTime": "19.600s",
+                    "endTime": "19.700s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "19.700s",
+                    "endTime": "19.800s",
+                    "word": "give"
+                  },
+                  {
+                    "startTime": "19.800s",
+                    "endTime": "20s",
+                    "word": "me"
+                  },
+                  {
+                    "startTime": "20s",
+                    "endTime": "20.100s",
+                    "word": "some"
+                  },
+                  {
+                    "startTime": "20.100s",
+                    "endTime": "20.900s",
+                    "word": "observable"
+                  },
+                  {
+                    "startTime": "20.900s",
+                    "endTime": "21.800s",
+                    "word": "evidence"
+                  },
+                  {
+                    "startTime": "22.500s",
+                    "endTime": "22.700s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "22.700s",
+                    "endTime": "23.100s",
+                    "word": "evolution"
+                  },
+                  {
+                    "startTime": "23.100s",
+                    "endTime": "23.300s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "23.300s",
+                    "endTime": "23.800s",
+                    "word": "true"
+                  },
+                  {
+                    "startTime": "23.900s",
+                    "endTime": "24.300s",
+                    "word": "something"
+                  },
+                  {
+                    "startTime": "24.300s",
+                    "endTime": "24.400s",
+                    "word": "I"
+                  },
+                  {
+                    "startTime": "24.400s",
+                    "endTime": "24.700s",
+                    "word": "don't"
+                  },
+                  {
+                    "startTime": "24.700s",
+                    "endTime": "25s",
+                    "word": "have"
+                  },
+                  {
+                    "startTime": "25s",
+                    "endTime": "25.200s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "25.500s",
+                    "endTime": "25.800s",
+                    "word": "receive"
+                  },
+                  {
+                    "startTime": "25.800s",
+                    "endTime": "26s",
+                    "word": "by"
+                  },
+                  {
+                    "startTime": "26s",
+                    "endTime": "26.500s",
+                    "word": "faith."
+                  },
+                  {
+                    "startTime": "27.300s",
+                    "endTime": "27.600s",
+                    "word": "Yeah"
+                  },
+                  {
+                    "startTime": "27.600s",
+                    "endTime": "27.900s",
+                    "word": "some"
+                  },
+                  {
+                    "startTime": "27.900s",
+                    "endTime": "28.500s",
+                    "word": "observable"
+                  },
+                  {
+                    "startTime": "28.500s",
+                    "endTime": "28.900s",
+                    "word": "evidence."
+                  },
+                  {
+                    "startTime": "29s",
+                    "endTime": "29s",
+                    "word": "I"
+                  },
+                  {
+                    "startTime": "29s",
+                    "endTime": "29.300s",
+                    "word": "mean"
+                  },
+                  {
+                    "startTime": "29.400s",
+                    "endTime": "29.500s",
+                    "word": "take"
+                  },
+                  {
+                    "startTime": "29.500s",
+                    "endTime": "29.500s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "29.500s",
+                    "endTime": "29.700s",
+                    "word": "look"
+                  },
+                  {
+                    "startTime": "29.700s",
+                    "endTime": "29.800s",
+                    "word": "at"
+                  },
+                  {
+                    "startTime": "29.800s",
+                    "endTime": "29.900s",
+                    "word": "what"
+                  },
+                  {
+                    "startTime": "29.900s",
+                    "endTime": "30.200s",
+                    "word": "happened"
+                  },
+                  {
+                    "startTime": "30.200s",
+                    "endTime": "30.800s",
+                    "word": "65"
+                  },
+                  {
+                    "startTime": "30.800s",
+                    "endTime": "31.100s",
+                    "word": "million"
+                  },
+                  {
+                    "startTime": "31.100s",
+                    "endTime": "31.300s",
+                    "word": "years"
+                  },
+                  {
+                    "startTime": "31.300s",
+                    "endTime": "31.600s",
+                    "word": "ago."
+                  },
+                  {
+                    "startTime": "31.600s",
+                    "endTime": "31.800s",
+                    "word": "Hang"
+                  },
+                  {
+                    "startTime": "31.800s",
+                    "endTime": "31.900s",
+                    "word": "on."
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": " I can't that 65 million years ago. I believe yeah millions of years so that can't be observed. Can you think of any observable evidence for darwinian evolution where he said they'd be a change of kind monkey to man is that we're talking. Yeah change of Kinds. I don't really believe there's any proof for that yet. I haven't seen it myself, but I believe what the textbooks tell me about it. So I've got faith in the expert I faith in the experts. Yeah, I guess somewhere to have religious people have faith that God actually exists. I faith in the experts knowing what they're talking about.",
+                "confidence": 0.74646807,
+                "words": [
+                  {
+                    "startTime": "32s",
+                    "endTime": "32.100s",
+                    "word": "I"
+                  },
+                  {
+                    "startTime": "32.100s",
+                    "endTime": "32.400s",
+                    "word": "can't"
+                  },
+                  {
+                    "startTime": "32.400s",
+                    "endTime": "32.600s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "32.600s",
+                    "endTime": "33.100s",
+                    "word": "65"
+                  },
+                  {
+                    "startTime": "33.100s",
+                    "endTime": "33.300s",
+                    "word": "million"
+                  },
+                  {
+                    "startTime": "33.300s",
+                    "endTime": "33.500s",
+                    "word": "years"
+                  },
+                  {
+                    "startTime": "33.500s",
+                    "endTime": "33.700s",
+                    "word": "ago."
+                  },
+                  {
+                    "startTime": "33.700s",
+                    "endTime": "33.800s",
+                    "word": "I"
+                  },
+                  {
+                    "startTime": "33.800s",
+                    "endTime": "34.200s",
+                    "word": "believe"
+                  },
+                  {
+                    "startTime": "34.200s",
+                    "endTime": "34.400s",
+                    "word": "yeah"
+                  },
+                  {
+                    "startTime": "34.400s",
+                    "endTime": "34.800s",
+                    "word": "millions"
+                  },
+                  {
+                    "startTime": "34.800s",
+                    "endTime": "35s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "35s",
+                    "endTime": "35.100s",
+                    "word": "years"
+                  },
+                  {
+                    "startTime": "35.100s",
+                    "endTime": "35.200s",
+                    "word": "so"
+                  },
+                  {
+                    "startTime": "35.200s",
+                    "endTime": "35.400s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "35.400s",
+                    "endTime": "35.700s",
+                    "word": "can't"
+                  },
+                  {
+                    "startTime": "35.700s",
+                    "endTime": "35.800s",
+                    "word": "be"
+                  },
+                  {
+                    "startTime": "35.800s",
+                    "endTime": "36.100s",
+                    "word": "observed."
+                  },
+                  {
+                    "startTime": "36.100s",
+                    "endTime": "36.200s",
+                    "word": "Can"
+                  },
+                  {
+                    "startTime": "36.200s",
+                    "endTime": "36.300s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "36.300s",
+                    "endTime": "36.500s",
+                    "word": "think"
+                  },
+                  {
+                    "startTime": "36.500s",
+                    "endTime": "36.600s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "36.600s",
+                    "endTime": "36.700s",
+                    "word": "any"
+                  },
+                  {
+                    "startTime": "36.700s",
+                    "endTime": "37.400s",
+                    "word": "observable"
+                  },
+                  {
+                    "startTime": "37.400s",
+                    "endTime": "37.800s",
+                    "word": "evidence"
+                  },
+                  {
+                    "startTime": "37.800s",
+                    "endTime": "37.900s",
+                    "word": "for"
+                  },
+                  {
+                    "startTime": "37.900s",
+                    "endTime": "38.500s",
+                    "word": "darwinian"
+                  },
+                  {
+                    "startTime": "38.500s",
+                    "endTime": "39.100s",
+                    "word": "evolution"
+                  },
+                  {
+                    "startTime": "39.500s",
+                    "endTime": "39.600s",
+                    "word": "where"
+                  },
+                  {
+                    "startTime": "39.600s",
+                    "endTime": "39.700s",
+                    "word": "he"
+                  },
+                  {
+                    "startTime": "39.700s",
+                    "endTime": "39.800s",
+                    "word": "said"
+                  },
+                  {
+                    "startTime": "39.800s",
+                    "endTime": "39.900s",
+                    "word": "they'd"
+                  },
+                  {
+                    "startTime": "39.900s",
+                    "endTime": "40s",
+                    "word": "be"
+                  },
+                  {
+                    "startTime": "40s",
+                    "endTime": "40.100s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "40.100s",
+                    "endTime": "40.400s",
+                    "word": "change"
+                  },
+                  {
+                    "startTime": "40.400s",
+                    "endTime": "40.500s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "40.500s",
+                    "endTime": "40.900s",
+                    "word": "kind"
+                  },
+                  {
+                    "startTime": "40.900s",
+                    "endTime": "41.300s",
+                    "word": "monkey"
+                  },
+                  {
+                    "startTime": "41.300s",
+                    "endTime": "41.700s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "42.200s",
+                    "endTime": "42.600s",
+                    "word": "man"
+                  },
+                  {
+                    "startTime": "42.600s",
+                    "endTime": "42.700s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "42.700s",
+                    "endTime": "42.800s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "42.800s",
+                    "endTime": "43s",
+                    "word": "we're"
+                  },
+                  {
+                    "startTime": "43s",
+                    "endTime": "43.300s",
+                    "word": "talking."
+                  },
+                  {
+                    "startTime": "43.300s",
+                    "endTime": "43.900s",
+                    "word": "Yeah"
+                  },
+                  {
+                    "startTime": "44.100s",
+                    "endTime": "44.400s",
+                    "word": "change"
+                  },
+                  {
+                    "startTime": "44.400s",
+                    "endTime": "44.500s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "44.500s",
+                    "endTime": "45.100s",
+                    "word": "Kinds."
+                  },
+                  {
+                    "startTime": "45.200s",
+                    "endTime": "45.200s",
+                    "word": "I"
+                  },
+                  {
+                    "startTime": "45.200s",
+                    "endTime": "45.700s",
+                    "word": "don't"
+                  },
+                  {
+                    "startTime": "45.700s",
+                    "endTime": "46.100s",
+                    "word": "really"
+                  },
+                  {
+                    "startTime": "46.700s",
+                    "endTime": "47s",
+                    "word": "believe"
+                  },
+                  {
+                    "startTime": "47s",
+                    "endTime": "47.200s",
+                    "word": "there's"
+                  },
+                  {
+                    "startTime": "47.200s",
+                    "endTime": "47.400s",
+                    "word": "any"
+                  },
+                  {
+                    "startTime": "47.400s",
+                    "endTime": "47.600s",
+                    "word": "proof"
+                  },
+                  {
+                    "startTime": "47.600s",
+                    "endTime": "47.800s",
+                    "word": "for"
+                  },
+                  {
+                    "startTime": "47.800s",
+                    "endTime": "48s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "48s",
+                    "endTime": "48.500s",
+                    "word": "yet."
+                  },
+                  {
+                    "startTime": "48.700s",
+                    "endTime": "48.800s",
+                    "word": "I"
+                  },
+                  {
+                    "startTime": "48.800s",
+                    "endTime": "49.100s",
+                    "word": "haven't"
+                  },
+                  {
+                    "startTime": "49.100s",
+                    "endTime": "49.300s",
+                    "word": "seen"
+                  },
+                  {
+                    "startTime": "49.300s",
+                    "endTime": "49.300s",
+                    "word": "it"
+                  },
+                  {
+                    "startTime": "49.300s",
+                    "endTime": "49.800s",
+                    "word": "myself,"
+                  },
+                  {
+                    "startTime": "49.800s",
+                    "endTime": "49.900s",
+                    "word": "but"
+                  },
+                  {
+                    "startTime": "49.900s",
+                    "endTime": "50s",
+                    "word": "I"
+                  },
+                  {
+                    "startTime": "50s",
+                    "endTime": "50.400s",
+                    "word": "believe"
+                  },
+                  {
+                    "startTime": "50.400s",
+                    "endTime": "50.500s",
+                    "word": "what"
+                  },
+                  {
+                    "startTime": "50.500s",
+                    "endTime": "50.600s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "50.600s",
+                    "endTime": "51.100s",
+                    "word": "textbooks"
+                  },
+                  {
+                    "startTime": "51.100s",
+                    "endTime": "51.300s",
+                    "word": "tell"
+                  },
+                  {
+                    "startTime": "51.300s",
+                    "endTime": "51.400s",
+                    "word": "me"
+                  },
+                  {
+                    "startTime": "51.400s",
+                    "endTime": "51.700s",
+                    "word": "about"
+                  },
+                  {
+                    "startTime": "51.700s",
+                    "endTime": "51.900s",
+                    "word": "it."
+                  },
+                  {
+                    "startTime": "51.900s",
+                    "endTime": "52.400s",
+                    "word": "So"
+                  },
+                  {
+                    "startTime": "52.700s",
+                    "endTime": "52.800s",
+                    "word": "I've"
+                  },
+                  {
+                    "startTime": "52.800s",
+                    "endTime": "52.900s",
+                    "word": "got"
+                  },
+                  {
+                    "startTime": "52.900s",
+                    "endTime": "53.300s",
+                    "word": "faith"
+                  },
+                  {
+                    "startTime": "53.300s",
+                    "endTime": "53.700s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "54.200s",
+                    "endTime": "54.300s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "54.300s",
+                    "endTime": "55s",
+                    "word": "expert"
+                  },
+                  {
+                    "startTime": "55.100s",
+                    "endTime": "55.300s",
+                    "word": "I"
+                  },
+                  {
+                    "startTime": "55.300s",
+                    "endTime": "55.500s",
+                    "word": "faith"
+                  },
+                  {
+                    "startTime": "55.500s",
+                    "endTime": "55.600s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "55.600s",
+                    "endTime": "55.700s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "55.700s",
+                    "endTime": "56.100s",
+                    "word": "experts."
+                  },
+                  {
+                    "startTime": "56.100s",
+                    "endTime": "56.400s",
+                    "word": "Yeah,"
+                  },
+                  {
+                    "startTime": "56.600s",
+                    "endTime": "56.700s",
+                    "word": "I"
+                  },
+                  {
+                    "startTime": "56.700s",
+                    "endTime": "56.900s",
+                    "word": "guess"
+                  },
+                  {
+                    "startTime": "56.900s",
+                    "endTime": "57.200s",
+                    "word": "somewhere"
+                  },
+                  {
+                    "startTime": "57.200s",
+                    "endTime": "57.200s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "57.200s",
+                    "endTime": "57.500s",
+                    "word": "have"
+                  },
+                  {
+                    "startTime": "57.500s",
+                    "endTime": "57.800s",
+                    "word": "religious"
+                  },
+                  {
+                    "startTime": "57.800s",
+                    "endTime": "58s",
+                    "word": "people"
+                  },
+                  {
+                    "startTime": "58s",
+                    "endTime": "58.200s",
+                    "word": "have"
+                  },
+                  {
+                    "startTime": "58.200s",
+                    "endTime": "58.400s",
+                    "word": "faith"
+                  },
+                  {
+                    "startTime": "58.400s",
+                    "endTime": "58.600s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "58.600s",
+                    "endTime": "58.800s",
+                    "word": "God"
+                  },
+                  {
+                    "startTime": "58.800s",
+                    "endTime": "59.100s",
+                    "word": "actually"
+                  },
+                  {
+                    "startTime": "59.100s",
+                    "endTime": "59.500s",
+                    "word": "exists."
+                  },
+                  {
+                    "startTime": "59.500s",
+                    "endTime": "59.700s",
+                    "word": "I"
+                  },
+                  {
+                    "startTime": "59.700s",
+                    "endTime": "60s",
+                    "word": "faith"
+                  },
+                  {
+                    "startTime": "60s",
+                    "endTime": "60.200s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "60.200s",
+                    "endTime": "60.300s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "60.300s",
+                    "endTime": "60.700s",
+                    "word": "experts"
+                  },
+                  {
+                    "startTime": "60.700s",
+                    "endTime": "60.900s",
+                    "word": "knowing"
+                  },
+                  {
+                    "startTime": "60.900s",
+                    "endTime": "61s",
+                    "word": "what"
+                  },
+                  {
+                    "startTime": "61s",
+                    "endTime": "61.200s",
+                    "word": "they're"
+                  },
+                  {
+                    "startTime": "61.200s",
+                    "endTime": "61.500s",
+                    "word": "talking"
+                  },
+                  {
+                    "startTime": "61.500s",
+                    "endTime": "61.900s",
+                    "word": "about."
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {}
+            ],
+            "languageCode": "en-us"
+          }
+        ]
+      }
+    ]
+  }
+}

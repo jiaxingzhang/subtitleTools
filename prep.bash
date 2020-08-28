@@ -41,9 +41,9 @@ case "$1" in
 	echo "
 	{\"trans\": [ " > .control.tmp
 	curl -X GET -H "Authorization: Bearer "$(gcloud auth application-default print-access-token) https://videointelligence.googleapis.com/v1/$2 | jq '.response.annotationResults[].speechTranscriptions[].alternatives[].transcript' |
-	    perl -p -e 's/\. /."\n"/' | perl -p -e 's/\n/,\n/' >> .control.tmp
-       echo "    ]
+	    perl -p -e 's/\. /."\n"/' | perl -p -e 's/\n/,/' | sed 's/,$//' >> .control.tmp
+	echo "    ]
 	}" >> .control.tmp
-       cat .control.tmp
-       rm .control.tmp
+	cat .control.tmp | jq .
+	rm .control.tmp
 esac

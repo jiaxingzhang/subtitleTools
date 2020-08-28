@@ -1,0 +1,550 @@
+1
+00:00:01,000 --> 00:00:04,000
+Evolution you learned about it in high school.
+
+
+2
+00:00:05,000 --> 00:00:07,000
+It goes like this life started out
+
+
+3
+00:00:07,000 --> 00:00:09,000
+with very simple forms and then
+
+
+4
+00:00:09,000 --> 00:00:12,000
+gradually over hundreds of millions of years
+
+
+5
+00:00:12,000 --> 00:00:13,000
+morphed into all the forms.
+
+
+6
+00:00:13,000 --> 00:00:17,000
+We see today bacteria to Beethoven not a straight line,
+
+
+7
+00:00:17,000 --> 00:00:19,000
+of course, but that's roughly how it went.
+
+
+8
+00:00:20,000 --> 00:00:23,000
+This was the theory proposed by Charles Darwin in 1859
+
+
+9
+00:00:23,000 --> 00:00:24,000
+and with some modification.
+
+
+10
+00:00:24,000 --> 00:00:26,000
+It's been embraced as unassailable
+
+
+11
+00:00:27,000 --> 00:00:29,000
+by the scientific community over the last century.
+
+
+12
+00:00:30,000 --> 00:00:32,000
+As evolutionary biologist Richard Dawkins says
+
+
+13
+00:00:32,000 --> 00:00:33,000
+if you meet somebody
+
+
+14
+00:00:33,000 --> 00:00:35,000
+who claims not to believe in evolution
+
+
+15
+00:00:35,000 --> 00:00:37,000
+that person is either ignorant stupid or insane.
+
+
+16
+00:00:39,000 --> 00:00:40,000
+But is that right
+
+
+17
+00:00:40,000 --> 00:00:42,000
+are there no, scientific reasons to doubt
+
+
+18
+00:00:42,000 --> 00:00:46,000
+The evolutionary count of life's origins in November 2016.
+
+
+19
+00:00:46,000 --> 00:00:48,000
+I attended a conference in London convened
+
+
+20
+00:00:48,000 --> 00:00:51,000
+by some of the world's leading evolutionary biologists
+
+
+21
+00:00:51,000 --> 00:00:54,000
+the purpose to address growing doubts about
+
+
+22
+00:00:54,000 --> 00:00:56,000
+the modern version of Darwin's theory.
+
+
+23
+00:00:57,000 --> 00:01:00,000
+Let's look at just two scientific reasons to doubt this Theory
+
+
+24
+00:01:01,000 --> 00:01:04,000
+first the Cambrian explosion a weird
+
+
+25
+00:01:04,000 --> 00:01:08,000
+and wonderful thing happened 530 million years ago a whole
+
+
+26
+00:01:08,000 --> 00:01:09,000
+each of major groups of animals
+
+
+27
+00:01:09,000 --> 00:01:11,000
+what scientists call the phyla
+
+
+28
+00:01:11,000 --> 00:01:15,000
+appeared abruptly within a geologically short window of time
+
+
+29
+00:01:15,000 --> 00:01:16,000
+about 10 million years
+
+
+30
+00:01:17,000 --> 00:01:19,000
+these novel animal forms exhibiting
+
+
+31
+00:01:19,000 --> 00:01:22,000
+prototypes of most animal body designs.
+
+
+32
+00:01:22,000 --> 00:01:25,000
+We see today emerged in the fossil record
+
+
+33
+00:01:25,000 --> 00:01:27,000
+without evidence of earlier ancestors.
+
+
+34
+00:01:27,000 --> 00:01:28,000
+Did you catch that
+
+
+35
+00:01:29,000 --> 00:01:31,000
+a huge number of diverse animals
+
+
+36
+00:01:31,000 --> 00:01:33,000
+appeared with no discernible antecedents?
+
+
+37
+00:01:34,000 --> 00:01:36,000
+So where do they come from
+
+
+38
+00:01:36,000 --> 00:01:38,000
+this question really bothered Darwin
+
+
+39
+00:01:39,000 --> 00:01:39,000
+and he acknowledged that
+
+
+40
+00:01:39,000 --> 00:01:42,000
+he could give it no satisfactory answer
+
+
+41
+00:01:42,000 --> 00:01:44,000
+nor can scientists today.
+
+
+42
+00:01:44,000 --> 00:01:46,000
+The renowned biologist Eugene. Koonin
+
+
+43
+00:01:46,000 --> 00:01:49,000
+of the national Center for biotechnology information
+
+
+44
+00:01:50,000 --> 00:01:52,000
+describes the abrupt appearance of the Cambrian animals
+
+
+45
+00:01:53,000 --> 00:01:57,000
+and other organisms such as dinosaurs birds flowering plants and mammals
+
+
+46
+00:01:57,000 --> 00:01:59,000
+as a pattern of biological Big Bangs.
+
+
+47
+00:02:00,000 --> 00:02:03,000
+So what caused all these new forms of life to arise
+
+
+48
+00:02:04,000 --> 00:02:06,000
+That question leads to a second big doubt
+
+
+49
+00:02:06,000 --> 00:02:11,000
+the DNA Enigma in the 1950s James Watson and Francis Crick
+
+
+50
+00:02:11,000 --> 00:02:15,000
+made a startling Discovery the DNA molecule stores information
+
+
+51
+00:02:15,000 --> 00:02:19,000
+as a four-character digital code strings
+
+
+52
+00:02:19,000 --> 00:02:21,000
+of precisely sequence chemicals
+
+
+53
+00:02:21,000 --> 00:02:23,000
+inside the DNA Helix store,
+
+
+54
+00:02:23,000 --> 00:02:27,000
+the instructions the information for building the crucial proteins
+
+
+55
+00:02:27,000 --> 00:02:29,000
+that cells need to survive
+
+
+56
+00:02:30,000 --> 00:02:33,000
+unless the chemical letters in the DNA texts are sequenced properly.
+
+
+57
+00:02:34,000 --> 00:02:38,000
+A protein molecule will not form no proteins.
+
+
+58
+00:02:38,000 --> 00:02:41,000
+No cells. No cells. No living organisms.
+
+
+59
+00:02:42,000 --> 00:02:44,000
+Bill Gates has said DNA is like a software program.
+
+
+60
+00:02:45,000 --> 00:02:46,000
+Let's think about that for a second
+
+
+61
+00:02:47,000 --> 00:02:50,000
+for computers to run faster and perform more functions.
+
+
+62
+00:02:50,000 --> 00:02:52,000
+They require new code.
+
+
+63
+00:02:52,000 --> 00:02:55,000
+Well, the same is true for life to build new forms of life.
+
+
+64
+00:02:55,000 --> 00:02:57,000
+The evolutionary process would need to
+
+
+65
+00:02:57,000 --> 00:03:00,000
+produce new genetic information new code.
+
+
+66
+00:03:01,000 --> 00:03:03,000
+But this raises questions about the creative power
+
+
+67
+00:03:03,000 --> 00:03:05,000
+of natural selection of mutation
+
+
+68
+00:03:06,000 --> 00:03:08,000
+natural selection is a simple sorting process
+
+
+69
+00:03:09,000 --> 00:03:12,000
+species keep favorable mutations that allow them to survive.
+
+
+70
+00:03:12,000 --> 00:03:16,000
+I've but eliminate bad mutations that cause their members to die out.
+
+
+71
+00:03:16,000 --> 00:03:19,000
+No one doubts that natural selection is a real process
+
+
+72
+00:03:20,000 --> 00:03:22,000
+and that it produces minor variations,
+
+
+73
+00:03:23,000 --> 00:03:28,000
+but many biologists now doubt that it produces major Innovations in biological form
+
+
+74
+00:03:28,000 --> 00:03:30,000
+to see why I think again about software
+
+
+75
+00:03:31,000 --> 00:03:35,000
+what happens if you introduce a few random changes into computer code,
+
+
+76
+00:03:35,000 --> 00:03:38,000
+you'll likely mess it up right though.
+
+
+77
+00:03:38,000 --> 00:03:40,000
+It might still work if you don't make too many changes,
+
+
+78
+00:03:41,000 --> 00:03:42,000
+but if you make
+
+
+79
+00:03:42,000 --> 00:03:44,000
+enough random changes your program
+
+
+80
+00:03:44,000 --> 00:03:45,000
+will stop functioning all together.
+
+
+81
+00:03:45,000 --> 00:03:50,000
+You certainly can't keep doing this and expect some cool new program to pop out.
+
+
+82
+00:03:50,000 --> 00:03:54,000
+There's a mathematical reason for this in all codes and languages.
+
+
+83
+00:03:54,000 --> 00:03:58,000
+There are vastly more ways of arranging characters that will generate gibberish.
+
+
+84
+00:03:59,000 --> 00:04:02,000
+Then there are Arrangements that will generate meaningful sequences
+
+
+85
+00:04:03,000 --> 00:04:06,000
+and this applies to DNA remember natural selection
+
+
+86
+00:04:06,000 --> 00:04:09,000
+only selects sequences that random mutations generate.
+
+
+87
+00:04:10,000 --> 00:04:12,000
+Yet experiments have established that
+
+
+88
+00:04:12,000 --> 00:04:17,000
+DNA sequences capable of making stable proteins are extremely rare
+
+
+89
+00:04:18,000 --> 00:04:20,000
+and thus really hard to stumble on randomly.
+
+
+90
+00:04:21,000 --> 00:04:21,000
+How rare
+
+
+91
+00:04:22,000 --> 00:04:26,000
+while working at Cambridge University molecular biologist Douglas acts show that
+
+
+92
+00:04:26,000 --> 00:04:31,000
+for every DNA sequence that generates a relatively short functional protein.
+
+
+93
+00:04:31,000 --> 00:04:36,000
+There are 10 to the 77th power non functional sequences.
+
+
+94
+00:04:36,000 --> 00:04:41,000
+Now consider that there are only 10 to the 65th power atoms in our galaxy.
+
+
+95
+00:04:42,000 --> 00:04:46,000
+So finding a new DNA sequence capable of building a functional protein
+
+
+96
+00:04:46,000 --> 00:04:52,000
+is like searching blindfolded for a single marked Adam among a trillion Milky Way galaxies
+
+
+97
+00:04:53,000 --> 00:04:54,000
+talk about a needle in a haystack
+
+
+98
+00:04:55,000 --> 00:04:57,000
+as I show in my book Darwin's doubt,
+
+
+99
+00:04:58,000 --> 00:05:01,000
+even four billion years of life's history is not enough time
+
+
+100
+00:05:01,000 --> 00:05:03,000
+to overcome a search problem this big
+
+
+101
+00:05:04,000 --> 00:05:06,000
+so to Serious doubts about modern darwinian.
+
+
+102
+00:05:07,000 --> 00:05:10,000
+The Cambrian explosion the sudden appearance of new animals
+
+
+103
+00:05:10,000 --> 00:05:13,000
+which evolutionary theory has failed to explain
+
+
+104
+00:05:14,000 --> 00:05:18,000
+and the DNA Enigma the impossibility of random mutations
+
+
+105
+00:05:18,000 --> 00:05:22,000
+producing the information needed to build new forms of animal life
+
+
+106
+00:05:23,000 --> 00:05:26,000
+scientists who know about these problems are not ignorant stupid or insane.
+
+
+107
+00:05:27,000 --> 00:05:29,000
+They are just appropriately skeptical.
+
+
+108
+00:05:31,000 --> 00:05:36,000
+I'm Steven Mayer senior fellow at The Discovery Institute for Prager University.
+
+
+109
+00:05:37,000 --> 00:05:41,000
+Thank you for watching this video to help keep Prager you videos free.
+
+
+110
+00:05:42,000 --> 00:05:45,000
+Please consider making a tax-deductible donation.
+
+

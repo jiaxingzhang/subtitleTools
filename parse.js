@@ -1,3 +1,9 @@
+
+var myArgs = process.argv.slice(2);
+if (myArgs.length !== 2) {
+    console.error('Usage: node parse.js sub.json sub_line.json ');
+}
+
 fs = require('fs');
 
 try {
@@ -22,9 +28,12 @@ try {
     // Don't forget the set up the credential:
     // export GOOGLE_APPLICATION_CREDENTIALS="PATH-TO-CRED.json"
     
-    var data = fs.readFileSync('Q6.json', 'utf8')
+    var data = fs.readFileSync(myArgs[0], 'utf8')
     var raw = JSON.parse(data);
     var trans = raw.response.annotationResults[0].speechTranscriptions;
+
+    // this is all the words from the video    
+    var wordlib = combine(trans);
 
     // sub file is what the actual subtitle lines you'd like to have
     // This is where you can control the length of each subtitle line
@@ -36,16 +45,13 @@ try {
     // {"trans": ["line1", "line2"]}
     
     
-    var subfile = fs.readFileSync('Q6_sub.json', 'utf8');
+    var subfile = fs.readFileSync(myArgs[1], 'utf8');
     var subf = JSON.parse(subfile).trans;
 
     var subs = [];
     for (su of subf) {
 	var text = su;
-	// find the correct tran from all the trans
-	// @todo: why not just first combine all words into one big array?
-	var tran = getCorrectTran(text, trans);
-	var sub = makeSub(text, tran);
+	var sub = makeSubLib(text, wordlib);	
 	subs.push(sub);
     }
 
@@ -83,6 +89,14 @@ function genSub(subs) {
     }
 }
 
+function combine(trans) {
+    var res = []
+    for (t of trans) {
+	res = res.concat(t.alternatives[0].words);
+    }
+    return res;
+}
+
 // Find which alternative is the correct one for the current subtitle line
 function getCorrectTran(text, trans) {
     for (t of trans) {
@@ -96,6 +110,27 @@ function getCorrectTran(text, trans) {
 }
 
 // Given a subtitle line, create a sub object that contains the line and start and end time
+function makeSubLib(text, words) {
+    var sub = {text: "", start: "", end : ""};
+    sub.text = text;
+    sub.start = words[0].startTime;
+    
+    var sentence = "";
+    var i = 0;
+    for (w of words) {
+	i++;
+	sentence = sentence + " " + w.word;
+	if (text.trim().localeCompare(sentence.trim()) == 0) {
+	    sub.end = w.endTime;
+	    break;
+	}
+    }
+    
+    // remove it in the words. This is in place removal
+    words.splice(0, i);
+    return sub;
+}
+
 function makeSub(text, tran) {
     var words = tran.alternatives[0].words;
     var sub = {text: "", start: "", end : ""};

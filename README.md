@@ -10,9 +10,8 @@ You need to provide two files:
 
 ### How to get Q6.json
 
-This json is directly retrieved from google cloud:
-
-`curl -X GET -H "Authorization: Bearer "$(gcloud auth application-default print-access-token) https://videointelligence.googleapis.com/v1/projects/637000999429/locations/us-east1/operations/10391224840668257911 > Q6.json`
+First,  make sure to set up the credential:
+`export GOOGLE_APPLICATION_CREDENTIALS="PATH-TO-CRED.json"`
 
 Before we can get the json file from the server, we need to upload the mp4 to google cloud and make sure it's accessible (e.g. public) and do create a request.json as such:
 
@@ -32,8 +31,15 @@ Then, do the following in bash:
     
 `curl -X POST -H "Authorization: Bearer "$(gcloud auth application-default print-access-token) -H "Content-Type: application/json; charset=utf-8" -d @request.json https://videointelligence.googleapis.com/v1/videos:annotate`
 
-Don't forget the set up the credential:
-`export GOOGLE_APPLICATION_CREDENTIALS="PATH-TO-CRED.json"`
+
+Now retrieve it (this will take some time):
+
+`curl -X GET -H "Authorization: Bearer "$(gcloud auth application-default print-access-token) https://videointelligence.googleapis.com/v1/ <from above command>`
+
+Example:
+
+`curl -X GET -H "Authorization: Bearer "$(gcloud auth application-default print-access-token) https://videointelligence.googleapis.com/v1/projects/637000999429/locations/us-east1/operations/10391224840668257911 > Q6.json`
+
 
 ### How to get Q6_sub.json
 

@@ -38,11 +38,11 @@ CON=$3_control.json
 SUB=$3.srt
 echo "Generating $RAW..."
 bash prep.bash -r $URI > $RAW
-echo "Done..."
+echo "Done."
 echo "Generating $CON..."
 bash prep.bash -c $URI > $CON
-echo "Done..."
+echo "Done."
 echo "Generating subtitle file: $SUB..."
-node parse.js $RAW $CON > $SUB
+node core/parse.js $RAW $CON > $SUB
 cat $SUB
-echo "Done..."
+echo "Done."

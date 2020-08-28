@@ -41,9 +41,10 @@ case "$1" in
 	    if [ $ready == "true" ]; then
 		break
 	    fi
+	    >&2 echo "in progress..."
 	    sleep 5
 	done
-	node combine.js .raw.tmp | jq .
+	node core/combine.js .raw.tmp | jq .
 	rm .raw.tmp
 	;;
     -c)

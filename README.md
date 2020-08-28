@@ -31,11 +31,11 @@ q1_1.srt           # subtitle file
 
 #### Prepare the control file
 
-`q1_1_control.json` is your subtitle control file and each line in that file is a subtitle line. so if you don't like the length of some of the line, just change it in the file.
+`q1_1_control.json` is your subtitle control file and each line in that file is a subtitle line. If you don't like the length of some of the line, just change it in the file and make sure it's valid json syntax.
 
-**IMPORTANT**, do not modify words or punctuation in the `q1_1_control.json` file, because this must be exactly match the raw subtitle file (`q1_1_raw.json`).
+**IMPORTANT**, do not modify words or punctuation in the `q1_1_control.json` file, because this must **exactly match** the raw subtitle file (`q1_1_raw.json`).
 
-Since manually edit the control file could be tedious work as you must break one line into multiple, a text editor with macros will make it a lot easier. For instance, you can put the following into your .emacs file, and then do `Ctrl-c o` in Emacs to insert double quote, comma and newline for you. 
+Since manually edit the control file could be tedious as you must break one line into multiple, a text editor with macros will make it easier. For instance, you can put the following into your .emacs file, and then do `Ctrl-c o` in Emacs to insert double quote, comma, newline and double quote for you, which is effectively breaking one line into multiple while maintaining the array json format.
 
 ```emacs
 (fset 'commai

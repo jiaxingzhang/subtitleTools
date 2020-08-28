@@ -6,11 +6,11 @@ try {
     
     fs = require('fs');    
     var data = fs.readFileSync(myArgs[0], 'utf8')
-    var raw = JSON.parse(data);
-    var trans = raw.response.annotationResults[0].speechTranscriptions;
+    var wordlib = JSON.parse(data);
+    // var trans = raw.response.annotationResults[0].speechTranscriptions;
 
     // this is all the words from the video    
-    var wordlib = combine(trans);
+    // var wordlib = combine(trans);
     
     // sub file is what the actual subtitle lines you'd like to have
     // This is where you can control the length of each subtitle line

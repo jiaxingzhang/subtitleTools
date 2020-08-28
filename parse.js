@@ -38,9 +38,9 @@ function wrap(s) {
 
 // Covert duration to HH::MM::SS format
 function duration(s) {
-    var hr = Math.round(s/3600);
-    var min = Math.round(s/60)%60;
-    var sec = Math.round(s%60);
+    const hr = Math.round(s/3600);
+    const min = Math.round(s/60)%60;
+    const sec = Math.round(s%60);
     return wrap(hr) + ":" + wrap(min) + ":" + wrap(sec) + ",000";
 }
 

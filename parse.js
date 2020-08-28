@@ -62,7 +62,9 @@ function genSub(subs) {
 function combine(trans) {
     var res = []
     for (t of trans) {
-	res = res.concat(t.alternatives[0].words);
+	if (t.alternatives[0].words !== undefined) {
+	    res = res.concat(t.alternatives[0].words);
+	}
     }
     return res;
 }

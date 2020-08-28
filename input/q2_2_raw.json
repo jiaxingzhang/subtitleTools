@@ -1,0 +1,2716 @@
+{
+  "name": "projects/637000999429/locations/us-west1/operations/11429042609730150180",
+  "metadata": {
+    "@type": "type.googleapis.com/google.cloud.videointelligence.v1.AnnotateVideoProgress",
+    "annotationProgress": [
+      {
+        "inputUri": "/minqa/trimmed/Q2_2.mp4",
+        "progressPercent": 100,
+        "startTime": "2020-08-28T14:05:52.252783Z",
+        "updateTime": "2020-08-28T14:07:24.560689Z"
+      }
+    ]
+  },
+  "done": true,
+  "response": {
+    "@type": "type.googleapis.com/google.cloud.videointelligence.v1.AnnotateVideoResponse",
+    "annotationResults": [
+      {
+        "inputUri": "/minqa/trimmed/Q2_2.mp4",
+        "segment": {
+          "startTimeOffset": "0s",
+          "endTimeOffset": "226.922666s"
+        },
+        "speechTranscriptions": [
+          {
+            "alternatives": [
+              {}
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": "I'm a synthetic organic chemist origin of life is purely synthetic organic chemistry. There's no way around it. I'm perfectly situated to be commenting on this to be critiquing the origin of Life research. It is a biological it is before biology takes over. This is purely synthetic organic chemistry.",
+                "confidence": 0.870745,
+                "words": [
+                  {
+                    "startTime": "4.900s",
+                    "endTime": "5.100s",
+                    "word": "I'm"
+                  },
+                  {
+                    "startTime": "5.100s",
+                    "endTime": "5.200s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "5.200s",
+                    "endTime": "5.700s",
+                    "word": "synthetic"
+                  },
+                  {
+                    "startTime": "5.700s",
+                    "endTime": "6.200s",
+                    "word": "organic"
+                  },
+                  {
+                    "startTime": "6.200s",
+                    "endTime": "6.800s",
+                    "word": "chemist"
+                  },
+                  {
+                    "startTime": "7.200s",
+                    "endTime": "7.700s",
+                    "word": "origin"
+                  },
+                  {
+                    "startTime": "7.700s",
+                    "endTime": "7.800s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "7.800s",
+                    "endTime": "8.400s",
+                    "word": "life"
+                  },
+                  {
+                    "startTime": "8.400s",
+                    "endTime": "8.600s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "8.600s",
+                    "endTime": "9.300s",
+                    "word": "purely"
+                  },
+                  {
+                    "startTime": "9.400s",
+                    "endTime": "10s",
+                    "word": "synthetic"
+                  },
+                  {
+                    "startTime": "10s",
+                    "endTime": "10.500s",
+                    "word": "organic"
+                  },
+                  {
+                    "startTime": "10.500s",
+                    "endTime": "11.100s",
+                    "word": "chemistry."
+                  },
+                  {
+                    "startTime": "11.300s",
+                    "endTime": "11.600s",
+                    "word": "There's"
+                  },
+                  {
+                    "startTime": "11.600s",
+                    "endTime": "11.900s",
+                    "word": "no"
+                  },
+                  {
+                    "startTime": "11.900s",
+                    "endTime": "12.100s",
+                    "word": "way"
+                  },
+                  {
+                    "startTime": "12.100s",
+                    "endTime": "12.500s",
+                    "word": "around"
+                  },
+                  {
+                    "startTime": "12.500s",
+                    "endTime": "12.800s",
+                    "word": "it."
+                  },
+                  {
+                    "startTime": "13.100s",
+                    "endTime": "13.400s",
+                    "word": "I'm"
+                  },
+                  {
+                    "startTime": "13.400s",
+                    "endTime": "14.100s",
+                    "word": "perfectly"
+                  },
+                  {
+                    "startTime": "14.100s",
+                    "endTime": "15s",
+                    "word": "situated"
+                  },
+                  {
+                    "startTime": "15.100s",
+                    "endTime": "15.200s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "15.200s",
+                    "endTime": "15.400s",
+                    "word": "be"
+                  },
+                  {
+                    "startTime": "15.400s",
+                    "endTime": "16s",
+                    "word": "commenting"
+                  },
+                  {
+                    "startTime": "16s",
+                    "endTime": "16.100s",
+                    "word": "on"
+                  },
+                  {
+                    "startTime": "16.100s",
+                    "endTime": "16.500s",
+                    "word": "this"
+                  },
+                  {
+                    "startTime": "16.900s",
+                    "endTime": "17s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "17s",
+                    "endTime": "17.200s",
+                    "word": "be"
+                  },
+                  {
+                    "startTime": "17.200s",
+                    "endTime": "18s",
+                    "word": "critiquing"
+                  },
+                  {
+                    "startTime": "18s",
+                    "endTime": "18.200s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "18.200s",
+                    "endTime": "18.600s",
+                    "word": "origin"
+                  },
+                  {
+                    "startTime": "18.600s",
+                    "endTime": "18.800s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "18.800s",
+                    "endTime": "19.300s",
+                    "word": "Life"
+                  },
+                  {
+                    "startTime": "19.300s",
+                    "endTime": "20s",
+                    "word": "research."
+                  },
+                  {
+                    "startTime": "20.400s",
+                    "endTime": "20.600s",
+                    "word": "It"
+                  },
+                  {
+                    "startTime": "20.600s",
+                    "endTime": "20.900s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "21.300s",
+                    "endTime": "21.500s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "21.500s",
+                    "endTime": "22.500s",
+                    "word": "biological"
+                  },
+                  {
+                    "startTime": "23.100s",
+                    "endTime": "23.300s",
+                    "word": "it"
+                  },
+                  {
+                    "startTime": "23.300s",
+                    "endTime": "23.700s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "24s",
+                    "endTime": "24.700s",
+                    "word": "before"
+                  },
+                  {
+                    "startTime": "24.700s",
+                    "endTime": "25.500s",
+                    "word": "biology"
+                  },
+                  {
+                    "startTime": "25.500s",
+                    "endTime": "25.900s",
+                    "word": "takes"
+                  },
+                  {
+                    "startTime": "25.900s",
+                    "endTime": "26.300s",
+                    "word": "over."
+                  },
+                  {
+                    "startTime": "26.700s",
+                    "endTime": "27s",
+                    "word": "This"
+                  },
+                  {
+                    "startTime": "27s",
+                    "endTime": "27.200s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "27.200s",
+                    "endTime": "27.800s",
+                    "word": "purely"
+                  },
+                  {
+                    "startTime": "27.800s",
+                    "endTime": "28.400s",
+                    "word": "synthetic"
+                  },
+                  {
+                    "startTime": "28.400s",
+                    "endTime": "29.100s",
+                    "word": "organic"
+                  },
+                  {
+                    "startTime": "29.100s",
+                    "endTime": "29.800s",
+                    "word": "chemistry."
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {}
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": "Some people argue that since there's been hundreds of millions of years of vailable the probability that there's the chance that these things could happen in hundreds of millions of years, but that's not true time actually can be an enemy when it comes to organic synthesis Prebiotic synthesis is before biology. So one has to make chemicals many of the chemicals that need to be made for life.",
+                "confidence": 0.9115673,
+                "words": [
+                  {
+                    "startTime": "37.200s",
+                    "endTime": "37.400s",
+                    "word": "Some"
+                  },
+                  {
+                    "startTime": "37.400s",
+                    "endTime": "37.800s",
+                    "word": "people"
+                  },
+                  {
+                    "startTime": "37.800s",
+                    "endTime": "38.300s",
+                    "word": "argue"
+                  },
+                  {
+                    "startTime": "38.800s",
+                    "endTime": "39.400s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "39.700s",
+                    "endTime": "40s",
+                    "word": "since"
+                  },
+                  {
+                    "startTime": "40s",
+                    "endTime": "40.300s",
+                    "word": "there's"
+                  },
+                  {
+                    "startTime": "40.300s",
+                    "endTime": "40.500s",
+                    "word": "been"
+                  },
+                  {
+                    "startTime": "40.500s",
+                    "endTime": "41s",
+                    "word": "hundreds"
+                  },
+                  {
+                    "startTime": "41s",
+                    "endTime": "41.200s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "41.200s",
+                    "endTime": "41.600s",
+                    "word": "millions"
+                  },
+                  {
+                    "startTime": "41.600s",
+                    "endTime": "41.800s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "41.800s",
+                    "endTime": "42.200s",
+                    "word": "years"
+                  },
+                  {
+                    "startTime": "42.200s",
+                    "endTime": "42.400s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "42.400s",
+                    "endTime": "43.100s",
+                    "word": "vailable"
+                  },
+                  {
+                    "startTime": "43.600s",
+                    "endTime": "43.800s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "43.800s",
+                    "endTime": "44.700s",
+                    "word": "probability"
+                  },
+                  {
+                    "startTime": "44.700s",
+                    "endTime": "44.900s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "44.900s",
+                    "endTime": "45.100s",
+                    "word": "there's"
+                  },
+                  {
+                    "startTime": "45.100s",
+                    "endTime": "45.300s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "45.300s",
+                    "endTime": "45.800s",
+                    "word": "chance"
+                  },
+                  {
+                    "startTime": "45.800s",
+                    "endTime": "46s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "46s",
+                    "endTime": "46.200s",
+                    "word": "these"
+                  },
+                  {
+                    "startTime": "46.200s",
+                    "endTime": "46.600s",
+                    "word": "things"
+                  },
+                  {
+                    "startTime": "46.600s",
+                    "endTime": "46.800s",
+                    "word": "could"
+                  },
+                  {
+                    "startTime": "46.800s",
+                    "endTime": "47.100s",
+                    "word": "happen"
+                  },
+                  {
+                    "startTime": "47.100s",
+                    "endTime": "47.300s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "47.300s",
+                    "endTime": "47.600s",
+                    "word": "hundreds"
+                  },
+                  {
+                    "startTime": "47.600s",
+                    "endTime": "47.800s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "47.800s",
+                    "endTime": "48.100s",
+                    "word": "millions"
+                  },
+                  {
+                    "startTime": "48.100s",
+                    "endTime": "48.200s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "48.200s",
+                    "endTime": "48.700s",
+                    "word": "years,"
+                  },
+                  {
+                    "startTime": "49.600s",
+                    "endTime": "49.800s",
+                    "word": "but"
+                  },
+                  {
+                    "startTime": "49.800s",
+                    "endTime": "50.300s",
+                    "word": "that's"
+                  },
+                  {
+                    "startTime": "50.300s",
+                    "endTime": "50.600s",
+                    "word": "not"
+                  },
+                  {
+                    "startTime": "50.600s",
+                    "endTime": "51.200s",
+                    "word": "true"
+                  },
+                  {
+                    "startTime": "51.700s",
+                    "endTime": "52.400s",
+                    "word": "time"
+                  },
+                  {
+                    "startTime": "52.400s",
+                    "endTime": "52.900s",
+                    "word": "actually"
+                  },
+                  {
+                    "startTime": "52.900s",
+                    "endTime": "53s",
+                    "word": "can"
+                  },
+                  {
+                    "startTime": "53s",
+                    "endTime": "53.200s",
+                    "word": "be"
+                  },
+                  {
+                    "startTime": "53.200s",
+                    "endTime": "53.300s",
+                    "word": "an"
+                  },
+                  {
+                    "startTime": "53.300s",
+                    "endTime": "53.900s",
+                    "word": "enemy"
+                  },
+                  {
+                    "startTime": "53.900s",
+                    "endTime": "54s",
+                    "word": "when"
+                  },
+                  {
+                    "startTime": "54s",
+                    "endTime": "54.200s",
+                    "word": "it"
+                  },
+                  {
+                    "startTime": "54.200s",
+                    "endTime": "54.500s",
+                    "word": "comes"
+                  },
+                  {
+                    "startTime": "54.500s",
+                    "endTime": "54.700s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "54.700s",
+                    "endTime": "55.100s",
+                    "word": "organic"
+                  },
+                  {
+                    "startTime": "55.100s",
+                    "endTime": "55.800s",
+                    "word": "synthesis"
+                  },
+                  {
+                    "startTime": "56.200s",
+                    "endTime": "57.100s",
+                    "word": "Prebiotic"
+                  },
+                  {
+                    "startTime": "57.100s",
+                    "endTime": "57.700s",
+                    "word": "synthesis"
+                  },
+                  {
+                    "startTime": "57.700s",
+                    "endTime": "57.900s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "57.900s",
+                    "endTime": "58.500s",
+                    "word": "before"
+                  },
+                  {
+                    "startTime": "58.500s",
+                    "endTime": "59.400s",
+                    "word": "biology."
+                  },
+                  {
+                    "startTime": "60.200s",
+                    "endTime": "60.400s",
+                    "word": "So"
+                  },
+                  {
+                    "startTime": "60.400s",
+                    "endTime": "60.700s",
+                    "word": "one"
+                  },
+                  {
+                    "startTime": "60.700s",
+                    "endTime": "61s",
+                    "word": "has"
+                  },
+                  {
+                    "startTime": "61s",
+                    "endTime": "61.100s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "61.100s",
+                    "endTime": "61.400s",
+                    "word": "make"
+                  },
+                  {
+                    "startTime": "61.400s",
+                    "endTime": "62.100s",
+                    "word": "chemicals"
+                  },
+                  {
+                    "startTime": "62.400s",
+                    "endTime": "62.900s",
+                    "word": "many"
+                  },
+                  {
+                    "startTime": "62.900s",
+                    "endTime": "63s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "63s",
+                    "endTime": "63.100s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "63.100s",
+                    "endTime": "64s",
+                    "word": "chemicals"
+                  },
+                  {
+                    "startTime": "64s",
+                    "endTime": "64.200s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "64.200s",
+                    "endTime": "64.600s",
+                    "word": "need"
+                  },
+                  {
+                    "startTime": "64.600s",
+                    "endTime": "64.700s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "64.700s",
+                    "endTime": "64.900s",
+                    "word": "be"
+                  },
+                  {
+                    "startTime": "64.900s",
+                    "endTime": "65.300s",
+                    "word": "made"
+                  },
+                  {
+                    "startTime": "65.300s",
+                    "endTime": "65.600s",
+                    "word": "for"
+                  },
+                  {
+                    "startTime": "65.600s",
+                    "endTime": "66.200s",
+                    "word": "life."
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": "Our kinetic products meaning that they're not the most thermodynamically stable form for example carbohydrates, which is the main class of compounds. This is the these are the the units that hook together DNA. These are the units that I have identifying aspects on cell structure. These are the units that the cell is going to need for. The energy of Life carbohydrates are kinetic products meaning that if they should form they would decompose.",
+                "confidence": 0.91218525,
+                "words": [
+                  {
+                    "startTime": "66.800s",
+                    "endTime": "67s",
+                    "word": "Our"
+                  },
+                  {
+                    "startTime": "67s",
+                    "endTime": "67.800s",
+                    "word": "kinetic"
+                  },
+                  {
+                    "startTime": "67.800s",
+                    "endTime": "68.500s",
+                    "word": "products"
+                  },
+                  {
+                    "startTime": "68.800s",
+                    "endTime": "69.100s",
+                    "word": "meaning"
+                  },
+                  {
+                    "startTime": "69.100s",
+                    "endTime": "69.300s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "69.300s",
+                    "endTime": "69.500s",
+                    "word": "they're"
+                  },
+                  {
+                    "startTime": "69.700s",
+                    "endTime": "70.100s",
+                    "word": "not"
+                  },
+                  {
+                    "startTime": "70.100s",
+                    "endTime": "70.200s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "70.200s",
+                    "endTime": "70.500s",
+                    "word": "most"
+                  },
+                  {
+                    "startTime": "70.500s",
+                    "endTime": "71.600s",
+                    "word": "thermodynamically"
+                  },
+                  {
+                    "startTime": "71.600s",
+                    "endTime": "72s",
+                    "word": "stable"
+                  },
+                  {
+                    "startTime": "72s",
+                    "endTime": "72.600s",
+                    "word": "form"
+                  },
+                  {
+                    "startTime": "72.900s",
+                    "endTime": "73.200s",
+                    "word": "for"
+                  },
+                  {
+                    "startTime": "73.200s",
+                    "endTime": "73.900s",
+                    "word": "example"
+                  },
+                  {
+                    "startTime": "74s",
+                    "endTime": "75s",
+                    "word": "carbohydrates,"
+                  },
+                  {
+                    "startTime": "75.100s",
+                    "endTime": "75.300s",
+                    "word": "which"
+                  },
+                  {
+                    "startTime": "75.300s",
+                    "endTime": "75.400s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "75.400s",
+                    "endTime": "75.600s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "75.600s",
+                    "endTime": "76.100s",
+                    "word": "main"
+                  },
+                  {
+                    "startTime": "76.100s",
+                    "endTime": "76.500s",
+                    "word": "class"
+                  },
+                  {
+                    "startTime": "76.500s",
+                    "endTime": "76.600s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "76.600s",
+                    "endTime": "77.100s",
+                    "word": "compounds."
+                  },
+                  {
+                    "startTime": "77.100s",
+                    "endTime": "77.300s",
+                    "word": "This"
+                  },
+                  {
+                    "startTime": "77.300s",
+                    "endTime": "77.400s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "77.400s",
+                    "endTime": "77.700s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "77.900s",
+                    "endTime": "78.100s",
+                    "word": "these"
+                  },
+                  {
+                    "startTime": "78.100s",
+                    "endTime": "78.200s",
+                    "word": "are"
+                  },
+                  {
+                    "startTime": "78.200s",
+                    "endTime": "78.400s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "78.900s",
+                    "endTime": "79.100s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "79.100s",
+                    "endTime": "79.500s",
+                    "word": "units"
+                  },
+                  {
+                    "startTime": "79.500s",
+                    "endTime": "79.700s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "79.700s",
+                    "endTime": "80s",
+                    "word": "hook"
+                  },
+                  {
+                    "startTime": "80s",
+                    "endTime": "80.500s",
+                    "word": "together"
+                  },
+                  {
+                    "startTime": "80.500s",
+                    "endTime": "81.200s",
+                    "word": "DNA."
+                  },
+                  {
+                    "startTime": "81.500s",
+                    "endTime": "81.800s",
+                    "word": "These"
+                  },
+                  {
+                    "startTime": "81.800s",
+                    "endTime": "81.900s",
+                    "word": "are"
+                  },
+                  {
+                    "startTime": "81.900s",
+                    "endTime": "82.100s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "82.100s",
+                    "endTime": "82.700s",
+                    "word": "units"
+                  },
+                  {
+                    "startTime": "82.900s",
+                    "endTime": "83.200s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "83.200s",
+                    "endTime": "83.400s",
+                    "word": "I"
+                  },
+                  {
+                    "startTime": "83.500s",
+                    "endTime": "83.800s",
+                    "word": "have"
+                  },
+                  {
+                    "startTime": "83.900s",
+                    "endTime": "84.600s",
+                    "word": "identifying"
+                  },
+                  {
+                    "startTime": "84.600s",
+                    "endTime": "85s",
+                    "word": "aspects"
+                  },
+                  {
+                    "startTime": "85s",
+                    "endTime": "85.200s",
+                    "word": "on"
+                  },
+                  {
+                    "startTime": "85.200s",
+                    "endTime": "85.400s",
+                    "word": "cell"
+                  },
+                  {
+                    "startTime": "85.400s",
+                    "endTime": "85.900s",
+                    "word": "structure."
+                  },
+                  {
+                    "startTime": "85.900s",
+                    "endTime": "86.200s",
+                    "word": "These"
+                  },
+                  {
+                    "startTime": "86.200s",
+                    "endTime": "86.300s",
+                    "word": "are"
+                  },
+                  {
+                    "startTime": "86.300s",
+                    "endTime": "86.400s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "86.400s",
+                    "endTime": "87s",
+                    "word": "units"
+                  },
+                  {
+                    "startTime": "87s",
+                    "endTime": "87.200s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "87.200s",
+                    "endTime": "87.300s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "87.300s",
+                    "endTime": "87.600s",
+                    "word": "cell"
+                  },
+                  {
+                    "startTime": "87.600s",
+                    "endTime": "87.800s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "87.800s",
+                    "endTime": "88.100s",
+                    "word": "going"
+                  },
+                  {
+                    "startTime": "88.100s",
+                    "endTime": "88.200s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "88.200s",
+                    "endTime": "88.600s",
+                    "word": "need"
+                  },
+                  {
+                    "startTime": "88.600s",
+                    "endTime": "88.800s",
+                    "word": "for."
+                  },
+                  {
+                    "startTime": "88.800s",
+                    "endTime": "89.100s",
+                    "word": "The"
+                  },
+                  {
+                    "startTime": "89.100s",
+                    "endTime": "89.500s",
+                    "word": "energy"
+                  },
+                  {
+                    "startTime": "89.500s",
+                    "endTime": "89.600s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "89.600s",
+                    "endTime": "90.100s",
+                    "word": "Life"
+                  },
+                  {
+                    "startTime": "90.700s",
+                    "endTime": "91.500s",
+                    "word": "carbohydrates"
+                  },
+                  {
+                    "startTime": "91.500s",
+                    "endTime": "91.700s",
+                    "word": "are"
+                  },
+                  {
+                    "startTime": "91.700s",
+                    "endTime": "92.300s",
+                    "word": "kinetic"
+                  },
+                  {
+                    "startTime": "92.300s",
+                    "endTime": "92.800s",
+                    "word": "products"
+                  },
+                  {
+                    "startTime": "92.900s",
+                    "endTime": "93.300s",
+                    "word": "meaning"
+                  },
+                  {
+                    "startTime": "93.300s",
+                    "endTime": "93.500s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "93.500s",
+                    "endTime": "93.700s",
+                    "word": "if"
+                  },
+                  {
+                    "startTime": "93.700s",
+                    "endTime": "93.900s",
+                    "word": "they"
+                  },
+                  {
+                    "startTime": "93.900s",
+                    "endTime": "94.200s",
+                    "word": "should"
+                  },
+                  {
+                    "startTime": "94.200s",
+                    "endTime": "94.700s",
+                    "word": "form"
+                  },
+                  {
+                    "startTime": "95.200s",
+                    "endTime": "95.300s",
+                    "word": "they"
+                  },
+                  {
+                    "startTime": "95.300s",
+                    "endTime": "95.500s",
+                    "word": "would"
+                  },
+                  {
+                    "startTime": "95.500s",
+                    "endTime": "96.300s",
+                    "word": "decompose."
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": "Decompose over time and relatively short amounts of time. They decompose the very reactions that make them unless somebody is there to pull them out to fish them out to stop the process and put them in a bottle under anaerobic conditions in a freezer and not just one. There's many many different types you have to do this they end up going through a process of what's referred to as caramelization. Meaning that they polymerize they polymerize the very real",
+                "confidence": 0.8357164,
+                "words": [
+                  {
+                    "startTime": "96.700s",
+                    "endTime": "97.600s",
+                    "word": "Decompose"
+                  },
+                  {
+                    "startTime": "97.600s",
+                    "endTime": "97.900s",
+                    "word": "over"
+                  },
+                  {
+                    "startTime": "97.900s",
+                    "endTime": "98.400s",
+                    "word": "time"
+                  },
+                  {
+                    "startTime": "98.600s",
+                    "endTime": "98.800s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "98.800s",
+                    "endTime": "99.500s",
+                    "word": "relatively"
+                  },
+                  {
+                    "startTime": "99.500s",
+                    "endTime": "99.900s",
+                    "word": "short"
+                  },
+                  {
+                    "startTime": "99.900s",
+                    "endTime": "100.300s",
+                    "word": "amounts"
+                  },
+                  {
+                    "startTime": "100.300s",
+                    "endTime": "100.400s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "100.400s",
+                    "endTime": "100.900s",
+                    "word": "time."
+                  },
+                  {
+                    "startTime": "100.900s",
+                    "endTime": "101.100s",
+                    "word": "They"
+                  },
+                  {
+                    "startTime": "101.100s",
+                    "endTime": "101.900s",
+                    "word": "decompose"
+                  },
+                  {
+                    "startTime": "102.200s",
+                    "endTime": "102.500s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "102.500s",
+                    "endTime": "102.900s",
+                    "word": "very"
+                  },
+                  {
+                    "startTime": "102.900s",
+                    "endTime": "103.800s",
+                    "word": "reactions"
+                  },
+                  {
+                    "startTime": "103.800s",
+                    "endTime": "104.100s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "104.100s",
+                    "endTime": "104.500s",
+                    "word": "make"
+                  },
+                  {
+                    "startTime": "104.500s",
+                    "endTime": "104.900s",
+                    "word": "them"
+                  },
+                  {
+                    "startTime": "105.200s",
+                    "endTime": "105.900s",
+                    "word": "unless"
+                  },
+                  {
+                    "startTime": "105.900s",
+                    "endTime": "106.500s",
+                    "word": "somebody"
+                  },
+                  {
+                    "startTime": "106.500s",
+                    "endTime": "106.700s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "106.700s",
+                    "endTime": "106.900s",
+                    "word": "there"
+                  },
+                  {
+                    "startTime": "106.900s",
+                    "endTime": "107.100s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "107.100s",
+                    "endTime": "107.400s",
+                    "word": "pull"
+                  },
+                  {
+                    "startTime": "107.400s",
+                    "endTime": "107.600s",
+                    "word": "them"
+                  },
+                  {
+                    "startTime": "107.600s",
+                    "endTime": "108.200s",
+                    "word": "out"
+                  },
+                  {
+                    "startTime": "108.400s",
+                    "endTime": "108.500s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "108.500s",
+                    "endTime": "108.800s",
+                    "word": "fish"
+                  },
+                  {
+                    "startTime": "108.800s",
+                    "endTime": "109s",
+                    "word": "them"
+                  },
+                  {
+                    "startTime": "109s",
+                    "endTime": "109.200s",
+                    "word": "out"
+                  },
+                  {
+                    "startTime": "109.200s",
+                    "endTime": "109.300s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "109.300s",
+                    "endTime": "110s",
+                    "word": "stop"
+                  },
+                  {
+                    "startTime": "110s",
+                    "endTime": "110.100s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "110.100s",
+                    "endTime": "110.700s",
+                    "word": "process"
+                  },
+                  {
+                    "startTime": "110.700s",
+                    "endTime": "110.900s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "110.900s",
+                    "endTime": "111.200s",
+                    "word": "put"
+                  },
+                  {
+                    "startTime": "111.200s",
+                    "endTime": "111.300s",
+                    "word": "them"
+                  },
+                  {
+                    "startTime": "111.300s",
+                    "endTime": "111.400s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "111.400s",
+                    "endTime": "111.400s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "111.400s",
+                    "endTime": "112s",
+                    "word": "bottle"
+                  },
+                  {
+                    "startTime": "112s",
+                    "endTime": "112.300s",
+                    "word": "under"
+                  },
+                  {
+                    "startTime": "112.300s",
+                    "endTime": "112.600s",
+                    "word": "anaerobic"
+                  },
+                  {
+                    "startTime": "112.600s",
+                    "endTime": "113.200s",
+                    "word": "conditions"
+                  },
+                  {
+                    "startTime": "113.200s",
+                    "endTime": "113.500s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "113.500s",
+                    "endTime": "113.600s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "113.600s",
+                    "endTime": "114.300s",
+                    "word": "freezer"
+                  },
+                  {
+                    "startTime": "114.700s",
+                    "endTime": "114.900s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "114.900s",
+                    "endTime": "115.100s",
+                    "word": "not"
+                  },
+                  {
+                    "startTime": "115.100s",
+                    "endTime": "115.400s",
+                    "word": "just"
+                  },
+                  {
+                    "startTime": "115.400s",
+                    "endTime": "115.600s",
+                    "word": "one."
+                  },
+                  {
+                    "startTime": "115.600s",
+                    "endTime": "115.900s",
+                    "word": "There's"
+                  },
+                  {
+                    "startTime": "115.900s",
+                    "endTime": "116.400s",
+                    "word": "many"
+                  },
+                  {
+                    "startTime": "116.400s",
+                    "endTime": "116.700s",
+                    "word": "many"
+                  },
+                  {
+                    "startTime": "116.700s",
+                    "endTime": "117.200s",
+                    "word": "different"
+                  },
+                  {
+                    "startTime": "117.200s",
+                    "endTime": "117.500s",
+                    "word": "types"
+                  },
+                  {
+                    "startTime": "117.500s",
+                    "endTime": "117.600s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "117.600s",
+                    "endTime": "117.700s",
+                    "word": "have"
+                  },
+                  {
+                    "startTime": "117.700s",
+                    "endTime": "117.800s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "117.800s",
+                    "endTime": "118s",
+                    "word": "do"
+                  },
+                  {
+                    "startTime": "118s",
+                    "endTime": "118.200s",
+                    "word": "this"
+                  },
+                  {
+                    "startTime": "118.400s",
+                    "endTime": "118.600s",
+                    "word": "they"
+                  },
+                  {
+                    "startTime": "118.600s",
+                    "endTime": "118.800s",
+                    "word": "end"
+                  },
+                  {
+                    "startTime": "118.800s",
+                    "endTime": "119.300s",
+                    "word": "up"
+                  },
+                  {
+                    "startTime": "119.300s",
+                    "endTime": "119.600s",
+                    "word": "going"
+                  },
+                  {
+                    "startTime": "119.600s",
+                    "endTime": "119.800s",
+                    "word": "through"
+                  },
+                  {
+                    "startTime": "119.800s",
+                    "endTime": "119.800s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "119.800s",
+                    "endTime": "120.500s",
+                    "word": "process"
+                  },
+                  {
+                    "startTime": "120.500s",
+                    "endTime": "120.700s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "120.700s",
+                    "endTime": "121.100s",
+                    "word": "what's"
+                  },
+                  {
+                    "startTime": "121.100s",
+                    "endTime": "121.500s",
+                    "word": "referred"
+                  },
+                  {
+                    "startTime": "121.500s",
+                    "endTime": "121.600s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "121.600s",
+                    "endTime": "121.800s",
+                    "word": "as"
+                  },
+                  {
+                    "startTime": "121.800s",
+                    "endTime": "122.900s",
+                    "word": "caramelization."
+                  },
+                  {
+                    "startTime": "123.200s",
+                    "endTime": "123.500s",
+                    "word": "Meaning"
+                  },
+                  {
+                    "startTime": "123.500s",
+                    "endTime": "123.700s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "123.700s",
+                    "endTime": "123.900s",
+                    "word": "they"
+                  },
+                  {
+                    "startTime": "123.900s",
+                    "endTime": "124.800s",
+                    "word": "polymerize"
+                  },
+                  {
+                    "startTime": "124.900s",
+                    "endTime": "125.100s",
+                    "word": "they"
+                  },
+                  {
+                    "startTime": "125.100s",
+                    "endTime": "125.600s",
+                    "word": "polymerize"
+                  },
+                  {
+                    "startTime": "125.600s",
+                    "endTime": "125.700s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "125.700s",
+                    "endTime": "126s",
+                    "word": "very"
+                  },
+                  {
+                    "startTime": "126s",
+                    "endTime": "126.400s",
+                    "word": "real"
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": " All reactions that were used to make them just continue and you get poly Aldo's you get poly condensation reactions and they caramelize or they undergo with formaldehyde which is a presumed Prebiotic chemical. They undergo rapid cannizzaro reactions. So the aldehyde is oxidized to formic acid and this nice carbohydrate that you made has just been reduced. So the so the aldehyde the from the carbohydrate is gone back to an alcohol. So there's competing reactions.",
+                "confidence": 0.78495324,
+                "words": [
+                  {
+                    "startTime": "126.600s",
+                    "endTime": "126.800s",
+                    "word": "All"
+                  },
+                  {
+                    "startTime": "126.800s",
+                    "endTime": "127.500s",
+                    "word": "reactions"
+                  },
+                  {
+                    "startTime": "127.500s",
+                    "endTime": "127.600s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "127.600s",
+                    "endTime": "127.800s",
+                    "word": "were"
+                  },
+                  {
+                    "startTime": "127.800s",
+                    "endTime": "128.100s",
+                    "word": "used"
+                  },
+                  {
+                    "startTime": "128.100s",
+                    "endTime": "128.200s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "128.200s",
+                    "endTime": "128.500s",
+                    "word": "make"
+                  },
+                  {
+                    "startTime": "128.500s",
+                    "endTime": "128.600s",
+                    "word": "them"
+                  },
+                  {
+                    "startTime": "128.600s",
+                    "endTime": "128.800s",
+                    "word": "just"
+                  },
+                  {
+                    "startTime": "128.800s",
+                    "endTime": "129.500s",
+                    "word": "continue"
+                  },
+                  {
+                    "startTime": "129.600s",
+                    "endTime": "129.700s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "129.700s",
+                    "endTime": "129.800s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "129.800s",
+                    "endTime": "130s",
+                    "word": "get"
+                  },
+                  {
+                    "startTime": "130s",
+                    "endTime": "130.400s",
+                    "word": "poly"
+                  },
+                  {
+                    "startTime": "130.400s",
+                    "endTime": "130.800s",
+                    "word": "Aldo's"
+                  },
+                  {
+                    "startTime": "130.800s",
+                    "endTime": "130.900s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "130.900s",
+                    "endTime": "131.100s",
+                    "word": "get"
+                  },
+                  {
+                    "startTime": "131.100s",
+                    "endTime": "131.400s",
+                    "word": "poly"
+                  },
+                  {
+                    "startTime": "131.400s",
+                    "endTime": "132.100s",
+                    "word": "condensation"
+                  },
+                  {
+                    "startTime": "132.100s",
+                    "endTime": "132.700s",
+                    "word": "reactions"
+                  },
+                  {
+                    "startTime": "132.900s",
+                    "endTime": "133s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "133s",
+                    "endTime": "133.100s",
+                    "word": "they"
+                  },
+                  {
+                    "startTime": "133.100s",
+                    "endTime": "133.900s",
+                    "word": "caramelize"
+                  },
+                  {
+                    "startTime": "134.500s",
+                    "endTime": "134.900s",
+                    "word": "or"
+                  },
+                  {
+                    "startTime": "134.900s",
+                    "endTime": "135.200s",
+                    "word": "they"
+                  },
+                  {
+                    "startTime": "135.200s",
+                    "endTime": "136s",
+                    "word": "undergo"
+                  },
+                  {
+                    "startTime": "136s",
+                    "endTime": "136.300s",
+                    "word": "with"
+                  },
+                  {
+                    "startTime": "136.300s",
+                    "endTime": "137.100s",
+                    "word": "formaldehyde"
+                  },
+                  {
+                    "startTime": "137.100s",
+                    "endTime": "137.300s",
+                    "word": "which"
+                  },
+                  {
+                    "startTime": "137.300s",
+                    "endTime": "137.400s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "137.400s",
+                    "endTime": "137.500s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "137.500s",
+                    "endTime": "138.100s",
+                    "word": "presumed"
+                  },
+                  {
+                    "startTime": "138.100s",
+                    "endTime": "138.700s",
+                    "word": "Prebiotic"
+                  },
+                  {
+                    "startTime": "138.700s",
+                    "endTime": "139.300s",
+                    "word": "chemical."
+                  },
+                  {
+                    "startTime": "139.400s",
+                    "endTime": "139.600s",
+                    "word": "They"
+                  },
+                  {
+                    "startTime": "139.600s",
+                    "endTime": "140.100s",
+                    "word": "undergo"
+                  },
+                  {
+                    "startTime": "140.200s",
+                    "endTime": "140.600s",
+                    "word": "rapid"
+                  },
+                  {
+                    "startTime": "140.600s",
+                    "endTime": "141.300s",
+                    "word": "cannizzaro"
+                  },
+                  {
+                    "startTime": "141.300s",
+                    "endTime": "142s",
+                    "word": "reactions."
+                  },
+                  {
+                    "startTime": "142.300s",
+                    "endTime": "142.400s",
+                    "word": "So"
+                  },
+                  {
+                    "startTime": "142.400s",
+                    "endTime": "142.600s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "142.600s",
+                    "endTime": "143.500s",
+                    "word": "aldehyde"
+                  },
+                  {
+                    "startTime": "143.600s",
+                    "endTime": "143.900s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "143.900s",
+                    "endTime": "144.800s",
+                    "word": "oxidized"
+                  },
+                  {
+                    "startTime": "144.800s",
+                    "endTime": "145.500s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "145.500s",
+                    "endTime": "146s",
+                    "word": "formic"
+                  },
+                  {
+                    "startTime": "146s",
+                    "endTime": "146.700s",
+                    "word": "acid"
+                  },
+                  {
+                    "startTime": "146.900s",
+                    "endTime": "147.300s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "147.300s",
+                    "endTime": "147.500s",
+                    "word": "this"
+                  },
+                  {
+                    "startTime": "147.500s",
+                    "endTime": "147.800s",
+                    "word": "nice"
+                  },
+                  {
+                    "startTime": "147.800s",
+                    "endTime": "148.600s",
+                    "word": "carbohydrate"
+                  },
+                  {
+                    "startTime": "148.600s",
+                    "endTime": "148.700s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "148.700s",
+                    "endTime": "148.900s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "148.900s",
+                    "endTime": "149.400s",
+                    "word": "made"
+                  },
+                  {
+                    "startTime": "149.500s",
+                    "endTime": "149.800s",
+                    "word": "has"
+                  },
+                  {
+                    "startTime": "149.800s",
+                    "endTime": "150s",
+                    "word": "just"
+                  },
+                  {
+                    "startTime": "150s",
+                    "endTime": "150.200s",
+                    "word": "been"
+                  },
+                  {
+                    "startTime": "150.200s",
+                    "endTime": "151s",
+                    "word": "reduced."
+                  },
+                  {
+                    "startTime": "151.100s",
+                    "endTime": "151.200s",
+                    "word": "So"
+                  },
+                  {
+                    "startTime": "151.200s",
+                    "endTime": "151.400s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "151.400s",
+                    "endTime": "151.600s",
+                    "word": "so"
+                  },
+                  {
+                    "startTime": "151.600s",
+                    "endTime": "152s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "152s",
+                    "endTime": "152.600s",
+                    "word": "aldehyde"
+                  },
+                  {
+                    "startTime": "152.600s",
+                    "endTime": "152.600s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "152.600s",
+                    "endTime": "152.800s",
+                    "word": "from"
+                  },
+                  {
+                    "startTime": "152.800s",
+                    "endTime": "152.900s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "152.900s",
+                    "endTime": "153.700s",
+                    "word": "carbohydrate"
+                  },
+                  {
+                    "startTime": "153.700s",
+                    "endTime": "153.800s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "153.800s",
+                    "endTime": "154s",
+                    "word": "gone"
+                  },
+                  {
+                    "startTime": "154s",
+                    "endTime": "154.200s",
+                    "word": "back"
+                  },
+                  {
+                    "startTime": "154.200s",
+                    "endTime": "154.300s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "154.300s",
+                    "endTime": "154.400s",
+                    "word": "an"
+                  },
+                  {
+                    "startTime": "154.400s",
+                    "endTime": "155s",
+                    "word": "alcohol."
+                  },
+                  {
+                    "startTime": "155.200s",
+                    "endTime": "155.400s",
+                    "word": "So"
+                  },
+                  {
+                    "startTime": "155.400s",
+                    "endTime": "155.500s",
+                    "word": "there's"
+                  },
+                  {
+                    "startTime": "155.500s",
+                    "endTime": "156.200s",
+                    "word": "competing"
+                  },
+                  {
+                    "startTime": "156.200s",
+                    "endTime": "156.500s",
+                    "word": "reactions."
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": " Shins so time does not solve the issue. The other problem is if you had 400 million years to get to a certain point in a synthesis of a particular class of compounds now, you run out of material.",
+                "confidence": 0.7065132,
+                "words": [
+                  {
+                    "startTime": "156.700s",
+                    "endTime": "157s",
+                    "word": "Shins"
+                  },
+                  {
+                    "startTime": "157.400s",
+                    "endTime": "157.600s",
+                    "word": "so"
+                  },
+                  {
+                    "startTime": "157.600s",
+                    "endTime": "158.100s",
+                    "word": "time"
+                  },
+                  {
+                    "startTime": "158.100s",
+                    "endTime": "158.300s",
+                    "word": "does"
+                  },
+                  {
+                    "startTime": "158.300s",
+                    "endTime": "158.700s",
+                    "word": "not"
+                  },
+                  {
+                    "startTime": "158.700s",
+                    "endTime": "159.100s",
+                    "word": "solve"
+                  },
+                  {
+                    "startTime": "159.100s",
+                    "endTime": "159.300s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "159.300s",
+                    "endTime": "160s",
+                    "word": "issue."
+                  },
+                  {
+                    "startTime": "160.600s",
+                    "endTime": "160.800s",
+                    "word": "The"
+                  },
+                  {
+                    "startTime": "160.800s",
+                    "endTime": "160.900s",
+                    "word": "other"
+                  },
+                  {
+                    "startTime": "160.900s",
+                    "endTime": "161.500s",
+                    "word": "problem"
+                  },
+                  {
+                    "startTime": "161.700s",
+                    "endTime": "162.100s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "162.100s",
+                    "endTime": "162.400s",
+                    "word": "if"
+                  },
+                  {
+                    "startTime": "162.400s",
+                    "endTime": "162.500s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "162.500s",
+                    "endTime": "163s",
+                    "word": "had"
+                  },
+                  {
+                    "startTime": "163s",
+                    "endTime": "163.400s",
+                    "word": "400"
+                  },
+                  {
+                    "startTime": "163.400s",
+                    "endTime": "163.800s",
+                    "word": "million"
+                  },
+                  {
+                    "startTime": "163.800s",
+                    "endTime": "164.300s",
+                    "word": "years"
+                  },
+                  {
+                    "startTime": "164.700s",
+                    "endTime": "164.900s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "164.900s",
+                    "endTime": "165.200s",
+                    "word": "get"
+                  },
+                  {
+                    "startTime": "165.200s",
+                    "endTime": "165.300s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "165.300s",
+                    "endTime": "165.300s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "165.300s",
+                    "endTime": "165.800s",
+                    "word": "certain"
+                  },
+                  {
+                    "startTime": "165.800s",
+                    "endTime": "166.100s",
+                    "word": "point"
+                  },
+                  {
+                    "startTime": "166.100s",
+                    "endTime": "166.200s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "166.200s",
+                    "endTime": "166.300s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "166.300s",
+                    "endTime": "167.100s",
+                    "word": "synthesis"
+                  },
+                  {
+                    "startTime": "167.400s",
+                    "endTime": "167.600s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "167.600s",
+                    "endTime": "167.600s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "167.600s",
+                    "endTime": "168.200s",
+                    "word": "particular"
+                  },
+                  {
+                    "startTime": "168.200s",
+                    "endTime": "168.500s",
+                    "word": "class"
+                  },
+                  {
+                    "startTime": "168.500s",
+                    "endTime": "168.700s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "168.700s",
+                    "endTime": "169.300s",
+                    "word": "compounds"
+                  },
+                  {
+                    "startTime": "169.600s",
+                    "endTime": "169.800s",
+                    "word": "now,"
+                  },
+                  {
+                    "startTime": "169.800s",
+                    "endTime": "169.900s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "169.900s",
+                    "endTime": "170.200s",
+                    "word": "run"
+                  },
+                  {
+                    "startTime": "170.200s",
+                    "endTime": "170.300s",
+                    "word": "out"
+                  },
+                  {
+                    "startTime": "170.300s",
+                    "endTime": "170.400s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "170.400s",
+                    "endTime": "171.200s",
+                    "word": "material."
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": " Anytime you do synthesis, you run out of material, even when you've optimized deals and you got to go back to the beginning. Well say it took you four hundred million years to get to a certain point on a synthesis. Now, you have to go back and make more but how do you go back and make more because nature never kept a laboratory. Notebook never doesn't doesn't know how to go back never kept the record. So even if it could make more it doesn't know how to so it's got to start all over again some but it doesn't know how to start over again.",
+                "confidence": 0.7579708,
+                "words": [
+                  {
+                    "startTime": "173.300s",
+                    "endTime": "173.800s",
+                    "word": "Anytime"
+                  },
+                  {
+                    "startTime": "173.800s",
+                    "endTime": "173.900s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "173.900s",
+                    "endTime": "174.100s",
+                    "word": "do"
+                  },
+                  {
+                    "startTime": "174.100s",
+                    "endTime": "174.600s",
+                    "word": "synthesis,"
+                  },
+                  {
+                    "startTime": "174.600s",
+                    "endTime": "174.800s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "174.800s",
+                    "endTime": "175s",
+                    "word": "run"
+                  },
+                  {
+                    "startTime": "175s",
+                    "endTime": "175.200s",
+                    "word": "out"
+                  },
+                  {
+                    "startTime": "175.200s",
+                    "endTime": "175.300s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "175.300s",
+                    "endTime": "175.900s",
+                    "word": "material,"
+                  },
+                  {
+                    "startTime": "175.900s",
+                    "endTime": "176.200s",
+                    "word": "even"
+                  },
+                  {
+                    "startTime": "176.200s",
+                    "endTime": "176.400s",
+                    "word": "when"
+                  },
+                  {
+                    "startTime": "176.400s",
+                    "endTime": "176.600s",
+                    "word": "you've"
+                  },
+                  {
+                    "startTime": "176.600s",
+                    "endTime": "177.100s",
+                    "word": "optimized"
+                  },
+                  {
+                    "startTime": "177.100s",
+                    "endTime": "177.400s",
+                    "word": "deals"
+                  },
+                  {
+                    "startTime": "177.600s",
+                    "endTime": "177.700s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "177.700s",
+                    "endTime": "177.800s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "177.800s",
+                    "endTime": "177.900s",
+                    "word": "got"
+                  },
+                  {
+                    "startTime": "177.900s",
+                    "endTime": "177.900s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "177.900s",
+                    "endTime": "178.100s",
+                    "word": "go"
+                  },
+                  {
+                    "startTime": "178.100s",
+                    "endTime": "178.300s",
+                    "word": "back"
+                  },
+                  {
+                    "startTime": "178.300s",
+                    "endTime": "178.400s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "178.400s",
+                    "endTime": "178.400s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "178.400s",
+                    "endTime": "179s",
+                    "word": "beginning."
+                  },
+                  {
+                    "startTime": "179.200s",
+                    "endTime": "179.400s",
+                    "word": "Well"
+                  },
+                  {
+                    "startTime": "179.400s",
+                    "endTime": "179.500s",
+                    "word": "say"
+                  },
+                  {
+                    "startTime": "179.500s",
+                    "endTime": "179.700s",
+                    "word": "it"
+                  },
+                  {
+                    "startTime": "179.700s",
+                    "endTime": "179.900s",
+                    "word": "took"
+                  },
+                  {
+                    "startTime": "179.900s",
+                    "endTime": "180s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "180s",
+                    "endTime": "180.200s",
+                    "word": "four"
+                  },
+                  {
+                    "startTime": "180.200s",
+                    "endTime": "180.500s",
+                    "word": "hundred"
+                  },
+                  {
+                    "startTime": "180.500s",
+                    "endTime": "180.800s",
+                    "word": "million"
+                  },
+                  {
+                    "startTime": "180.800s",
+                    "endTime": "181.100s",
+                    "word": "years"
+                  },
+                  {
+                    "startTime": "181.100s",
+                    "endTime": "181.300s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "181.300s",
+                    "endTime": "181.500s",
+                    "word": "get"
+                  },
+                  {
+                    "startTime": "181.500s",
+                    "endTime": "181.600s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "181.600s",
+                    "endTime": "181.700s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "181.700s",
+                    "endTime": "182s",
+                    "word": "certain"
+                  },
+                  {
+                    "startTime": "182s",
+                    "endTime": "182.300s",
+                    "word": "point"
+                  },
+                  {
+                    "startTime": "182.300s",
+                    "endTime": "182.400s",
+                    "word": "on"
+                  },
+                  {
+                    "startTime": "182.400s",
+                    "endTime": "182.400s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "182.400s",
+                    "endTime": "183.200s",
+                    "word": "synthesis."
+                  },
+                  {
+                    "startTime": "184s",
+                    "endTime": "184.100s",
+                    "word": "Now,"
+                  },
+                  {
+                    "startTime": "184.100s",
+                    "endTime": "184.300s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "184.300s",
+                    "endTime": "184.400s",
+                    "word": "have"
+                  },
+                  {
+                    "startTime": "184.400s",
+                    "endTime": "184.500s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "184.500s",
+                    "endTime": "184.600s",
+                    "word": "go"
+                  },
+                  {
+                    "startTime": "184.600s",
+                    "endTime": "184.900s",
+                    "word": "back"
+                  },
+                  {
+                    "startTime": "184.900s",
+                    "endTime": "185s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "185s",
+                    "endTime": "185.200s",
+                    "word": "make"
+                  },
+                  {
+                    "startTime": "185.200s",
+                    "endTime": "185.700s",
+                    "word": "more"
+                  },
+                  {
+                    "startTime": "186.700s",
+                    "endTime": "187s",
+                    "word": "but"
+                  },
+                  {
+                    "startTime": "187s",
+                    "endTime": "187.100s",
+                    "word": "how"
+                  },
+                  {
+                    "startTime": "187.100s",
+                    "endTime": "187.200s",
+                    "word": "do"
+                  },
+                  {
+                    "startTime": "187.200s",
+                    "endTime": "187.300s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "187.300s",
+                    "endTime": "187.400s",
+                    "word": "go"
+                  },
+                  {
+                    "startTime": "187.400s",
+                    "endTime": "187.600s",
+                    "word": "back"
+                  },
+                  {
+                    "startTime": "187.600s",
+                    "endTime": "187.700s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "187.700s",
+                    "endTime": "188s",
+                    "word": "make"
+                  },
+                  {
+                    "startTime": "188s",
+                    "endTime": "188.400s",
+                    "word": "more"
+                  },
+                  {
+                    "startTime": "188.600s",
+                    "endTime": "188.800s",
+                    "word": "because"
+                  },
+                  {
+                    "startTime": "188.800s",
+                    "endTime": "189.500s",
+                    "word": "nature"
+                  },
+                  {
+                    "startTime": "189.600s",
+                    "endTime": "190s",
+                    "word": "never"
+                  },
+                  {
+                    "startTime": "190s",
+                    "endTime": "190.300s",
+                    "word": "kept"
+                  },
+                  {
+                    "startTime": "190.300s",
+                    "endTime": "190.300s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "190.300s",
+                    "endTime": "190.900s",
+                    "word": "laboratory."
+                  },
+                  {
+                    "startTime": "190.900s",
+                    "endTime": "191.600s",
+                    "word": "Notebook"
+                  },
+                  {
+                    "startTime": "192.100s",
+                    "endTime": "192.400s",
+                    "word": "never"
+                  },
+                  {
+                    "startTime": "192.400s",
+                    "endTime": "192.900s",
+                    "word": "doesn't"
+                  },
+                  {
+                    "startTime": "193.100s",
+                    "endTime": "193.400s",
+                    "word": "doesn't"
+                  },
+                  {
+                    "startTime": "193.400s",
+                    "endTime": "193.600s",
+                    "word": "know"
+                  },
+                  {
+                    "startTime": "193.600s",
+                    "endTime": "193.700s",
+                    "word": "how"
+                  },
+                  {
+                    "startTime": "193.700s",
+                    "endTime": "193.800s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "193.800s",
+                    "endTime": "194s",
+                    "word": "go"
+                  },
+                  {
+                    "startTime": "194s",
+                    "endTime": "194.500s",
+                    "word": "back"
+                  },
+                  {
+                    "startTime": "194.700s",
+                    "endTime": "195s",
+                    "word": "never"
+                  },
+                  {
+                    "startTime": "195s",
+                    "endTime": "195.200s",
+                    "word": "kept"
+                  },
+                  {
+                    "startTime": "195.200s",
+                    "endTime": "195.300s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "195.300s",
+                    "endTime": "195.900s",
+                    "word": "record."
+                  },
+                  {
+                    "startTime": "196s",
+                    "endTime": "196.100s",
+                    "word": "So"
+                  },
+                  {
+                    "startTime": "196.100s",
+                    "endTime": "196.300s",
+                    "word": "even"
+                  },
+                  {
+                    "startTime": "196.300s",
+                    "endTime": "196.400s",
+                    "word": "if"
+                  },
+                  {
+                    "startTime": "196.400s",
+                    "endTime": "196.600s",
+                    "word": "it"
+                  },
+                  {
+                    "startTime": "196.600s",
+                    "endTime": "196.900s",
+                    "word": "could"
+                  },
+                  {
+                    "startTime": "196.900s",
+                    "endTime": "197.200s",
+                    "word": "make"
+                  },
+                  {
+                    "startTime": "197.200s",
+                    "endTime": "197.600s",
+                    "word": "more"
+                  },
+                  {
+                    "startTime": "197.800s",
+                    "endTime": "198s",
+                    "word": "it"
+                  },
+                  {
+                    "startTime": "198s",
+                    "endTime": "198.200s",
+                    "word": "doesn't"
+                  },
+                  {
+                    "startTime": "198.200s",
+                    "endTime": "198.400s",
+                    "word": "know"
+                  },
+                  {
+                    "startTime": "198.400s",
+                    "endTime": "198.600s",
+                    "word": "how"
+                  },
+                  {
+                    "startTime": "198.600s",
+                    "endTime": "198.700s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "198.700s",
+                    "endTime": "198.800s",
+                    "word": "so"
+                  },
+                  {
+                    "startTime": "198.800s",
+                    "endTime": "199s",
+                    "word": "it's"
+                  },
+                  {
+                    "startTime": "199s",
+                    "endTime": "199.100s",
+                    "word": "got"
+                  },
+                  {
+                    "startTime": "199.100s",
+                    "endTime": "199.200s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "199.200s",
+                    "endTime": "199.500s",
+                    "word": "start"
+                  },
+                  {
+                    "startTime": "199.500s",
+                    "endTime": "199.700s",
+                    "word": "all"
+                  },
+                  {
+                    "startTime": "199.700s",
+                    "endTime": "199.900s",
+                    "word": "over"
+                  },
+                  {
+                    "startTime": "199.900s",
+                    "endTime": "200.100s",
+                    "word": "again"
+                  },
+                  {
+                    "startTime": "200.100s",
+                    "endTime": "200.400s",
+                    "word": "some"
+                  },
+                  {
+                    "startTime": "200.600s",
+                    "endTime": "200.700s",
+                    "word": "but"
+                  },
+                  {
+                    "startTime": "200.700s",
+                    "endTime": "200.900s",
+                    "word": "it"
+                  },
+                  {
+                    "startTime": "200.900s",
+                    "endTime": "201.100s",
+                    "word": "doesn't"
+                  },
+                  {
+                    "startTime": "201.100s",
+                    "endTime": "201.300s",
+                    "word": "know"
+                  },
+                  {
+                    "startTime": "201.300s",
+                    "endTime": "201.400s",
+                    "word": "how"
+                  },
+                  {
+                    "startTime": "201.400s",
+                    "endTime": "201.500s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "201.500s",
+                    "endTime": "201.800s",
+                    "word": "start"
+                  },
+                  {
+                    "startTime": "201.800s",
+                    "endTime": "202s",
+                    "word": "over"
+                  },
+                  {
+                    "startTime": "202s",
+                    "endTime": "202.100s",
+                    "word": "again."
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": " When doesn't know why they start over again because it's doesn't know what it's going toward.",
+                "confidence": 0.76803374,
+                "words": [
+                  {
+                    "startTime": "202.200s",
+                    "endTime": "202.400s",
+                    "word": "When"
+                  },
+                  {
+                    "startTime": "202.500s",
+                    "endTime": "202.800s",
+                    "word": "doesn't"
+                  },
+                  {
+                    "startTime": "202.800s",
+                    "endTime": "203s",
+                    "word": "know"
+                  },
+                  {
+                    "startTime": "203s",
+                    "endTime": "203.200s",
+                    "word": "why"
+                  },
+                  {
+                    "startTime": "203.200s",
+                    "endTime": "203.400s",
+                    "word": "they"
+                  },
+                  {
+                    "startTime": "203.400s",
+                    "endTime": "203.700s",
+                    "word": "start"
+                  },
+                  {
+                    "startTime": "203.700s",
+                    "endTime": "203.900s",
+                    "word": "over"
+                  },
+                  {
+                    "startTime": "203.900s",
+                    "endTime": "204.300s",
+                    "word": "again"
+                  },
+                  {
+                    "startTime": "204.400s",
+                    "endTime": "204.700s",
+                    "word": "because"
+                  },
+                  {
+                    "startTime": "204.700s",
+                    "endTime": "204.900s",
+                    "word": "it's"
+                  },
+                  {
+                    "startTime": "204.900s",
+                    "endTime": "205.200s",
+                    "word": "doesn't"
+                  },
+                  {
+                    "startTime": "205.200s",
+                    "endTime": "205.400s",
+                    "word": "know"
+                  },
+                  {
+                    "startTime": "205.400s",
+                    "endTime": "205.600s",
+                    "word": "what"
+                  },
+                  {
+                    "startTime": "205.600s",
+                    "endTime": "205.800s",
+                    "word": "it's"
+                  },
+                  {
+                    "startTime": "205.800s",
+                    "endTime": "206.100s",
+                    "word": "going"
+                  },
+                  {
+                    "startTime": "206.100s",
+                    "endTime": "206.700s",
+                    "word": "toward."
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {}
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {}
+            ],
+            "languageCode": "en-us"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 
 var myArgs = process.argv.slice(2);
 if (myArgs.length !== 2) {
-    console.error('Usage: node parse.js sub.json sub_line.json ');
+    console.error('Usage: node parse.js [raw subtitle json file] [subtitle control json file] ');
 }
 
 fs = require('fs');

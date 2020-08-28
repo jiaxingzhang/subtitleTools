@@ -1,69 +1,3 @@
-{ startTime: '0s', endTime: '0.200s', word: 'From' }
-{ startTime: '3.300s', endTime: '3.600s', word: 'He' }
-{ startTime: '5.600s', endTime: '5.900s', word: 'and' }
-{ startTime: '7.700s', endTime: '7.800s', word: 'in' }
-{ startTime: '11.400s', endTime: '11.700s', word: 'here' }
-{ startTime: '15.100s', endTime: '15.200s', word: 'and' }
-{ startTime: '18.500s', endTime: '18.800s', word: 'Darwin' }
-{ startTime: '21.100s', endTime: '21.200s', word: 'when' }
-{ startTime: '23.800s', endTime: '24.100s', word: 'read' }
-{ startTime: '27s', endTime: '27.700s', word: 'intermediate' }
-{ startTime: '30s', endTime: '30.500s', word: 'Galloped' }
-{ startTime: '33.400s', endTime: '33.800s', word: 'all' }
-{ startTime: '36.100s', endTime: '36.300s', word: 'may' }
-{ startTime: '39.300s', endTime: '39.500s', word: 'So' }
-{ startTime: '45.300s', endTime: '45.700s', word: 'that' }
-{ startTime: '49.600s', endTime: '49.900s', word: 'Now,' }
-{ startTime: '52.400s', endTime: '52.700s', word: 'kingdom' }
-{ startTime: '55.600s', endTime: '55.800s', word: 'we' }
-{ startTime: '60s', endTime: '60.200s', word: 'Lots' }
-{ startTime: '63.600s', endTime: '63.900s', word: 'really' }
-{ startTime: '68.200s', endTime: '68.400s', word: "There's" }
-{ startTime: '72s', endTime: '72.100s', word: 'you' }
-{ startTime: '75.500s', endTime: '76.400s', word: 'creationists' }
-{ startTime: '79s', endTime: '79.200s', word: 'In' }
-{ startTime: '84s', endTime: '84.600s', word: "Fincher's" }
-{ startTime: '86.600s', endTime: '87s', word: 'particularly' }
-{ startTime: '89.900s', endTime: '90.100s', word: 'For' }
-{ startTime: '93.100s', endTime: '93.300s', word: 'because' }
-{ startTime: '98s', endTime: '98.200s', word: 'And' }
-{ startTime: '101.200s', endTime: '101.500s', word: 'but' }
-{ startTime: '105.500s', endTime: '105.700s', word: 'for' }
-{ startTime: '108.400s', endTime: '108.900s', word: 'Okay' }
-{ startTime: '112.500s', endTime: '113.100s', word: 'scientists' }
-{ startTime: '116.700s', endTime: '116.900s', word: 'we' }
-{ startTime: '120s', endTime: '120.200s', word: 'For' }
-{ startTime: '123.200s', endTime: '123.500s', word: 'dog' }
-{ startTime: '128.200s', endTime: '128.200s', word: 'they' }
-{ startTime: '130.200s', endTime: '130.400s', word: 'By' }
-{ startTime: '134.500s', endTime: '135.100s', word: 'creationist' }
-{ startTime: '138.500s', endTime: '138.600s', word: 'In' }
-{ startTime: '141.500s', endTime: '141.600s', word: 'the' }
-{ startTime: '143.100s', endTime: '143.200s', word: 'And' }
-{ startTime: '146.800s', endTime: '147s', word: 'Well' }
-{ startTime: '149.900s', endTime: '150.200s', word: 'Are' }
-{ startTime: '152.200s', endTime: '152.600s', word: 'students' }
-{ startTime: '155.500s', endTime: '155.600s', word: 'The' }
-{ startTime: '159.900s', endTime: '160s', word: 'Let' }
-{ startTime: '161.800s', endTime: '161.900s', word: 'The' }
-{ startTime: '165.400s', endTime: '165.500s', word: 'we' }
-{ startTime: '167.800s', endTime: '168s', word: "it's" }
-{ startTime: '170.900s', endTime: '171.100s', word: 'and' }
-{ startTime: '175.600s', endTime: '175.700s', word: 'Let' }
-{ startTime: '177s', endTime: '177.200s', word: 'because' }
-{ startTime: '180s', endTime: '180.500s', word: 'Institute' }
-{ startTime: '183.700s', endTime: '183.900s', word: 'but' }
-{ startTime: '186.100s', endTime: '186.300s', word: 'goes' }
-{ startTime: '188.300s', endTime: '188.600s', word: 'look' }
-{ startTime: '192.200s', endTime: '192.400s', word: 'now,' }
-{ startTime: '194s', endTime: '194.100s', word: 'you' }
-{ startTime: '196.800s', endTime: '196.900s', word: 'but' }
-{ startTime: '199s', endTime: '199.100s', word: 'but' }
-{ startTime: '200.500s', endTime: '200.600s', word: 'You' }
-{ startTime: '203s', endTime: '203.600s', word: "That's" }
-{ startTime: '207.300s', endTime: '207.400s', word: 'but' }
-{ startTime: '209.900s', endTime: '210.200s', word: 'Observe' }
-{ startTime: '213.300s', endTime: '213.900s', word: 'but' }
 1
 00:00:00,000 --> 00:00:03,000
 From the specimens that Darwin obtained in the Galapagos.
@@ -76,321 +10,336 @@ He actually handed these things
 
 3
 00:00:06,000 --> 00:00:07,000
-and how do you explain this and
+and how do you explain this
 
 
 4
-00:00:08,000 --> 00:00:11,000
-in his notes actually, he came up with this diagram
+00:00:07,000 --> 00:00:09,000
+and in his notes actually,
 
 
 5
-00:00:11,000 --> 00:00:15,000
-here a tree he was talking about different species
+00:00:09,000 --> 00:00:13,000
+he came up with this diagram here a tree and
 
 
 6
-00:00:15,000 --> 00:00:18,000
-and maybe maybe those species came from some common ancestor
+00:00:13,000 --> 00:00:17,000
+he actually said I think so.
 
 
 7
-00:00:19,000 --> 00:00:21,000
-Darwin had a much bigger picture in mind
+00:00:17,000 --> 00:00:19,000
+He was talking about different species
 
 
 8
-00:00:21,000 --> 00:00:24,000
-when you look at the Origin of Species and and
+00:00:19,000 --> 00:00:22,000
+and maybe maybe those species came from some common ancestor.
 
 
 9
-00:00:24,000 --> 00:00:27,000
-read that book you'll find he made this statement from such low and
+00:00:22,000 --> 00:00:25,000
+Actually when it comes to finches we actually would agree.
 
 
 10
-00:00:27,000 --> 00:00:30,000
-intermediate form both animals and plants may have been
+00:00:25,000 --> 00:00:30,000
+It's creationists that different fish species came from a common ancestor, but a finch
 
 
 11
 00:01:30,000 --> 00:01:33,000
- Galloped and if we admit this we must likewise admit that
+ CH is what they would have to come from which
 
 
 12
-00:01:33,000 --> 00:01:36,000
-all organic beans which have ever lived on this Earth
+00:01:33,000 --> 00:01:37,000
+see Darwin wasn't just thinking about species
 
 
 13
-00:01:36,000 --> 00:01:39,000
-may be descended from some one primordial form.
+00:01:37,000 --> 00:01:39,000
+Darwin had a much bigger picture in mind
 
 
 14
-00:01:39,000 --> 00:01:45,000
-So he had in mind what we today know as an evolutionary tree of life
+00:01:40,000 --> 00:01:42,000
+when you look at the Origin of Species
 
 
 15
-00:01:45,000 --> 00:01:49,000
-that all life has arisen from some primordial form.
+00:01:42,000 --> 00:01:45,000
+and and read that book you'll find he made this statement
 
 
 16
-00:01:50,000 --> 00:01:52,000
-Now, when you consider the classification system
+00:01:45,000 --> 00:01:47,000
+from such a low and intermediate form both animals and
 
 
 17
-00:01:52,000 --> 00:01:55,000
-kingdom phylum class order family genus species,
+00:01:47,000 --> 00:01:49,000
+plants may have been developed.
 
 
 18
-00:01:56,000 --> 00:01:60,000
-we would say as creationists and we have many creation scientists have researched this and
+00:01:49,000 --> 00:01:52,000
+And if we admit this we must likewise admit that
 
 
 19
-00:01:00,000 --> 00:01:03,000
- Lots of reasons I would say the kind in Genesis 1
+00:01:52,000 --> 00:01:55,000
+all organic beans which have ever lived on this Earth
 
 
 20
-00:01:04,000 --> 00:01:08,000
-really is more at the family level of classification for instance is one dog kind.
+00:01:55,000 --> 00:01:58,000
+may be descended from some one primordial form.
 
 
 21
-00:01:08,000 --> 00:01:12,000
-There's one cat kind even though you have different generate different species and
+00:01:58,000 --> 00:01:60,000
+So he had in mind what we
 
 
 22
-00:01:12,000 --> 00:01:16,000
-you see based on the biblical account there in Genesis 1
+00:01:00,000 --> 00:01:04,000
+ Today know as an evolutionary tree of life that
 
 
 23
-00:01:16,000 --> 00:01:19,000
-creationists have drawn up what they believe is a creation Orchard.
+00:01:04,000 --> 00:01:07,000
+all life has arisen from some primordial form.
 
 
 24
-00:01:19,000 --> 00:01:24,000
-In other words, they're saying look there's great variation in the genetics of dogs and
+00:01:08,000 --> 00:01:11,000
+Now, when you consider the classification system
 
 
 25
-00:01:24,000 --> 00:01:27,000
-Fincher's and so on and so over time
+00:01:11,000 --> 00:01:13,000
+kingdom phylum class order family genus species,
 
 
 26
-00:01:27,000 --> 00:01:30,000
-particularly after Noah's flood you'd expect if there were two dogs.
+00:01:14,000 --> 00:01:16,000
+we would say as creationists and
 
 
 27
-00:01:30,000 --> 00:02:33,000
- For instance, you could end up with different species of dogs as
+00:01:16,000 --> 00:01:18,000
+we have many creation scientists have researched this
 
 
 28
-00:02:33,000 --> 00:02:38,000
-because there's an incredible amount of variability in the genes of any creature.
+00:01:18,000 --> 00:01:19,000
+and for lots of reasons,
 
 
 29
-00:02:38,000 --> 00:02:41,000
-And so you'd expect these different species up here,
+00:01:19,000 --> 00:01:22,000
+I would say the kind in Genesis 1 really is
 
 
 30
-00:02:41,000 --> 00:02:45,000
-but there's limits dogs will always be dogs finches will always be Fincher's
+00:01:22,000 --> 00:01:25,000
+more at the family level of classification
 
 
 31
-00:02:46,000 --> 00:02:48,000
-for instance take dogs. 
+00:01:25,000 --> 00:01:27,000
+for instance is one dog kind and
 
 
 32
-00:02:48,000 --> 00:02:52,000
-Okay in a scientific paper dated January 2014
+00:01:27,000 --> 00:01:30,000
+you see based on the biblical account there in Genesis.
 
 
 33
-00:02:53,000 --> 00:02:56,000
-scientists working at the University of California stated this
+00:01:30,000 --> 00:02:32,000
+ This one creationists have drawn up.
 
 
 34
-00:02:57,000 --> 00:02:60,000
-we provide several lines of evidence supporting a single origin.
+00:02:32,000 --> 00:02:34,000
+What they believe is a creation Orchard.
 
 
 35
-00:02:00,000 --> 00:02:03,000
- For dogs and disfavoring alternative models in which
+00:02:34,000 --> 00:02:35,000
+In other words, they're saying
 
 
 36
-00:02:03,000 --> 00:02:08,000
-dog lineages arise separately from geographically distinct wolf populations and
+00:02:35,000 --> 00:02:39,000
+look there's great variation in the genetics of dogs
 
 
 37
-00:02:08,000 --> 00:02:10,000
-they put this diagram in the paper.
+00:02:39,000 --> 00:02:41,000
+and Fincher's and so on and so over time
 
 
 38
-00:02:10,000 --> 00:02:15,000
-By the way, that diagram is very very similar to this diagram that
+00:02:41,000 --> 00:02:44,000
+particularly after Noah's flood you'd expect
 
 
 39
-00:02:15,000 --> 00:02:18,000
-creationist proposed based upon the creation account in Genesis. 
+00:02:44,000 --> 00:02:48,000
+if there were two dogs for instance you could end up with different species of dogs
 
 
 40
-00:02:19,000 --> 00:02:21,000
-In other words. You have a common dog ancestor to gives rise to
+00:02:48,000 --> 00:02:53,000
+as because there's an incredible amount of variability in the genes of any creature and
 
 
 41
-00:02:22,000 --> 00:02:23,000
-the different species of dogs.
+00:02:53,000 --> 00:02:56,000
+so you'd expect these different species up here,
 
 
 42
-00:02:23,000 --> 00:02:27,000
-And that's exactly what we're saying here yet the dogs.
+00:02:56,000 --> 00:02:60,000
+but there's limits dogs will always be dogs finches will always be finches.
 
 
 43
-00:02:27,000 --> 00:02:30,000
-Well that's never used as an example of evolution. But the finches
+00:02:00,000 --> 00:02:03,000
+ For instance take dogs.
 
 
 44
-00:02:30,000 --> 00:03:32,000
- Are particularly in the public school textbooks
+00:02:03,000 --> 00:02:07,000
+Okay in a scientific paper dated January 2014
 
 
 45
-00:03:32,000 --> 00:03:35,000
-students are taught are see the changes that are occurring here.
+00:02:07,000 --> 00:02:11,000
+scientists working at the University of California stated this
 
 
 46
-00:03:36,000 --> 00:03:40,000
-The word Evolution has been hijacked using what I call a bait and switch.
+00:02:12,000 --> 00:02:16,000
+we provide several lines of evidence supporting a single origin for dogs and
 
 
 47
-00:03:40,000 --> 00:03:41,000
-Let me explain to you.
+00:02:16,000 --> 00:02:18,000
+disfavoring alternative models in which
 
 
 48
-00:03:42,000 --> 00:03:45,000
-The word evolution is being used in public school textbooks and
+00:02:18,000 --> 00:02:23,000
+dog lineages arise separately from geographically distinct wolf populations,
 
 
 49
-00:03:45,000 --> 00:03:47,000
-we often see it in documentaries and so on
+00:02:23,000 --> 00:02:25,000
+and they put this diagram in the paper.
 
 
 50
-00:03:48,000 --> 00:03:51,000
-it's used for observable changes that we would agree with
+00:02:25,000 --> 00:02:30,000
+By the way. That diagram is very very similar to this diagram that creationists.
 
 
 51
-00:03:51,000 --> 00:03:55,000
-and then use for unobservable changes such as molecules to man.
+00:03:30,000 --> 00:03:33,000
+ Pose based upon the creation account in Genesis.
 
 
 52
-00:03:56,000 --> 00:03:57,000
-Let me explain to you what's really going on
+00:03:33,000 --> 00:03:38,000
+In other words, you have a common dog ancestor to gives rise to the different species of dogs.
 
 
 53
-00:03:57,000 --> 00:03:60,000
-because I was a science teacher in the public schools and ceased
+00:03:38,000 --> 00:03:40,000
+And that's exactly what we're saying here.
 
 
 54
-00:03:00,000 --> 00:03:04,000
- Institute today look there's all these different animals plants,
+00:03:40,000 --> 00:03:44,000
+The word Evolution has been hijacked using what I call a bait and switch.
 
 
 55
-00:03:04,000 --> 00:03:06,000
-but they're all part of this great big tree of life that
+00:03:45,000 --> 00:03:50,000
+Let me explain to you the word evolution is being used in public school textbooks and
 
 
 56
-00:03:06,000 --> 00:03:08,000
-goes back to some primordial form and
+00:03:50,000 --> 00:03:52,000
+we often see it and documentaries and so on
 
 
 57
-00:03:08,000 --> 00:03:12,000
-look we see changes changes in Ventures changes in dogs and so on
+00:03:53,000 --> 00:03:55,000
+it's used for observable changes that
 
 
 58
-00:03:12,000 --> 00:03:14,000
-now, we don't deny the changes you see that
+00:03:55,000 --> 00:03:60,000
+we would agree with and then use for unobservable changes such as molecules to man.
 
 
 59
-00:03:14,000 --> 00:03:16,000
-you see different species of finches different species of dogs,
+00:03:00,000 --> 00:03:02,000
+ See students are taught today.
 
 
 60
-00:03:17,000 --> 00:03:19,000
-but then they put it all together in this evolutionary tree,
+00:03:02,000 --> 00:03:04,000
+Look there's all these different animals plants,
 
 
 61
-00:03:19,000 --> 00:03:20,000
-but that's what you don't observe.
+00:03:05,000 --> 00:03:07,000
+but they're all part of this great big tree of life
 
 
 62
-00:03:21,000 --> 00:03:23,000
-You don't observe that that's belief there.
+00:03:07,000 --> 00:03:09,000
+that goes back to some primordial form
 
 
 63
-00:03:23,000 --> 00:03:27,000
-That's their historical science that I would say was wrong,
+00:03:09,000 --> 00:03:13,000
+and look we see changes changes in Ventures changes in dogs and so on
 
 
 64
-00:03:27,000 --> 00:03:30,000
-but you know what you do observe you do observe.
+00:03:13,000 --> 00:03:14,000
+now, we don't deny the changes.
 
 
 65
-00:03:30,000 --> 00:04:33,000
- Observe different species of dogs different species of finches,
+00:03:14,000 --> 00:03:17,000
+You see that you see different species of finches different species of dogs,
 
 
 66
-00:04:33,000 --> 00:04:37,000
-but then there are limits and you don't see one kind changing into another.
+00:03:18,000 --> 00:03:20,000
+but then they put it all together in this evolutionary tree,
+
+
+67
+00:03:20,000 --> 00:03:21,000
+but that's what you don't observe.
+
+
+68
+00:03:21,000 --> 00:03:24,000
+You don't observe that that's belief there.
+
+
+69
+00:03:24,000 --> 00:03:28,000
+That's their historical science that I would say was wrong.
 
 

@@ -1,0 +1,3407 @@
+{
+  "name": "projects/637000999429/locations/us-east1/operations/8343352909789249383",
+  "metadata": {
+    "@type": "type.googleapis.com/google.cloud.videointelligence.v1.AnnotateVideoProgress",
+    "annotationProgress": [
+      {
+        "inputUri": "/washer/Ken_Ham.mp4",
+        "progressPercent": 100,
+        "startTime": "2020-08-28T05:33:45.506943Z",
+        "updateTime": "2020-08-28T05:35:06.359215Z"
+      }
+    ]
+  },
+  "done": true,
+  "response": {
+    "@type": "type.googleapis.com/google.cloud.videointelligence.v1.AnnotateVideoResponse",
+    "annotationResults": [
+      {
+        "inputUri": "/washer/Ken_Ham.mp4",
+        "segment": {
+          "startTimeOffset": "0s",
+          "endTimeOffset": "217.514666s"
+        },
+        "speechTranscriptions": [
+          {
+            "alternatives": [
+              {
+                "transcript": "From the specimens that Darwin obtained in the Galapagos. He actually handed these things and how do you explain this and in his notes actually, he came up with this diagram here a tree he was talking about different species and maybe maybe those species came from some common ancestor Darwin had a much bigger picture in mind when you look at the Origin of Species and and read that book you'll find he made this statement from such low and intermediate form both animals and plants may have been",
+                "confidence": 0.909475,
+                "words": [
+                  {
+                    "startTime": "0s",
+                    "endTime": "0.200s",
+                    "word": "From"
+                  },
+                  {
+                    "startTime": "0.200s",
+                    "endTime": "0.300s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "0.300s",
+                    "endTime": "0.800s",
+                    "word": "specimens"
+                  },
+                  {
+                    "startTime": "0.800s",
+                    "endTime": "0.900s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "0.900s",
+                    "endTime": "1.500s",
+                    "word": "Darwin"
+                  },
+                  {
+                    "startTime": "1.500s",
+                    "endTime": "2.100s",
+                    "word": "obtained"
+                  },
+                  {
+                    "startTime": "2.100s",
+                    "endTime": "2.100s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "2.100s",
+                    "endTime": "2.200s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "2.200s",
+                    "endTime": "2.900s",
+                    "word": "Galapagos."
+                  },
+                  {
+                    "startTime": "3.300s",
+                    "endTime": "3.600s",
+                    "word": "He"
+                  },
+                  {
+                    "startTime": "3.600s",
+                    "endTime": "4.200s",
+                    "word": "actually"
+                  },
+                  {
+                    "startTime": "4.500s",
+                    "endTime": "4.900s",
+                    "word": "handed"
+                  },
+                  {
+                    "startTime": "4.900s",
+                    "endTime": "5.200s",
+                    "word": "these"
+                  },
+                  {
+                    "startTime": "5.200s",
+                    "endTime": "5.600s",
+                    "word": "things"
+                  },
+                  {
+                    "startTime": "5.600s",
+                    "endTime": "5.900s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "5.900s",
+                    "endTime": "6s",
+                    "word": "how"
+                  },
+                  {
+                    "startTime": "6s",
+                    "endTime": "6.100s",
+                    "word": "do"
+                  },
+                  {
+                    "startTime": "6.100s",
+                    "endTime": "6.200s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "6.200s",
+                    "endTime": "6.700s",
+                    "word": "explain"
+                  },
+                  {
+                    "startTime": "6.700s",
+                    "endTime": "7.100s",
+                    "word": "this"
+                  },
+                  {
+                    "startTime": "7.100s",
+                    "endTime": "7.400s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "7.700s",
+                    "endTime": "7.800s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "7.800s",
+                    "endTime": "8s",
+                    "word": "his"
+                  },
+                  {
+                    "startTime": "8s",
+                    "endTime": "8.500s",
+                    "word": "notes"
+                  },
+                  {
+                    "startTime": "8.500s",
+                    "endTime": "9.100s",
+                    "word": "actually,"
+                  },
+                  {
+                    "startTime": "9.300s",
+                    "endTime": "9.400s",
+                    "word": "he"
+                  },
+                  {
+                    "startTime": "9.400s",
+                    "endTime": "9.700s",
+                    "word": "came"
+                  },
+                  {
+                    "startTime": "9.700s",
+                    "endTime": "10s",
+                    "word": "up"
+                  },
+                  {
+                    "startTime": "10s",
+                    "endTime": "10.300s",
+                    "word": "with"
+                  },
+                  {
+                    "startTime": "10.300s",
+                    "endTime": "10.700s",
+                    "word": "this"
+                  },
+                  {
+                    "startTime": "10.800s",
+                    "endTime": "11.400s",
+                    "word": "diagram"
+                  },
+                  {
+                    "startTime": "11.400s",
+                    "endTime": "11.700s",
+                    "word": "here"
+                  },
+                  {
+                    "startTime": "11.700s",
+                    "endTime": "11.800s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "11.800s",
+                    "endTime": "12.300s",
+                    "word": "tree"
+                  },
+                  {
+                    "startTime": "13s",
+                    "endTime": "13.200s",
+                    "word": "he"
+                  },
+                  {
+                    "startTime": "13.200s",
+                    "endTime": "13.300s",
+                    "word": "was"
+                  },
+                  {
+                    "startTime": "13.300s",
+                    "endTime": "13.600s",
+                    "word": "talking"
+                  },
+                  {
+                    "startTime": "13.600s",
+                    "endTime": "14.200s",
+                    "word": "about"
+                  },
+                  {
+                    "startTime": "14.200s",
+                    "endTime": "14.500s",
+                    "word": "different"
+                  },
+                  {
+                    "startTime": "14.500s",
+                    "endTime": "15.100s",
+                    "word": "species"
+                  },
+                  {
+                    "startTime": "15.100s",
+                    "endTime": "15.200s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "15.200s",
+                    "endTime": "15.700s",
+                    "word": "maybe"
+                  },
+                  {
+                    "startTime": "15.900s",
+                    "endTime": "16.100s",
+                    "word": "maybe"
+                  },
+                  {
+                    "startTime": "16.100s",
+                    "endTime": "16.200s",
+                    "word": "those"
+                  },
+                  {
+                    "startTime": "16.200s",
+                    "endTime": "16.700s",
+                    "word": "species"
+                  },
+                  {
+                    "startTime": "16.700s",
+                    "endTime": "17s",
+                    "word": "came"
+                  },
+                  {
+                    "startTime": "17s",
+                    "endTime": "17.300s",
+                    "word": "from"
+                  },
+                  {
+                    "startTime": "17.300s",
+                    "endTime": "17.500s",
+                    "word": "some"
+                  },
+                  {
+                    "startTime": "17.500s",
+                    "endTime": "17.800s",
+                    "word": "common"
+                  },
+                  {
+                    "startTime": "17.800s",
+                    "endTime": "18.400s",
+                    "word": "ancestor"
+                  },
+                  {
+                    "startTime": "18.500s",
+                    "endTime": "18.800s",
+                    "word": "Darwin"
+                  },
+                  {
+                    "startTime": "18.800s",
+                    "endTime": "19s",
+                    "word": "had"
+                  },
+                  {
+                    "startTime": "19s",
+                    "endTime": "19.100s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "19.100s",
+                    "endTime": "19.500s",
+                    "word": "much"
+                  },
+                  {
+                    "startTime": "19.500s",
+                    "endTime": "19.800s",
+                    "word": "bigger"
+                  },
+                  {
+                    "startTime": "19.800s",
+                    "endTime": "20.200s",
+                    "word": "picture"
+                  },
+                  {
+                    "startTime": "20.200s",
+                    "endTime": "20.300s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "20.300s",
+                    "endTime": "20.800s",
+                    "word": "mind"
+                  },
+                  {
+                    "startTime": "21.100s",
+                    "endTime": "21.200s",
+                    "word": "when"
+                  },
+                  {
+                    "startTime": "21.200s",
+                    "endTime": "21.300s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "21.300s",
+                    "endTime": "21.500s",
+                    "word": "look"
+                  },
+                  {
+                    "startTime": "21.500s",
+                    "endTime": "21.900s",
+                    "word": "at"
+                  },
+                  {
+                    "startTime": "22s",
+                    "endTime": "22.100s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "22.100s",
+                    "endTime": "22.400s",
+                    "word": "Origin"
+                  },
+                  {
+                    "startTime": "22.400s",
+                    "endTime": "22.400s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "22.400s",
+                    "endTime": "23.100s",
+                    "word": "Species"
+                  },
+                  {
+                    "startTime": "23.100s",
+                    "endTime": "23.400s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "23.400s",
+                    "endTime": "23.800s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "23.800s",
+                    "endTime": "24.100s",
+                    "word": "read"
+                  },
+                  {
+                    "startTime": "24.100s",
+                    "endTime": "24.300s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "24.300s",
+                    "endTime": "24.600s",
+                    "word": "book"
+                  },
+                  {
+                    "startTime": "24.600s",
+                    "endTime": "24.800s",
+                    "word": "you'll"
+                  },
+                  {
+                    "startTime": "24.800s",
+                    "endTime": "25s",
+                    "word": "find"
+                  },
+                  {
+                    "startTime": "25s",
+                    "endTime": "25.100s",
+                    "word": "he"
+                  },
+                  {
+                    "startTime": "25.100s",
+                    "endTime": "25.300s",
+                    "word": "made"
+                  },
+                  {
+                    "startTime": "25.300s",
+                    "endTime": "25.500s",
+                    "word": "this"
+                  },
+                  {
+                    "startTime": "25.500s",
+                    "endTime": "26.100s",
+                    "word": "statement"
+                  },
+                  {
+                    "startTime": "26.100s",
+                    "endTime": "26.400s",
+                    "word": "from"
+                  },
+                  {
+                    "startTime": "26.400s",
+                    "endTime": "26.600s",
+                    "word": "such"
+                  },
+                  {
+                    "startTime": "26.600s",
+                    "endTime": "26.900s",
+                    "word": "low"
+                  },
+                  {
+                    "startTime": "26.900s",
+                    "endTime": "27s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "27s",
+                    "endTime": "27.700s",
+                    "word": "intermediate"
+                  },
+                  {
+                    "startTime": "27.700s",
+                    "endTime": "28.100s",
+                    "word": "form"
+                  },
+                  {
+                    "startTime": "28.100s",
+                    "endTime": "28.300s",
+                    "word": "both"
+                  },
+                  {
+                    "startTime": "28.300s",
+                    "endTime": "28.800s",
+                    "word": "animals"
+                  },
+                  {
+                    "startTime": "28.800s",
+                    "endTime": "28.900s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "28.900s",
+                    "endTime": "29.300s",
+                    "word": "plants"
+                  },
+                  {
+                    "startTime": "29.300s",
+                    "endTime": "29.400s",
+                    "word": "may"
+                  },
+                  {
+                    "startTime": "29.400s",
+                    "endTime": "29.500s",
+                    "word": "have"
+                  },
+                  {
+                    "startTime": "29.500s",
+                    "endTime": "29.900s",
+                    "word": "been"
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": " Galloped and if we admit this we must likewise admit that all organic beans which have ever lived on this Earth may be descended from some one primordial form. So he had in mind what we today know as an evolutionary tree of life that all life has arisen from some primordial form. Now, when you consider the classification system kingdom phylum class order family genus species, we would say as creationists and we have many creation scientists have researched this and",
+                "confidence": 0.90978855,
+                "words": [
+                  {
+                    "startTime": "30s",
+                    "endTime": "30.500s",
+                    "word": "Galloped"
+                  },
+                  {
+                    "startTime": "30.500s",
+                    "endTime": "30.600s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "30.600s",
+                    "endTime": "30.800s",
+                    "word": "if"
+                  },
+                  {
+                    "startTime": "30.800s",
+                    "endTime": "30.900s",
+                    "word": "we"
+                  },
+                  {
+                    "startTime": "30.900s",
+                    "endTime": "31.300s",
+                    "word": "admit"
+                  },
+                  {
+                    "startTime": "31.300s",
+                    "endTime": "31.700s",
+                    "word": "this"
+                  },
+                  {
+                    "startTime": "31.900s",
+                    "endTime": "32.100s",
+                    "word": "we"
+                  },
+                  {
+                    "startTime": "32.100s",
+                    "endTime": "32.300s",
+                    "word": "must"
+                  },
+                  {
+                    "startTime": "32.300s",
+                    "endTime": "32.800s",
+                    "word": "likewise"
+                  },
+                  {
+                    "startTime": "32.800s",
+                    "endTime": "33.100s",
+                    "word": "admit"
+                  },
+                  {
+                    "startTime": "33.100s",
+                    "endTime": "33.400s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "33.400s",
+                    "endTime": "33.800s",
+                    "word": "all"
+                  },
+                  {
+                    "startTime": "33.800s",
+                    "endTime": "34.200s",
+                    "word": "organic"
+                  },
+                  {
+                    "startTime": "34.200s",
+                    "endTime": "34.600s",
+                    "word": "beans"
+                  },
+                  {
+                    "startTime": "34.600s",
+                    "endTime": "34.800s",
+                    "word": "which"
+                  },
+                  {
+                    "startTime": "34.800s",
+                    "endTime": "35s",
+                    "word": "have"
+                  },
+                  {
+                    "startTime": "35s",
+                    "endTime": "35.200s",
+                    "word": "ever"
+                  },
+                  {
+                    "startTime": "35.200s",
+                    "endTime": "35.500s",
+                    "word": "lived"
+                  },
+                  {
+                    "startTime": "35.500s",
+                    "endTime": "35.600s",
+                    "word": "on"
+                  },
+                  {
+                    "startTime": "35.600s",
+                    "endTime": "35.900s",
+                    "word": "this"
+                  },
+                  {
+                    "startTime": "35.900s",
+                    "endTime": "36.100s",
+                    "word": "Earth"
+                  },
+                  {
+                    "startTime": "36.100s",
+                    "endTime": "36.300s",
+                    "word": "may"
+                  },
+                  {
+                    "startTime": "36.300s",
+                    "endTime": "36.400s",
+                    "word": "be"
+                  },
+                  {
+                    "startTime": "36.400s",
+                    "endTime": "37s",
+                    "word": "descended"
+                  },
+                  {
+                    "startTime": "37s",
+                    "endTime": "37.200s",
+                    "word": "from"
+                  },
+                  {
+                    "startTime": "37.200s",
+                    "endTime": "37.600s",
+                    "word": "some"
+                  },
+                  {
+                    "startTime": "37.900s",
+                    "endTime": "38.300s",
+                    "word": "one"
+                  },
+                  {
+                    "startTime": "38.300s",
+                    "endTime": "39s",
+                    "word": "primordial"
+                  },
+                  {
+                    "startTime": "39s",
+                    "endTime": "39.300s",
+                    "word": "form."
+                  },
+                  {
+                    "startTime": "39.300s",
+                    "endTime": "39.500s",
+                    "word": "So"
+                  },
+                  {
+                    "startTime": "39.500s",
+                    "endTime": "39.700s",
+                    "word": "he"
+                  },
+                  {
+                    "startTime": "39.700s",
+                    "endTime": "40.300s",
+                    "word": "had"
+                  },
+                  {
+                    "startTime": "40.300s",
+                    "endTime": "40.500s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "40.500s",
+                    "endTime": "40.800s",
+                    "word": "mind"
+                  },
+                  {
+                    "startTime": "40.800s",
+                    "endTime": "40.900s",
+                    "word": "what"
+                  },
+                  {
+                    "startTime": "40.900s",
+                    "endTime": "41.300s",
+                    "word": "we"
+                  },
+                  {
+                    "startTime": "41.500s",
+                    "endTime": "41.900s",
+                    "word": "today"
+                  },
+                  {
+                    "startTime": "41.900s",
+                    "endTime": "42.300s",
+                    "word": "know"
+                  },
+                  {
+                    "startTime": "42.300s",
+                    "endTime": "42.900s",
+                    "word": "as"
+                  },
+                  {
+                    "startTime": "42.900s",
+                    "endTime": "43s",
+                    "word": "an"
+                  },
+                  {
+                    "startTime": "43s",
+                    "endTime": "44s",
+                    "word": "evolutionary"
+                  },
+                  {
+                    "startTime": "44s",
+                    "endTime": "44.300s",
+                    "word": "tree"
+                  },
+                  {
+                    "startTime": "44.300s",
+                    "endTime": "44.500s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "44.500s",
+                    "endTime": "44.900s",
+                    "word": "life"
+                  },
+                  {
+                    "startTime": "45.300s",
+                    "endTime": "45.700s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "45.700s",
+                    "endTime": "45.900s",
+                    "word": "all"
+                  },
+                  {
+                    "startTime": "45.900s",
+                    "endTime": "46.200s",
+                    "word": "life"
+                  },
+                  {
+                    "startTime": "46.200s",
+                    "endTime": "46.400s",
+                    "word": "has"
+                  },
+                  {
+                    "startTime": "46.400s",
+                    "endTime": "46.800s",
+                    "word": "arisen"
+                  },
+                  {
+                    "startTime": "46.800s",
+                    "endTime": "47s",
+                    "word": "from"
+                  },
+                  {
+                    "startTime": "47s",
+                    "endTime": "47.400s",
+                    "word": "some"
+                  },
+                  {
+                    "startTime": "47.500s",
+                    "endTime": "48.200s",
+                    "word": "primordial"
+                  },
+                  {
+                    "startTime": "48.200s",
+                    "endTime": "48.800s",
+                    "word": "form."
+                  },
+                  {
+                    "startTime": "49.600s",
+                    "endTime": "49.900s",
+                    "word": "Now,"
+                  },
+                  {
+                    "startTime": "50.100s",
+                    "endTime": "50.300s",
+                    "word": "when"
+                  },
+                  {
+                    "startTime": "50.300s",
+                    "endTime": "50.500s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "50.500s",
+                    "endTime": "50.900s",
+                    "word": "consider"
+                  },
+                  {
+                    "startTime": "50.900s",
+                    "endTime": "51s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "51s",
+                    "endTime": "51.800s",
+                    "word": "classification"
+                  },
+                  {
+                    "startTime": "51.800s",
+                    "endTime": "52.300s",
+                    "word": "system"
+                  },
+                  {
+                    "startTime": "52.400s",
+                    "endTime": "52.700s",
+                    "word": "kingdom"
+                  },
+                  {
+                    "startTime": "52.700s",
+                    "endTime": "53s",
+                    "word": "phylum"
+                  },
+                  {
+                    "startTime": "53s",
+                    "endTime": "53.300s",
+                    "word": "class"
+                  },
+                  {
+                    "startTime": "53.300s",
+                    "endTime": "53.500s",
+                    "word": "order"
+                  },
+                  {
+                    "startTime": "53.500s",
+                    "endTime": "53.900s",
+                    "word": "family"
+                  },
+                  {
+                    "startTime": "53.900s",
+                    "endTime": "54.200s",
+                    "word": "genus"
+                  },
+                  {
+                    "startTime": "54.200s",
+                    "endTime": "54.800s",
+                    "word": "species,"
+                  },
+                  {
+                    "startTime": "55.600s",
+                    "endTime": "55.800s",
+                    "word": "we"
+                  },
+                  {
+                    "startTime": "55.800s",
+                    "endTime": "55.900s",
+                    "word": "would"
+                  },
+                  {
+                    "startTime": "55.900s",
+                    "endTime": "56.300s",
+                    "word": "say"
+                  },
+                  {
+                    "startTime": "56.300s",
+                    "endTime": "56.500s",
+                    "word": "as"
+                  },
+                  {
+                    "startTime": "56.500s",
+                    "endTime": "57.500s",
+                    "word": "creationists"
+                  },
+                  {
+                    "startTime": "57.500s",
+                    "endTime": "57.600s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "57.600s",
+                    "endTime": "57.700s",
+                    "word": "we"
+                  },
+                  {
+                    "startTime": "57.700s",
+                    "endTime": "57.800s",
+                    "word": "have"
+                  },
+                  {
+                    "startTime": "57.800s",
+                    "endTime": "58s",
+                    "word": "many"
+                  },
+                  {
+                    "startTime": "58s",
+                    "endTime": "58.300s",
+                    "word": "creation"
+                  },
+                  {
+                    "startTime": "58.300s",
+                    "endTime": "58.800s",
+                    "word": "scientists"
+                  },
+                  {
+                    "startTime": "58.800s",
+                    "endTime": "59s",
+                    "word": "have"
+                  },
+                  {
+                    "startTime": "59s",
+                    "endTime": "59.500s",
+                    "word": "researched"
+                  },
+                  {
+                    "startTime": "59.500s",
+                    "endTime": "59.700s",
+                    "word": "this"
+                  },
+                  {
+                    "startTime": "59.700s",
+                    "endTime": "59.800s",
+                    "word": "and"
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": " Lots of reasons I would say the kind in Genesis 1 really is more at the family level of classification for instance is one dog kind. There's one cat kind even though you have different generate different species and you see based on the biblical account there in Genesis 1 creationists have drawn up what they believe is a creation Orchard. In other words, they're saying look there's great variation in the genetics of dogs and Fincher's and so on and so over time particularly after Noah's flood you'd expect if there were two dogs.",
+                "confidence": 0.8008566,
+                "words": [
+                  {
+                    "startTime": "60s",
+                    "endTime": "60.200s",
+                    "word": "Lots"
+                  },
+                  {
+                    "startTime": "60.200s",
+                    "endTime": "60.300s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "60.300s",
+                    "endTime": "60.700s",
+                    "word": "reasons"
+                  },
+                  {
+                    "startTime": "60.700s",
+                    "endTime": "60.700s",
+                    "word": "I"
+                  },
+                  {
+                    "startTime": "60.700s",
+                    "endTime": "60.900s",
+                    "word": "would"
+                  },
+                  {
+                    "startTime": "60.900s",
+                    "endTime": "61.200s",
+                    "word": "say"
+                  },
+                  {
+                    "startTime": "61.500s",
+                    "endTime": "61.600s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "61.600s",
+                    "endTime": "62.200s",
+                    "word": "kind"
+                  },
+                  {
+                    "startTime": "62.200s",
+                    "endTime": "62.400s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "62.400s",
+                    "endTime": "62.800s",
+                    "word": "Genesis"
+                  },
+                  {
+                    "startTime": "62.800s",
+                    "endTime": "63.200s",
+                    "word": "1"
+                  },
+                  {
+                    "startTime": "63.600s",
+                    "endTime": "63.900s",
+                    "word": "really"
+                  },
+                  {
+                    "startTime": "63.900s",
+                    "endTime": "64s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "64s",
+                    "endTime": "64.200s",
+                    "word": "more"
+                  },
+                  {
+                    "startTime": "64.200s",
+                    "endTime": "64.200s",
+                    "word": "at"
+                  },
+                  {
+                    "startTime": "64.200s",
+                    "endTime": "64.400s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "64.400s",
+                    "endTime": "64.900s",
+                    "word": "family"
+                  },
+                  {
+                    "startTime": "64.900s",
+                    "endTime": "65.200s",
+                    "word": "level"
+                  },
+                  {
+                    "startTime": "65.200s",
+                    "endTime": "65.300s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "65.300s",
+                    "endTime": "66.200s",
+                    "word": "classification"
+                  },
+                  {
+                    "startTime": "66.200s",
+                    "endTime": "66.300s",
+                    "word": "for"
+                  },
+                  {
+                    "startTime": "66.300s",
+                    "endTime": "66.700s",
+                    "word": "instance"
+                  },
+                  {
+                    "startTime": "66.700s",
+                    "endTime": "66.800s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "66.800s",
+                    "endTime": "67.100s",
+                    "word": "one"
+                  },
+                  {
+                    "startTime": "67.100s",
+                    "endTime": "67.500s",
+                    "word": "dog"
+                  },
+                  {
+                    "startTime": "67.500s",
+                    "endTime": "68.100s",
+                    "word": "kind."
+                  },
+                  {
+                    "startTime": "68.200s",
+                    "endTime": "68.400s",
+                    "word": "There's"
+                  },
+                  {
+                    "startTime": "68.400s",
+                    "endTime": "68.700s",
+                    "word": "one"
+                  },
+                  {
+                    "startTime": "68.700s",
+                    "endTime": "69.300s",
+                    "word": "cat"
+                  },
+                  {
+                    "startTime": "69.300s",
+                    "endTime": "69.800s",
+                    "word": "kind"
+                  },
+                  {
+                    "startTime": "69.800s",
+                    "endTime": "70s",
+                    "word": "even"
+                  },
+                  {
+                    "startTime": "70s",
+                    "endTime": "70.100s",
+                    "word": "though"
+                  },
+                  {
+                    "startTime": "70.100s",
+                    "endTime": "70.200s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "70.200s",
+                    "endTime": "70.300s",
+                    "word": "have"
+                  },
+                  {
+                    "startTime": "70.300s",
+                    "endTime": "70.600s",
+                    "word": "different"
+                  },
+                  {
+                    "startTime": "70.600s",
+                    "endTime": "70.900s",
+                    "word": "generate"
+                  },
+                  {
+                    "startTime": "70.900s",
+                    "endTime": "71.100s",
+                    "word": "different"
+                  },
+                  {
+                    "startTime": "71.100s",
+                    "endTime": "71.700s",
+                    "word": "species"
+                  },
+                  {
+                    "startTime": "71.900s",
+                    "endTime": "72s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "72s",
+                    "endTime": "72.100s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "72.100s",
+                    "endTime": "72.400s",
+                    "word": "see"
+                  },
+                  {
+                    "startTime": "72.400s",
+                    "endTime": "72.900s",
+                    "word": "based"
+                  },
+                  {
+                    "startTime": "72.900s",
+                    "endTime": "73.300s",
+                    "word": "on"
+                  },
+                  {
+                    "startTime": "73.600s",
+                    "endTime": "73.600s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "73.600s",
+                    "endTime": "74.100s",
+                    "word": "biblical"
+                  },
+                  {
+                    "startTime": "74.100s",
+                    "endTime": "74.400s",
+                    "word": "account"
+                  },
+                  {
+                    "startTime": "74.400s",
+                    "endTime": "74.600s",
+                    "word": "there"
+                  },
+                  {
+                    "startTime": "74.600s",
+                    "endTime": "74.800s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "74.800s",
+                    "endTime": "75.200s",
+                    "word": "Genesis"
+                  },
+                  {
+                    "startTime": "75.200s",
+                    "endTime": "75.500s",
+                    "word": "1"
+                  },
+                  {
+                    "startTime": "75.500s",
+                    "endTime": "76.400s",
+                    "word": "creationists"
+                  },
+                  {
+                    "startTime": "76.400s",
+                    "endTime": "76.600s",
+                    "word": "have"
+                  },
+                  {
+                    "startTime": "76.600s",
+                    "endTime": "76.900s",
+                    "word": "drawn"
+                  },
+                  {
+                    "startTime": "76.900s",
+                    "endTime": "77s",
+                    "word": "up"
+                  },
+                  {
+                    "startTime": "77s",
+                    "endTime": "77.100s",
+                    "word": "what"
+                  },
+                  {
+                    "startTime": "77.100s",
+                    "endTime": "77.300s",
+                    "word": "they"
+                  },
+                  {
+                    "startTime": "77.300s",
+                    "endTime": "77.700s",
+                    "word": "believe"
+                  },
+                  {
+                    "startTime": "77.700s",
+                    "endTime": "77.800s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "77.800s",
+                    "endTime": "77.900s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "77.900s",
+                    "endTime": "78.600s",
+                    "word": "creation"
+                  },
+                  {
+                    "startTime": "78.600s",
+                    "endTime": "79s",
+                    "word": "Orchard."
+                  },
+                  {
+                    "startTime": "79s",
+                    "endTime": "79.200s",
+                    "word": "In"
+                  },
+                  {
+                    "startTime": "79.200s",
+                    "endTime": "79.300s",
+                    "word": "other"
+                  },
+                  {
+                    "startTime": "79.300s",
+                    "endTime": "79.500s",
+                    "word": "words,"
+                  },
+                  {
+                    "startTime": "79.500s",
+                    "endTime": "79.600s",
+                    "word": "they're"
+                  },
+                  {
+                    "startTime": "79.600s",
+                    "endTime": "79.900s",
+                    "word": "saying"
+                  },
+                  {
+                    "startTime": "79.900s",
+                    "endTime": "80.400s",
+                    "word": "look"
+                  },
+                  {
+                    "startTime": "80.900s",
+                    "endTime": "81s",
+                    "word": "there's"
+                  },
+                  {
+                    "startTime": "81s",
+                    "endTime": "81.600s",
+                    "word": "great"
+                  },
+                  {
+                    "startTime": "81.600s",
+                    "endTime": "82.200s",
+                    "word": "variation"
+                  },
+                  {
+                    "startTime": "82.200s",
+                    "endTime": "82.300s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "82.300s",
+                    "endTime": "82.500s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "82.500s",
+                    "endTime": "83s",
+                    "word": "genetics"
+                  },
+                  {
+                    "startTime": "83s",
+                    "endTime": "83.200s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "83.200s",
+                    "endTime": "83.800s",
+                    "word": "dogs"
+                  },
+                  {
+                    "startTime": "83.800s",
+                    "endTime": "84s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "84s",
+                    "endTime": "84.600s",
+                    "word": "Fincher's"
+                  },
+                  {
+                    "startTime": "84.600s",
+                    "endTime": "84.800s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "84.800s",
+                    "endTime": "84.900s",
+                    "word": "so"
+                  },
+                  {
+                    "startTime": "84.900s",
+                    "endTime": "85.300s",
+                    "word": "on"
+                  },
+                  {
+                    "startTime": "85.600s",
+                    "endTime": "85.800s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "85.800s",
+                    "endTime": "86s",
+                    "word": "so"
+                  },
+                  {
+                    "startTime": "86s",
+                    "endTime": "86.200s",
+                    "word": "over"
+                  },
+                  {
+                    "startTime": "86.200s",
+                    "endTime": "86.600s",
+                    "word": "time"
+                  },
+                  {
+                    "startTime": "86.600s",
+                    "endTime": "87s",
+                    "word": "particularly"
+                  },
+                  {
+                    "startTime": "87s",
+                    "endTime": "87.300s",
+                    "word": "after"
+                  },
+                  {
+                    "startTime": "87.300s",
+                    "endTime": "87.800s",
+                    "word": "Noah's"
+                  },
+                  {
+                    "startTime": "87.900s",
+                    "endTime": "88.200s",
+                    "word": "flood"
+                  },
+                  {
+                    "startTime": "88.200s",
+                    "endTime": "88.300s",
+                    "word": "you'd"
+                  },
+                  {
+                    "startTime": "88.300s",
+                    "endTime": "88.900s",
+                    "word": "expect"
+                  },
+                  {
+                    "startTime": "89s",
+                    "endTime": "89.100s",
+                    "word": "if"
+                  },
+                  {
+                    "startTime": "89.100s",
+                    "endTime": "89.200s",
+                    "word": "there"
+                  },
+                  {
+                    "startTime": "89.200s",
+                    "endTime": "89.300s",
+                    "word": "were"
+                  },
+                  {
+                    "startTime": "89.300s",
+                    "endTime": "89.500s",
+                    "word": "two"
+                  },
+                  {
+                    "startTime": "89.500s",
+                    "endTime": "89.800s",
+                    "word": "dogs."
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": " For instance, you could end up with different species of dogs as because there's an incredible amount of variability in the genes of any creature. And so you'd expect these different species up here, but there's limits dogs will always be dogs finches will always be Fincher's for instance take dogs. Okay in a scientific paper dated January 2014 scientists working at the University of California stated this we provide several lines of evidence supporting a single origin.",
+                "confidence": 0.89522195,
+                "words": [
+                  {
+                    "startTime": "89.900s",
+                    "endTime": "90.100s",
+                    "word": "For"
+                  },
+                  {
+                    "startTime": "90.100s",
+                    "endTime": "90.600s",
+                    "word": "instance,"
+                  },
+                  {
+                    "startTime": "90.700s",
+                    "endTime": "90.800s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "90.800s",
+                    "endTime": "91s",
+                    "word": "could"
+                  },
+                  {
+                    "startTime": "91s",
+                    "endTime": "91.100s",
+                    "word": "end"
+                  },
+                  {
+                    "startTime": "91.100s",
+                    "endTime": "91.300s",
+                    "word": "up"
+                  },
+                  {
+                    "startTime": "91.300s",
+                    "endTime": "91.400s",
+                    "word": "with"
+                  },
+                  {
+                    "startTime": "91.400s",
+                    "endTime": "91.700s",
+                    "word": "different"
+                  },
+                  {
+                    "startTime": "91.700s",
+                    "endTime": "92.200s",
+                    "word": "species"
+                  },
+                  {
+                    "startTime": "92.200s",
+                    "endTime": "92.400s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "92.400s",
+                    "endTime": "92.800s",
+                    "word": "dogs"
+                  },
+                  {
+                    "startTime": "92.800s",
+                    "endTime": "93.100s",
+                    "word": "as"
+                  },
+                  {
+                    "startTime": "93.100s",
+                    "endTime": "93.300s",
+                    "word": "because"
+                  },
+                  {
+                    "startTime": "93.300s",
+                    "endTime": "93.400s",
+                    "word": "there's"
+                  },
+                  {
+                    "startTime": "93.400s",
+                    "endTime": "93.500s",
+                    "word": "an"
+                  },
+                  {
+                    "startTime": "93.500s",
+                    "endTime": "94s",
+                    "word": "incredible"
+                  },
+                  {
+                    "startTime": "94s",
+                    "endTime": "94.300s",
+                    "word": "amount"
+                  },
+                  {
+                    "startTime": "94.300s",
+                    "endTime": "94.400s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "94.400s",
+                    "endTime": "95.200s",
+                    "word": "variability"
+                  },
+                  {
+                    "startTime": "95.300s",
+                    "endTime": "95.400s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "95.400s",
+                    "endTime": "95.500s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "95.500s",
+                    "endTime": "95.900s",
+                    "word": "genes"
+                  },
+                  {
+                    "startTime": "96.700s",
+                    "endTime": "96.900s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "96.900s",
+                    "endTime": "97s",
+                    "word": "any"
+                  },
+                  {
+                    "startTime": "97s",
+                    "endTime": "97.700s",
+                    "word": "creature."
+                  },
+                  {
+                    "startTime": "98s",
+                    "endTime": "98.200s",
+                    "word": "And"
+                  },
+                  {
+                    "startTime": "98.200s",
+                    "endTime": "98.500s",
+                    "word": "so"
+                  },
+                  {
+                    "startTime": "98.500s",
+                    "endTime": "98.700s",
+                    "word": "you'd"
+                  },
+                  {
+                    "startTime": "98.700s",
+                    "endTime": "99s",
+                    "word": "expect"
+                  },
+                  {
+                    "startTime": "99s",
+                    "endTime": "99.200s",
+                    "word": "these"
+                  },
+                  {
+                    "startTime": "99.200s",
+                    "endTime": "99.500s",
+                    "word": "different"
+                  },
+                  {
+                    "startTime": "99.500s",
+                    "endTime": "100.300s",
+                    "word": "species"
+                  },
+                  {
+                    "startTime": "100.300s",
+                    "endTime": "100.500s",
+                    "word": "up"
+                  },
+                  {
+                    "startTime": "100.500s",
+                    "endTime": "100.900s",
+                    "word": "here,"
+                  },
+                  {
+                    "startTime": "101.200s",
+                    "endTime": "101.500s",
+                    "word": "but"
+                  },
+                  {
+                    "startTime": "101.500s",
+                    "endTime": "101.700s",
+                    "word": "there's"
+                  },
+                  {
+                    "startTime": "101.700s",
+                    "endTime": "102.300s",
+                    "word": "limits"
+                  },
+                  {
+                    "startTime": "102.600s",
+                    "endTime": "102.900s",
+                    "word": "dogs"
+                  },
+                  {
+                    "startTime": "102.900s",
+                    "endTime": "103s",
+                    "word": "will"
+                  },
+                  {
+                    "startTime": "103s",
+                    "endTime": "103.200s",
+                    "word": "always"
+                  },
+                  {
+                    "startTime": "103.200s",
+                    "endTime": "103.300s",
+                    "word": "be"
+                  },
+                  {
+                    "startTime": "103.300s",
+                    "endTime": "103.600s",
+                    "word": "dogs"
+                  },
+                  {
+                    "startTime": "103.600s",
+                    "endTime": "104s",
+                    "word": "finches"
+                  },
+                  {
+                    "startTime": "104s",
+                    "endTime": "104.100s",
+                    "word": "will"
+                  },
+                  {
+                    "startTime": "104.100s",
+                    "endTime": "104.400s",
+                    "word": "always"
+                  },
+                  {
+                    "startTime": "104.400s",
+                    "endTime": "104.500s",
+                    "word": "be"
+                  },
+                  {
+                    "startTime": "104.500s",
+                    "endTime": "105.100s",
+                    "word": "Fincher's"
+                  },
+                  {
+                    "startTime": "105.500s",
+                    "endTime": "105.700s",
+                    "word": "for"
+                  },
+                  {
+                    "startTime": "105.700s",
+                    "endTime": "106.200s",
+                    "word": "instance"
+                  },
+                  {
+                    "startTime": "106.900s",
+                    "endTime": "107.200s",
+                    "word": "take"
+                  },
+                  {
+                    "startTime": "107.200s",
+                    "endTime": "107.800s",
+                    "word": "dogs."
+                  },
+                  {
+                    "startTime": "108.400s",
+                    "endTime": "108.900s",
+                    "word": "Okay"
+                  },
+                  {
+                    "startTime": "108.900s",
+                    "endTime": "109s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "109s",
+                    "endTime": "109s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "109s",
+                    "endTime": "109.600s",
+                    "word": "scientific"
+                  },
+                  {
+                    "startTime": "109.600s",
+                    "endTime": "109.900s",
+                    "word": "paper"
+                  },
+                  {
+                    "startTime": "109.900s",
+                    "endTime": "110.400s",
+                    "word": "dated"
+                  },
+                  {
+                    "startTime": "110.400s",
+                    "endTime": "110.800s",
+                    "word": "January"
+                  },
+                  {
+                    "startTime": "110.800s",
+                    "endTime": "112.300s",
+                    "word": "2014"
+                  },
+                  {
+                    "startTime": "112.500s",
+                    "endTime": "113.100s",
+                    "word": "scientists"
+                  },
+                  {
+                    "startTime": "113.100s",
+                    "endTime": "113.400s",
+                    "word": "working"
+                  },
+                  {
+                    "startTime": "113.400s",
+                    "endTime": "113.500s",
+                    "word": "at"
+                  },
+                  {
+                    "startTime": "113.500s",
+                    "endTime": "113.600s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "113.600s",
+                    "endTime": "114.100s",
+                    "word": "University"
+                  },
+                  {
+                    "startTime": "114.100s",
+                    "endTime": "114.300s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "114.300s",
+                    "endTime": "115.100s",
+                    "word": "California"
+                  },
+                  {
+                    "startTime": "115.200s",
+                    "endTime": "115.700s",
+                    "word": "stated"
+                  },
+                  {
+                    "startTime": "115.700s",
+                    "endTime": "116.100s",
+                    "word": "this"
+                  },
+                  {
+                    "startTime": "116.700s",
+                    "endTime": "116.900s",
+                    "word": "we"
+                  },
+                  {
+                    "startTime": "116.900s",
+                    "endTime": "117.400s",
+                    "word": "provide"
+                  },
+                  {
+                    "startTime": "117.400s",
+                    "endTime": "117.800s",
+                    "word": "several"
+                  },
+                  {
+                    "startTime": "117.800s",
+                    "endTime": "118.100s",
+                    "word": "lines"
+                  },
+                  {
+                    "startTime": "118.100s",
+                    "endTime": "118.200s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "118.200s",
+                    "endTime": "118.600s",
+                    "word": "evidence"
+                  },
+                  {
+                    "startTime": "118.600s",
+                    "endTime": "119s",
+                    "word": "supporting"
+                  },
+                  {
+                    "startTime": "119s",
+                    "endTime": "119s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "119s",
+                    "endTime": "119.600s",
+                    "word": "single"
+                  },
+                  {
+                    "startTime": "119.600s",
+                    "endTime": "119.800s",
+                    "word": "origin."
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": " For dogs and disfavoring alternative models in which dog lineages arise separately from geographically distinct wolf populations and they put this diagram in the paper. By the way, that diagram is very very similar to this diagram that creationist proposed based upon the creation account in Genesis. In other words. You have a common dog ancestor to gives rise to the different species of dogs. And that's exactly what we're saying here yet the dogs. Well that's never used as an example of evolution. But the finches",
+                "confidence": 0.9128389,
+                "words": [
+                  {
+                    "startTime": "120s",
+                    "endTime": "120.200s",
+                    "word": "For"
+                  },
+                  {
+                    "startTime": "120.200s",
+                    "endTime": "120.800s",
+                    "word": "dogs"
+                  },
+                  {
+                    "startTime": "121s",
+                    "endTime": "121.200s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "121.200s",
+                    "endTime": "121.900s",
+                    "word": "disfavoring"
+                  },
+                  {
+                    "startTime": "121.900s",
+                    "endTime": "122.500s",
+                    "word": "alternative"
+                  },
+                  {
+                    "startTime": "122.500s",
+                    "endTime": "122.900s",
+                    "word": "models"
+                  },
+                  {
+                    "startTime": "122.900s",
+                    "endTime": "123s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "123s",
+                    "endTime": "123.200s",
+                    "word": "which"
+                  },
+                  {
+                    "startTime": "123.200s",
+                    "endTime": "123.500s",
+                    "word": "dog"
+                  },
+                  {
+                    "startTime": "123.500s",
+                    "endTime": "124.100s",
+                    "word": "lineages"
+                  },
+                  {
+                    "startTime": "124.300s",
+                    "endTime": "124.700s",
+                    "word": "arise"
+                  },
+                  {
+                    "startTime": "124.700s",
+                    "endTime": "125.200s",
+                    "word": "separately"
+                  },
+                  {
+                    "startTime": "125.200s",
+                    "endTime": "125.400s",
+                    "word": "from"
+                  },
+                  {
+                    "startTime": "125.400s",
+                    "endTime": "126.100s",
+                    "word": "geographically"
+                  },
+                  {
+                    "startTime": "126.100s",
+                    "endTime": "126.600s",
+                    "word": "distinct"
+                  },
+                  {
+                    "startTime": "126.600s",
+                    "endTime": "126.800s",
+                    "word": "wolf"
+                  },
+                  {
+                    "startTime": "126.800s",
+                    "endTime": "127.700s",
+                    "word": "populations"
+                  },
+                  {
+                    "startTime": "128s",
+                    "endTime": "128.200s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "128.200s",
+                    "endTime": "128.200s",
+                    "word": "they"
+                  },
+                  {
+                    "startTime": "128.200s",
+                    "endTime": "128.400s",
+                    "word": "put"
+                  },
+                  {
+                    "startTime": "128.400s",
+                    "endTime": "128.600s",
+                    "word": "this"
+                  },
+                  {
+                    "startTime": "128.600s",
+                    "endTime": "129.200s",
+                    "word": "diagram"
+                  },
+                  {
+                    "startTime": "129.200s",
+                    "endTime": "129.400s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "129.400s",
+                    "endTime": "129.400s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "129.400s",
+                    "endTime": "130s",
+                    "word": "paper."
+                  },
+                  {
+                    "startTime": "130.200s",
+                    "endTime": "130.400s",
+                    "word": "By"
+                  },
+                  {
+                    "startTime": "130.400s",
+                    "endTime": "130.400s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "130.400s",
+                    "endTime": "130.600s",
+                    "word": "way,"
+                  },
+                  {
+                    "startTime": "130.600s",
+                    "endTime": "130.700s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "130.700s",
+                    "endTime": "131.300s",
+                    "word": "diagram"
+                  },
+                  {
+                    "startTime": "131.300s",
+                    "endTime": "131.500s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "131.500s",
+                    "endTime": "131.800s",
+                    "word": "very"
+                  },
+                  {
+                    "startTime": "131.800s",
+                    "endTime": "132.200s",
+                    "word": "very"
+                  },
+                  {
+                    "startTime": "132.200s",
+                    "endTime": "132.600s",
+                    "word": "similar"
+                  },
+                  {
+                    "startTime": "132.600s",
+                    "endTime": "132.800s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "132.800s",
+                    "endTime": "133.100s",
+                    "word": "this"
+                  },
+                  {
+                    "startTime": "133.100s",
+                    "endTime": "133.900s",
+                    "word": "diagram"
+                  },
+                  {
+                    "startTime": "134.300s",
+                    "endTime": "134.500s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "134.500s",
+                    "endTime": "135.100s",
+                    "word": "creationist"
+                  },
+                  {
+                    "startTime": "135.100s",
+                    "endTime": "135.600s",
+                    "word": "proposed"
+                  },
+                  {
+                    "startTime": "135.600s",
+                    "endTime": "135.900s",
+                    "word": "based"
+                  },
+                  {
+                    "startTime": "135.900s",
+                    "endTime": "136.600s",
+                    "word": "upon"
+                  },
+                  {
+                    "startTime": "136.700s",
+                    "endTime": "136.800s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "136.800s",
+                    "endTime": "137.300s",
+                    "word": "creation"
+                  },
+                  {
+                    "startTime": "137.300s",
+                    "endTime": "137.600s",
+                    "word": "account"
+                  },
+                  {
+                    "startTime": "137.600s",
+                    "endTime": "137.700s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "137.700s",
+                    "endTime": "138.300s",
+                    "word": "Genesis."
+                  },
+                  {
+                    "startTime": "138.500s",
+                    "endTime": "138.600s",
+                    "word": "In"
+                  },
+                  {
+                    "startTime": "138.600s",
+                    "endTime": "138.800s",
+                    "word": "other"
+                  },
+                  {
+                    "startTime": "138.800s",
+                    "endTime": "139s",
+                    "word": "words."
+                  },
+                  {
+                    "startTime": "139s",
+                    "endTime": "139.100s",
+                    "word": "You"
+                  },
+                  {
+                    "startTime": "139.100s",
+                    "endTime": "139.200s",
+                    "word": "have"
+                  },
+                  {
+                    "startTime": "139.200s",
+                    "endTime": "139.300s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "139.300s",
+                    "endTime": "139.600s",
+                    "word": "common"
+                  },
+                  {
+                    "startTime": "139.600s",
+                    "endTime": "139.900s",
+                    "word": "dog"
+                  },
+                  {
+                    "startTime": "139.900s",
+                    "endTime": "140.400s",
+                    "word": "ancestor"
+                  },
+                  {
+                    "startTime": "140.400s",
+                    "endTime": "140.500s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "140.500s",
+                    "endTime": "140.800s",
+                    "word": "gives"
+                  },
+                  {
+                    "startTime": "140.800s",
+                    "endTime": "141.100s",
+                    "word": "rise"
+                  },
+                  {
+                    "startTime": "141.100s",
+                    "endTime": "141.400s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "141.500s",
+                    "endTime": "141.600s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "141.600s",
+                    "endTime": "141.900s",
+                    "word": "different"
+                  },
+                  {
+                    "startTime": "141.900s",
+                    "endTime": "142.400s",
+                    "word": "species"
+                  },
+                  {
+                    "startTime": "142.400s",
+                    "endTime": "142.500s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "142.500s",
+                    "endTime": "143s",
+                    "word": "dogs."
+                  },
+                  {
+                    "startTime": "143.100s",
+                    "endTime": "143.200s",
+                    "word": "And"
+                  },
+                  {
+                    "startTime": "143.200s",
+                    "endTime": "143.400s",
+                    "word": "that's"
+                  },
+                  {
+                    "startTime": "143.400s",
+                    "endTime": "143.900s",
+                    "word": "exactly"
+                  },
+                  {
+                    "startTime": "143.900s",
+                    "endTime": "144.100s",
+                    "word": "what"
+                  },
+                  {
+                    "startTime": "144.100s",
+                    "endTime": "144.200s",
+                    "word": "we're"
+                  },
+                  {
+                    "startTime": "144.200s",
+                    "endTime": "144.700s",
+                    "word": "saying"
+                  },
+                  {
+                    "startTime": "144.700s",
+                    "endTime": "145.100s",
+                    "word": "here"
+                  },
+                  {
+                    "startTime": "145.600s",
+                    "endTime": "146.100s",
+                    "word": "yet"
+                  },
+                  {
+                    "startTime": "146.100s",
+                    "endTime": "146.200s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "146.200s",
+                    "endTime": "146.800s",
+                    "word": "dogs."
+                  },
+                  {
+                    "startTime": "146.800s",
+                    "endTime": "147s",
+                    "word": "Well"
+                  },
+                  {
+                    "startTime": "147s",
+                    "endTime": "147.200s",
+                    "word": "that's"
+                  },
+                  {
+                    "startTime": "147.200s",
+                    "endTime": "147.500s",
+                    "word": "never"
+                  },
+                  {
+                    "startTime": "147.500s",
+                    "endTime": "147.700s",
+                    "word": "used"
+                  },
+                  {
+                    "startTime": "147.700s",
+                    "endTime": "147.900s",
+                    "word": "as"
+                  },
+                  {
+                    "startTime": "147.900s",
+                    "endTime": "147.900s",
+                    "word": "an"
+                  },
+                  {
+                    "startTime": "147.900s",
+                    "endTime": "148.300s",
+                    "word": "example"
+                  },
+                  {
+                    "startTime": "148.300s",
+                    "endTime": "148.500s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "148.500s",
+                    "endTime": "149s",
+                    "word": "evolution."
+                  },
+                  {
+                    "startTime": "149s",
+                    "endTime": "149.200s",
+                    "word": "But"
+                  },
+                  {
+                    "startTime": "149.200s",
+                    "endTime": "149.300s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "149.300s",
+                    "endTime": "149.800s",
+                    "word": "finches"
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": " Are particularly in the public school textbooks students are taught are see the changes that are occurring here. The word Evolution has been hijacked using what I call a bait and switch. Let me explain to you. The word evolution is being used in public school textbooks and we often see it in documentaries and so on it's used for observable changes that we would agree with and then use for unobservable changes such as molecules to man. Let me explain to you what's really going on because I was a science teacher in the public schools and ceased",
+                "confidence": 0.91273886,
+                "words": [
+                  {
+                    "startTime": "149.900s",
+                    "endTime": "150.200s",
+                    "word": "Are"
+                  },
+                  {
+                    "startTime": "150.200s",
+                    "endTime": "150.600s",
+                    "word": "particularly"
+                  },
+                  {
+                    "startTime": "150.600s",
+                    "endTime": "150.700s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "150.700s",
+                    "endTime": "150.800s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "150.800s",
+                    "endTime": "151.100s",
+                    "word": "public"
+                  },
+                  {
+                    "startTime": "151.100s",
+                    "endTime": "151.400s",
+                    "word": "school"
+                  },
+                  {
+                    "startTime": "151.400s",
+                    "endTime": "152s",
+                    "word": "textbooks"
+                  },
+                  {
+                    "startTime": "152.200s",
+                    "endTime": "152.600s",
+                    "word": "students"
+                  },
+                  {
+                    "startTime": "152.600s",
+                    "endTime": "152.600s",
+                    "word": "are"
+                  },
+                  {
+                    "startTime": "152.600s",
+                    "endTime": "153s",
+                    "word": "taught"
+                  },
+                  {
+                    "startTime": "153s",
+                    "endTime": "153.200s",
+                    "word": "are"
+                  },
+                  {
+                    "startTime": "153.200s",
+                    "endTime": "153.400s",
+                    "word": "see"
+                  },
+                  {
+                    "startTime": "153.400s",
+                    "endTime": "153.600s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "153.600s",
+                    "endTime": "154.100s",
+                    "word": "changes"
+                  },
+                  {
+                    "startTime": "154.100s",
+                    "endTime": "154.300s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "154.300s",
+                    "endTime": "154.400s",
+                    "word": "are"
+                  },
+                  {
+                    "startTime": "154.400s",
+                    "endTime": "154.800s",
+                    "word": "occurring"
+                  },
+                  {
+                    "startTime": "154.800s",
+                    "endTime": "155.200s",
+                    "word": "here."
+                  },
+                  {
+                    "startTime": "155.500s",
+                    "endTime": "155.600s",
+                    "word": "The"
+                  },
+                  {
+                    "startTime": "155.600s",
+                    "endTime": "155.900s",
+                    "word": "word"
+                  },
+                  {
+                    "startTime": "155.900s",
+                    "endTime": "156.400s",
+                    "word": "Evolution"
+                  },
+                  {
+                    "startTime": "156.400s",
+                    "endTime": "156.600s",
+                    "word": "has"
+                  },
+                  {
+                    "startTime": "156.600s",
+                    "endTime": "156.800s",
+                    "word": "been"
+                  },
+                  {
+                    "startTime": "156.800s",
+                    "endTime": "157.400s",
+                    "word": "hijacked"
+                  },
+                  {
+                    "startTime": "157.400s",
+                    "endTime": "157.900s",
+                    "word": "using"
+                  },
+                  {
+                    "startTime": "158s",
+                    "endTime": "158.200s",
+                    "word": "what"
+                  },
+                  {
+                    "startTime": "158.200s",
+                    "endTime": "158.300s",
+                    "word": "I"
+                  },
+                  {
+                    "startTime": "158.300s",
+                    "endTime": "158.600s",
+                    "word": "call"
+                  },
+                  {
+                    "startTime": "158.600s",
+                    "endTime": "158.600s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "158.600s",
+                    "endTime": "158.900s",
+                    "word": "bait"
+                  },
+                  {
+                    "startTime": "158.900s",
+                    "endTime": "159.100s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "159.100s",
+                    "endTime": "159.700s",
+                    "word": "switch."
+                  },
+                  {
+                    "startTime": "159.900s",
+                    "endTime": "160s",
+                    "word": "Let"
+                  },
+                  {
+                    "startTime": "160s",
+                    "endTime": "160.100s",
+                    "word": "me"
+                  },
+                  {
+                    "startTime": "160.100s",
+                    "endTime": "160.400s",
+                    "word": "explain"
+                  },
+                  {
+                    "startTime": "160.400s",
+                    "endTime": "160.500s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "160.500s",
+                    "endTime": "160.800s",
+                    "word": "you."
+                  },
+                  {
+                    "startTime": "161.800s",
+                    "endTime": "161.900s",
+                    "word": "The"
+                  },
+                  {
+                    "startTime": "161.900s",
+                    "endTime": "162.200s",
+                    "word": "word"
+                  },
+                  {
+                    "startTime": "162.200s",
+                    "endTime": "162.900s",
+                    "word": "evolution"
+                  },
+                  {
+                    "startTime": "163s",
+                    "endTime": "163.100s",
+                    "word": "is"
+                  },
+                  {
+                    "startTime": "163.100s",
+                    "endTime": "163.300s",
+                    "word": "being"
+                  },
+                  {
+                    "startTime": "163.300s",
+                    "endTime": "163.700s",
+                    "word": "used"
+                  },
+                  {
+                    "startTime": "163.700s",
+                    "endTime": "164s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "164.200s",
+                    "endTime": "164.400s",
+                    "word": "public"
+                  },
+                  {
+                    "startTime": "164.400s",
+                    "endTime": "164.700s",
+                    "word": "school"
+                  },
+                  {
+                    "startTime": "164.700s",
+                    "endTime": "165.300s",
+                    "word": "textbooks"
+                  },
+                  {
+                    "startTime": "165.300s",
+                    "endTime": "165.400s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "165.400s",
+                    "endTime": "165.500s",
+                    "word": "we"
+                  },
+                  {
+                    "startTime": "165.500s",
+                    "endTime": "165.800s",
+                    "word": "often"
+                  },
+                  {
+                    "startTime": "165.800s",
+                    "endTime": "165.900s",
+                    "word": "see"
+                  },
+                  {
+                    "startTime": "165.900s",
+                    "endTime": "166s",
+                    "word": "it"
+                  },
+                  {
+                    "startTime": "166s",
+                    "endTime": "166.100s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "166.100s",
+                    "endTime": "166.800s",
+                    "word": "documentaries"
+                  },
+                  {
+                    "startTime": "166.800s",
+                    "endTime": "167s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "167s",
+                    "endTime": "167.200s",
+                    "word": "so"
+                  },
+                  {
+                    "startTime": "167.200s",
+                    "endTime": "167.400s",
+                    "word": "on"
+                  },
+                  {
+                    "startTime": "167.800s",
+                    "endTime": "168s",
+                    "word": "it's"
+                  },
+                  {
+                    "startTime": "168s",
+                    "endTime": "168.200s",
+                    "word": "used"
+                  },
+                  {
+                    "startTime": "168.200s",
+                    "endTime": "168.500s",
+                    "word": "for"
+                  },
+                  {
+                    "startTime": "168.500s",
+                    "endTime": "169.300s",
+                    "word": "observable"
+                  },
+                  {
+                    "startTime": "169.300s",
+                    "endTime": "169.900s",
+                    "word": "changes"
+                  },
+                  {
+                    "startTime": "169.900s",
+                    "endTime": "170s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "170s",
+                    "endTime": "170.100s",
+                    "word": "we"
+                  },
+                  {
+                    "startTime": "170.100s",
+                    "endTime": "170.300s",
+                    "word": "would"
+                  },
+                  {
+                    "startTime": "170.300s",
+                    "endTime": "170.500s",
+                    "word": "agree"
+                  },
+                  {
+                    "startTime": "170.500s",
+                    "endTime": "170.900s",
+                    "word": "with"
+                  },
+                  {
+                    "startTime": "170.900s",
+                    "endTime": "171.100s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "171.100s",
+                    "endTime": "171.300s",
+                    "word": "then"
+                  },
+                  {
+                    "startTime": "171.300s",
+                    "endTime": "171.500s",
+                    "word": "use"
+                  },
+                  {
+                    "startTime": "171.500s",
+                    "endTime": "171.800s",
+                    "word": "for"
+                  },
+                  {
+                    "startTime": "171.800s",
+                    "endTime": "172.600s",
+                    "word": "unobservable"
+                  },
+                  {
+                    "startTime": "172.600s",
+                    "endTime": "173.200s",
+                    "word": "changes"
+                  },
+                  {
+                    "startTime": "173.400s",
+                    "endTime": "173.700s",
+                    "word": "such"
+                  },
+                  {
+                    "startTime": "173.700s",
+                    "endTime": "173.800s",
+                    "word": "as"
+                  },
+                  {
+                    "startTime": "173.800s",
+                    "endTime": "174.300s",
+                    "word": "molecules"
+                  },
+                  {
+                    "startTime": "174.300s",
+                    "endTime": "174.500s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "174.500s",
+                    "endTime": "174.900s",
+                    "word": "man."
+                  },
+                  {
+                    "startTime": "175.600s",
+                    "endTime": "175.700s",
+                    "word": "Let"
+                  },
+                  {
+                    "startTime": "175.700s",
+                    "endTime": "175.800s",
+                    "word": "me"
+                  },
+                  {
+                    "startTime": "175.800s",
+                    "endTime": "176.100s",
+                    "word": "explain"
+                  },
+                  {
+                    "startTime": "176.100s",
+                    "endTime": "176.200s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "176.200s",
+                    "endTime": "176.200s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "176.200s",
+                    "endTime": "176.400s",
+                    "word": "what's"
+                  },
+                  {
+                    "startTime": "176.400s",
+                    "endTime": "176.600s",
+                    "word": "really"
+                  },
+                  {
+                    "startTime": "176.600s",
+                    "endTime": "176.900s",
+                    "word": "going"
+                  },
+                  {
+                    "startTime": "176.900s",
+                    "endTime": "177s",
+                    "word": "on"
+                  },
+                  {
+                    "startTime": "177s",
+                    "endTime": "177.200s",
+                    "word": "because"
+                  },
+                  {
+                    "startTime": "177.200s",
+                    "endTime": "177.200s",
+                    "word": "I"
+                  },
+                  {
+                    "startTime": "177.200s",
+                    "endTime": "177.400s",
+                    "word": "was"
+                  },
+                  {
+                    "startTime": "177.400s",
+                    "endTime": "177.500s",
+                    "word": "a"
+                  },
+                  {
+                    "startTime": "177.500s",
+                    "endTime": "177.800s",
+                    "word": "science"
+                  },
+                  {
+                    "startTime": "177.800s",
+                    "endTime": "178s",
+                    "word": "teacher"
+                  },
+                  {
+                    "startTime": "178s",
+                    "endTime": "178.100s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "178.100s",
+                    "endTime": "178.100s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "178.100s",
+                    "endTime": "178.500s",
+                    "word": "public"
+                  },
+                  {
+                    "startTime": "178.500s",
+                    "endTime": "179s",
+                    "word": "schools"
+                  },
+                  {
+                    "startTime": "179s",
+                    "endTime": "179.200s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "179.500s",
+                    "endTime": "179.800s",
+                    "word": "ceased"
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": " Institute today look there's all these different animals plants, but they're all part of this great big tree of life that goes back to some primordial form and look we see changes changes in Ventures changes in dogs and so on now, we don't deny the changes you see that you see different species of finches different species of dogs, but then they put it all together in this evolutionary tree, but that's what you don't observe. You don't observe that that's belief there. That's their historical science that I would say was wrong, but you know what you do observe you do observe.",
+                "confidence": 0.8555972,
+                "words": [
+                  {
+                    "startTime": "180s",
+                    "endTime": "180.500s",
+                    "word": "Institute"
+                  },
+                  {
+                    "startTime": "180.500s",
+                    "endTime": "180.800s",
+                    "word": "today"
+                  },
+                  {
+                    "startTime": "180.800s",
+                    "endTime": "181.200s",
+                    "word": "look"
+                  },
+                  {
+                    "startTime": "181.300s",
+                    "endTime": "181.500s",
+                    "word": "there's"
+                  },
+                  {
+                    "startTime": "181.500s",
+                    "endTime": "181.700s",
+                    "word": "all"
+                  },
+                  {
+                    "startTime": "181.700s",
+                    "endTime": "182.100s",
+                    "word": "these"
+                  },
+                  {
+                    "startTime": "182.100s",
+                    "endTime": "182.600s",
+                    "word": "different"
+                  },
+                  {
+                    "startTime": "182.600s",
+                    "endTime": "183s",
+                    "word": "animals"
+                  },
+                  {
+                    "startTime": "183s",
+                    "endTime": "183.600s",
+                    "word": "plants,"
+                  },
+                  {
+                    "startTime": "183.700s",
+                    "endTime": "183.900s",
+                    "word": "but"
+                  },
+                  {
+                    "startTime": "183.900s",
+                    "endTime": "184.200s",
+                    "word": "they're"
+                  },
+                  {
+                    "startTime": "184.200s",
+                    "endTime": "184.400s",
+                    "word": "all"
+                  },
+                  {
+                    "startTime": "184.400s",
+                    "endTime": "184.700s",
+                    "word": "part"
+                  },
+                  {
+                    "startTime": "184.700s",
+                    "endTime": "184.800s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "184.800s",
+                    "endTime": "185s",
+                    "word": "this"
+                  },
+                  {
+                    "startTime": "185s",
+                    "endTime": "185.300s",
+                    "word": "great"
+                  },
+                  {
+                    "startTime": "185.300s",
+                    "endTime": "185.400s",
+                    "word": "big"
+                  },
+                  {
+                    "startTime": "185.400s",
+                    "endTime": "185.600s",
+                    "word": "tree"
+                  },
+                  {
+                    "startTime": "185.600s",
+                    "endTime": "185.700s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "185.700s",
+                    "endTime": "185.900s",
+                    "word": "life"
+                  },
+                  {
+                    "startTime": "185.900s",
+                    "endTime": "186.100s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "186.100s",
+                    "endTime": "186.300s",
+                    "word": "goes"
+                  },
+                  {
+                    "startTime": "186.300s",
+                    "endTime": "186.500s",
+                    "word": "back"
+                  },
+                  {
+                    "startTime": "186.500s",
+                    "endTime": "186.600s",
+                    "word": "to"
+                  },
+                  {
+                    "startTime": "186.600s",
+                    "endTime": "186.800s",
+                    "word": "some"
+                  },
+                  {
+                    "startTime": "186.800s",
+                    "endTime": "187.500s",
+                    "word": "primordial"
+                  },
+                  {
+                    "startTime": "187.500s",
+                    "endTime": "188s",
+                    "word": "form"
+                  },
+                  {
+                    "startTime": "188.200s",
+                    "endTime": "188.300s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "188.300s",
+                    "endTime": "188.600s",
+                    "word": "look"
+                  },
+                  {
+                    "startTime": "188.600s",
+                    "endTime": "188.700s",
+                    "word": "we"
+                  },
+                  {
+                    "startTime": "188.700s",
+                    "endTime": "188.900s",
+                    "word": "see"
+                  },
+                  {
+                    "startTime": "188.900s",
+                    "endTime": "189.500s",
+                    "word": "changes"
+                  },
+                  {
+                    "startTime": "189.500s",
+                    "endTime": "189.900s",
+                    "word": "changes"
+                  },
+                  {
+                    "startTime": "189.900s",
+                    "endTime": "190s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "190s",
+                    "endTime": "190.400s",
+                    "word": "Ventures"
+                  },
+                  {
+                    "startTime": "190.400s",
+                    "endTime": "190.900s",
+                    "word": "changes"
+                  },
+                  {
+                    "startTime": "190.900s",
+                    "endTime": "191s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "191s",
+                    "endTime": "191.400s",
+                    "word": "dogs"
+                  },
+                  {
+                    "startTime": "191.400s",
+                    "endTime": "191.500s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "191.500s",
+                    "endTime": "191.600s",
+                    "word": "so"
+                  },
+                  {
+                    "startTime": "191.600s",
+                    "endTime": "191.900s",
+                    "word": "on"
+                  },
+                  {
+                    "startTime": "192.200s",
+                    "endTime": "192.400s",
+                    "word": "now,"
+                  },
+                  {
+                    "startTime": "192.400s",
+                    "endTime": "192.500s",
+                    "word": "we"
+                  },
+                  {
+                    "startTime": "192.500s",
+                    "endTime": "192.600s",
+                    "word": "don't"
+                  },
+                  {
+                    "startTime": "192.600s",
+                    "endTime": "192.900s",
+                    "word": "deny"
+                  },
+                  {
+                    "startTime": "192.900s",
+                    "endTime": "193s",
+                    "word": "the"
+                  },
+                  {
+                    "startTime": "193s",
+                    "endTime": "193.500s",
+                    "word": "changes"
+                  },
+                  {
+                    "startTime": "193.500s",
+                    "endTime": "193.600s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "193.600s",
+                    "endTime": "193.700s",
+                    "word": "see"
+                  },
+                  {
+                    "startTime": "193.700s",
+                    "endTime": "194s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "194s",
+                    "endTime": "194.100s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "194.100s",
+                    "endTime": "194.200s",
+                    "word": "see"
+                  },
+                  {
+                    "startTime": "194.200s",
+                    "endTime": "194.500s",
+                    "word": "different"
+                  },
+                  {
+                    "startTime": "194.500s",
+                    "endTime": "194.900s",
+                    "word": "species"
+                  },
+                  {
+                    "startTime": "194.900s",
+                    "endTime": "195s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "195s",
+                    "endTime": "195.300s",
+                    "word": "finches"
+                  },
+                  {
+                    "startTime": "195.300s",
+                    "endTime": "195.600s",
+                    "word": "different"
+                  },
+                  {
+                    "startTime": "195.600s",
+                    "endTime": "196s",
+                    "word": "species"
+                  },
+                  {
+                    "startTime": "196s",
+                    "endTime": "196.100s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "196.100s",
+                    "endTime": "196.400s",
+                    "word": "dogs,"
+                  },
+                  {
+                    "startTime": "196.800s",
+                    "endTime": "196.900s",
+                    "word": "but"
+                  },
+                  {
+                    "startTime": "196.900s",
+                    "endTime": "197.100s",
+                    "word": "then"
+                  },
+                  {
+                    "startTime": "197.100s",
+                    "endTime": "197.200s",
+                    "word": "they"
+                  },
+                  {
+                    "startTime": "197.200s",
+                    "endTime": "197.300s",
+                    "word": "put"
+                  },
+                  {
+                    "startTime": "197.300s",
+                    "endTime": "197.500s",
+                    "word": "it"
+                  },
+                  {
+                    "startTime": "197.500s",
+                    "endTime": "197.600s",
+                    "word": "all"
+                  },
+                  {
+                    "startTime": "197.600s",
+                    "endTime": "197.900s",
+                    "word": "together"
+                  },
+                  {
+                    "startTime": "197.900s",
+                    "endTime": "198s",
+                    "word": "in"
+                  },
+                  {
+                    "startTime": "198s",
+                    "endTime": "198.200s",
+                    "word": "this"
+                  },
+                  {
+                    "startTime": "198.200s",
+                    "endTime": "198.800s",
+                    "word": "evolutionary"
+                  },
+                  {
+                    "startTime": "198.800s",
+                    "endTime": "199s",
+                    "word": "tree,"
+                  },
+                  {
+                    "startTime": "199s",
+                    "endTime": "199.100s",
+                    "word": "but"
+                  },
+                  {
+                    "startTime": "199.100s",
+                    "endTime": "199.300s",
+                    "word": "that's"
+                  },
+                  {
+                    "startTime": "199.300s",
+                    "endTime": "199.400s",
+                    "word": "what"
+                  },
+                  {
+                    "startTime": "199.400s",
+                    "endTime": "199.500s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "199.500s",
+                    "endTime": "199.700s",
+                    "word": "don't"
+                  },
+                  {
+                    "startTime": "199.700s",
+                    "endTime": "200.300s",
+                    "word": "observe."
+                  },
+                  {
+                    "startTime": "200.500s",
+                    "endTime": "200.600s",
+                    "word": "You"
+                  },
+                  {
+                    "startTime": "200.600s",
+                    "endTime": "200.800s",
+                    "word": "don't"
+                  },
+                  {
+                    "startTime": "200.800s",
+                    "endTime": "201.100s",
+                    "word": "observe"
+                  },
+                  {
+                    "startTime": "201.100s",
+                    "endTime": "201.300s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "201.300s",
+                    "endTime": "201.500s",
+                    "word": "that's"
+                  },
+                  {
+                    "startTime": "201.500s",
+                    "endTime": "202.100s",
+                    "word": "belief"
+                  },
+                  {
+                    "startTime": "202.400s",
+                    "endTime": "202.800s",
+                    "word": "there."
+                  },
+                  {
+                    "startTime": "203s",
+                    "endTime": "203.600s",
+                    "word": "That's"
+                  },
+                  {
+                    "startTime": "203.600s",
+                    "endTime": "203.700s",
+                    "word": "their"
+                  },
+                  {
+                    "startTime": "203.700s",
+                    "endTime": "204.300s",
+                    "word": "historical"
+                  },
+                  {
+                    "startTime": "204.300s",
+                    "endTime": "204.900s",
+                    "word": "science"
+                  },
+                  {
+                    "startTime": "205.200s",
+                    "endTime": "205.400s",
+                    "word": "that"
+                  },
+                  {
+                    "startTime": "205.400s",
+                    "endTime": "205.500s",
+                    "word": "I"
+                  },
+                  {
+                    "startTime": "205.900s",
+                    "endTime": "206.100s",
+                    "word": "would"
+                  },
+                  {
+                    "startTime": "206.100s",
+                    "endTime": "206.200s",
+                    "word": "say"
+                  },
+                  {
+                    "startTime": "206.200s",
+                    "endTime": "206.400s",
+                    "word": "was"
+                  },
+                  {
+                    "startTime": "206.400s",
+                    "endTime": "206.800s",
+                    "word": "wrong,"
+                  },
+                  {
+                    "startTime": "207.300s",
+                    "endTime": "207.400s",
+                    "word": "but"
+                  },
+                  {
+                    "startTime": "207.400s",
+                    "endTime": "207.500s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "207.500s",
+                    "endTime": "207.700s",
+                    "word": "know"
+                  },
+                  {
+                    "startTime": "207.700s",
+                    "endTime": "207.900s",
+                    "word": "what"
+                  },
+                  {
+                    "startTime": "207.900s",
+                    "endTime": "208s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "208s",
+                    "endTime": "208.200s",
+                    "word": "do"
+                  },
+                  {
+                    "startTime": "208.200s",
+                    "endTime": "209.100s",
+                    "word": "observe"
+                  },
+                  {
+                    "startTime": "209.300s",
+                    "endTime": "209.400s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "209.400s",
+                    "endTime": "209.600s",
+                    "word": "do"
+                  },
+                  {
+                    "startTime": "209.600s",
+                    "endTime": "209.800s",
+                    "word": "observe."
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          },
+          {
+            "alternatives": [
+              {
+                "transcript": " Observe different species of dogs different species of finches, but then there are limits and you don't see one kind changing into another.",
+                "confidence": 0.86779886,
+                "words": [
+                  {
+                    "startTime": "209.900s",
+                    "endTime": "210.200s",
+                    "word": "Observe"
+                  },
+                  {
+                    "startTime": "210.200s",
+                    "endTime": "210.800s",
+                    "word": "different"
+                  },
+                  {
+                    "startTime": "210.800s",
+                    "endTime": "211.100s",
+                    "word": "species"
+                  },
+                  {
+                    "startTime": "211.100s",
+                    "endTime": "211.300s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "211.300s",
+                    "endTime": "211.600s",
+                    "word": "dogs"
+                  },
+                  {
+                    "startTime": "211.600s",
+                    "endTime": "212.400s",
+                    "word": "different"
+                  },
+                  {
+                    "startTime": "212.400s",
+                    "endTime": "212.700s",
+                    "word": "species"
+                  },
+                  {
+                    "startTime": "212.700s",
+                    "endTime": "212.900s",
+                    "word": "of"
+                  },
+                  {
+                    "startTime": "212.900s",
+                    "endTime": "213.300s",
+                    "word": "finches,"
+                  },
+                  {
+                    "startTime": "213.300s",
+                    "endTime": "213.900s",
+                    "word": "but"
+                  },
+                  {
+                    "startTime": "213.900s",
+                    "endTime": "214.100s",
+                    "word": "then"
+                  },
+                  {
+                    "startTime": "214.100s",
+                    "endTime": "214.300s",
+                    "word": "there"
+                  },
+                  {
+                    "startTime": "214.300s",
+                    "endTime": "214.300s",
+                    "word": "are"
+                  },
+                  {
+                    "startTime": "214.300s",
+                    "endTime": "214.800s",
+                    "word": "limits"
+                  },
+                  {
+                    "startTime": "214.800s",
+                    "endTime": "215.500s",
+                    "word": "and"
+                  },
+                  {
+                    "startTime": "215.500s",
+                    "endTime": "215.700s",
+                    "word": "you"
+                  },
+                  {
+                    "startTime": "215.700s",
+                    "endTime": "216s",
+                    "word": "don't"
+                  },
+                  {
+                    "startTime": "216s",
+                    "endTime": "216.100s",
+                    "word": "see"
+                  },
+                  {
+                    "startTime": "216.100s",
+                    "endTime": "216.300s",
+                    "word": "one"
+                  },
+                  {
+                    "startTime": "216.300s",
+                    "endTime": "216.500s",
+                    "word": "kind"
+                  },
+                  {
+                    "startTime": "216.500s",
+                    "endTime": "217s",
+                    "word": "changing"
+                  },
+                  {
+                    "startTime": "217s",
+                    "endTime": "217.200s",
+                    "word": "into"
+                  },
+                  {
+                    "startTime": "217.200s",
+                    "endTime": "217.200s",
+                    "word": "another."
+                  }
+                ]
+              }
+            ],
+            "languageCode": "en-us"
+          }
+        ]
+      }
+    ]
+  }
+}

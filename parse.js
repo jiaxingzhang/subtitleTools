@@ -34,6 +34,17 @@ try {
 
     // this is all the words from the video    
     var wordlib = combine(trans);
+    // require('fs').writeFile(
+    // 	'./wordlib.json',
+    // 	JSON.stringify(wordlib),
+    // 	function (err) {
+    //         if (err) {
+    // 		console.error('Crap happens');
+    //         }
+    // 	}
+    // );
+    
+    // console.log(wordlib);
 
     // sub file is what the actual subtitle lines you'd like to have
     // This is where you can control the length of each subtitle line
@@ -69,9 +80,9 @@ function wrap(s) {
 
 // Covert duration to HH::MM::SS format
 function duration(s) {
-    var hr = Math.floor(s/3600);
-    var min = Math.floor(s/60)%60;
-    var sec = Math.floor(s%60); // @todo: round up or down? 
+    var hr = Math.round(s/3600);
+    var min = Math.round(s/60)%60;
+    var sec = Math.round(s%60); // @todo: round up or down? 
     return wrap(hr) + ":" + wrap(min) + ":" + wrap(sec) + ",000";
 }
 
@@ -111,6 +122,7 @@ function getCorrectTran(text, trans) {
 
 // Given a subtitle line, create a sub object that contains the line and start and end time
 function makeSubLib(text, words) {
+    console.log(words[0]);
     var sub = {text: "", start: "", end : ""};
     sub.text = text;
     sub.start = words[0].startTime;

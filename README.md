@@ -16,7 +16,7 @@ bash subgen.bash -i "gs://minqa/trimmed/Q1_1.mp4" q1_1
 
 Or, if you have the response path, then you can just do:
 ```bash
-bash subgen.bash -p projects/637000999429/locations/us-east1/operations/6431147184604634823 q1_1"
+bash subgen.bash -p projects/637000999429/locations/us-east1/operations/6431147184604634823 q1_1
 ```
 
 This will generate the following in the current folder:

@@ -6,17 +6,17 @@ This is small tool written in Node JS to extract subtitle timeline information i
 
 ### Upload a MP4 file to Google Cloud Platform
 
-You need to make sure the video is accessible, either by specific permission or public if there's no safety concern. You should be able to get a `uri` of the video, such as `gs://minqa/trimmed/Q1_1.mp4`
+You need to make sure the video is accessible, either by specific permission or public if there's no safety concern. You should be able to get a `uri` of the video, such as `gs://xyz/Q1_1.mp4`
 
 ### One shot command
 
 ```bash
-bash subgen.bash -i "gs://minqa/trimmed/Q1_1.mp4" q1_1
+bash subgen.bash -i "gs://xyz/Q1_1.mp4" q1_1
 ```
 
 Or, if you have the response path, then you can just do:
 ```bash
-bash subgen.bash -p projects/637000999429/locations/us-east1/operations/6431147184604634823 q1_1
+bash subgen.bash -p projects/637000999429/locations/us-east1/operations/643114718460463482933 q1_1
 ```
 
 This will generate the following in the current folder:

@@ -19,9 +19,11 @@ try {
 
     var subs = [];
     for (su of subf) {
-	var text = su;
-	var sub = makeSubLib(text, wordlib);	
-	subs.push(sub);
+	var text = autoBreak(su);
+	for (t of text) {
+	    var sub = makeSubLib(t, wordlib);
+	    subs.push(sub);
+	}
     }
 
     // subs is an array of sub object {start, end, text}
@@ -96,4 +98,77 @@ function makeSubLib(text, words) {
     // remove it in the words. This is in place removal
     words.splice(0, i);
     return sub;
+}
+
+function transform(sentence, pred, split, suffix) {
+    var res = [];
+    const sleng = sentence.split(' ').length;
+    if (pred(sentence)) {
+	var arr = sentence.split(split);
+	for (i=0; i<arr.length; i++) {
+	    let comma = suffix;
+	    if (i === arr.length-1) {
+		comma = '';
+	    }
+	    if (arr[i].length > 0) {
+		res.push(transform(arr[i], pred, split, suffix) + comma);
+	    }
+	}
+    } else {
+	res.push(sentence);
+    }
+    return res;
+}
+
+function commaBreak(sentence) {
+    const max = 5;
+    const min = 2;
+    const split = ',';
+    const suffix = ',';
+
+    const pred = (sen) =>
+	  sen.split(' ').length >= max &&
+	  sen.includes(',') &&
+	  isNaN(sen.split(',')[0]) &&
+	  sen.split(',').every(x => x.split(' ').length > min);
+    
+    return transform(sentence, pred, split, suffix);
+}
+
+function andBreak(sentence) {
+    const max = 5;
+    const min = 2;
+    const split = ' and ';
+    const suffix = ' and';
+    
+    const pred = (sen) =>
+	  sen.split(' ').length >= max &&
+	  sen.includes(' and ') &&
+	  sen.split(' and ').every(x => x.split(' ').length > min);
+    
+    return transform(sentence, pred, split, suffix);
+}
+
+function orBreak(sentence) {
+    const max = 5;
+    const min = 3;
+    const split = ' or ';
+    const suffix = ' or';
+    
+    const pred = (sen) =>
+	  sen.split(' ').length >= max &&
+	  sen.includes(' or ') &&
+	  sen.split(' or ').every(x => x.split(' ').length > min);
+    
+    return transform(sentence, pred, split, suffix);
+}
+
+function autoBreak(s) {
+    var res = [];
+    commaBreak(s).forEach(
+	x => andBreak(x).forEach(
+	    y => res = res.concat(orBreak(y))
+	)
+    )
+    return res;
 }

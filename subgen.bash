@@ -21,7 +21,7 @@ case "$1" in
 	;;
     -i)
 	echo "Getting response..."
-	URI=$(bash prep.bash -u $2);
+	URI=$(bash prep.bash -u "$2");
 	echo $URI
 	;;
     -p)

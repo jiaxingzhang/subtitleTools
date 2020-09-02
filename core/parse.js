@@ -7,11 +7,7 @@ try {
     fs = require('fs');    
     var data = fs.readFileSync(myArgs[0], 'utf8')
     var wordlib = JSON.parse(data);
-    // var trans = raw.response.annotationResults[0].speechTranscriptions;
 
-    // this is all the words from the video    
-    // var wordlib = combine(trans);
-    
     // sub file is what the actual subtitle lines you'd like to have
     // This is where you can control the length of each subtitle line
     var subfile = fs.readFileSync(myArgs[1], 'utf8');
@@ -19,12 +15,12 @@ try {
 
     var subs = [];
     for (su of subf) {
-	var text = autoBreak(su);
-	for (t of text) {
-	    var sub = makeSubLib(t, wordlib);
-	    var shortsub = adjustLength(sub);
-	    for (ss of shortsub) {
-		subs.push(ss);
+	var sub = makeSubLib(su, wordlib);
+	var shortSub = adjustLength(sub);
+	for (ss of shortSub) {
+	    let shorterSub = autoBreak(ss);
+	    for (ss2 of shorterSub) {
+		subs.push(ss2);
 	    }
 	}
     }
@@ -100,24 +96,89 @@ function makeSubLib(text, words) {
     return sub;
 }
 
-function transform(sentence, pred, split, suffix) {
-    var res = [];
-    const sleng = sentence.split(' ').length;
-    if (pred(sentence)) {
-	var arr = sentence.split(split);
-	for (i=0; i<arr.length; i++) {
-	    let comma = suffix;
-	    if (i === arr.length-1) {
-		comma = '';
-	    }
-	    if (arr[i].length > 0) {
-		res.push(transform(arr[i], pred, split, suffix) + comma);
-	    }
+function splitSub(sub, split) {
+    if (sub.elem.length === 0) {
+	throw new Error('splitSub cannot work on empty sub ');
+    }
+    
+    let startNew = true;
+    let res = [];
+    for (i=0; i< sub.elem.length; i++) {
+	let e = sub.elem[i];
+	if (startNew) {
+	    startNew = false;
+	    prev = e;
+	    // we don't care if the 1st element is the split
+	    continue; 
 	}
-    } else {
-	res.push(sentence);
+	
+	let test = ' ' + e.word + ' ';
+	if (test.includes(split)) {
+	    res.push(make_sub(sub.elem, prev, e));
+	    startNew = true;
+	}
+    }
+    if (!startNew) {
+	res.push(make_sub(sub.elem, prev, sub.elem[sub.elem.length - 1]));
     }
     return res;
+}
+
+function transform(sub, pred, split) {
+    var res = [];
+    var sentence = sub.text;
+    if (pred(sentence)) {
+	var arr = splitSub(sub, split);
+	if (arr.length.length <= 0) {
+	    throw new Error('encountered empty array during transform');
+	}
+	for (i=0; i<arr.length; i++) {
+	    if (arr[i].length <= 0) {
+		throw new Error('encountered empty sub during transform');
+	    }
+	    res = res.concat(transform(arr[i], pred, split));
+	}
+    } else {
+	res.push(sub);
+    }
+    return res;
+}
+
+function commaBreak(sub) {
+    const max = 5;
+    const min = 2;
+    const split = ',';
+    const pred = (sen) =>
+	  sen.split(' ').length >= max &&
+	  sen.includes(',') &&
+	  isNaN(sen.split(',')[0]) &&
+	  sen.split(',').every(x => x.split(' ').length > min);
+    
+    return transform(sub, pred, split);
+}
+
+function wordBreak(sub, word) {
+    const max = 5;
+    const min = 2;
+    const split = ' ' + word + ' ';
+    const pred = (sen) =>
+	  sen.split(' ').length >= max &&
+	  sen.includes(split) &&
+	  sen.split(split).every(x => x.split(' ').length > min);
+    
+    return transform(sub, pred, split);
+}
+
+function andBreak(sub) {
+    return wordBreak(sub, 'and');
+}
+
+function orBreak(sub) {
+    return wordBreak(sub, 'or');
+}
+
+function butBreak(sub) {
+    return wordBreak(sub, 'but');
 }
 
 function breakCore(xforms, i, s) {
@@ -131,50 +192,8 @@ function breakCore(xforms, i, s) {
     return res;
 }
 
-function commaBreak(sentence) {
-    const max = 5;
-    const min = 2;
-    const split = ',';
-    const suffix = ',';
-
-    const pred = (sen) =>
-	  sen.split(' ').length >= max &&
-	  sen.includes(',') &&
-	  isNaN(sen.split(',')[0]) &&
-	  sen.split(',').every(x => x.split(' ').length > min);
-    
-    return transform(sentence, pred, split, suffix);
-}
-
-function wordBreak(sentence, word) {
-    const max = 5;
-    const min = 2;
-    const split = ' ' + word + ' ';
-    const suffix = ' ' + word;
-    
-    const pred = (sen) =>
-	  sen.split(' ').length >= max &&
-	  sen.includes(split) &&
-	  sen.split(split).every(x => x.split(' ').length > min);
-    
-    return transform(sentence, pred, split, suffix);    
-}
-
-function andBreak(sentence) {
-    return wordBreak(sentence, 'and');
-}
-
-function orBreak(sentence) {
-    return wordBreak(sentence, 'or');
-}
-
-function butBreak(sentence) {
-    return wordBreak(sentence, 'but');
-}
-
 function autoBreak(s) {
     var xforms = [commaBreak, andBreak, orBreak, butBreak];
-    // var xforms = [commaBreak];    
     return breakCore(xforms, 0, s);
 }
 

@@ -22,7 +22,10 @@ try {
 	var text = autoBreak(su);
 	for (t of text) {
 	    var sub = makeSubLib(t, wordlib);
-	    subs.push(sub);
+	    var shortsub = adjustLength(sub);
+	    for (ss of shortsub) {
+		subs.push(ss);
+	    }
 	}
     }
 
@@ -73,17 +76,16 @@ function combine(trans) {
 
 // Given a subtitle line, create a sub object that contains the line and start and end time
 function makeSubLib(text, words) {
-    var sub = {text: "", start: "", end : ""};
+    var sub = {text: '', start: '', end: '', elem: []};
     sub.text = text;
     sub.start = words[0].startTime;
     
-    var sentence = "";
-    var i = 0;
-
+    var sentence = '';
     var error = true; // assuming failure
-    for (w of words) {
-	i++;
-	sentence = sentence + " " + w.word;
+    while(words.length > 0) {
+	let w = words.shift();
+	sentence += ' ' + w.word;
+	sub.elem.push(w);
 	if (text.trim().localeCompare(sentence.trim()) == 0) {
 	    sub.end = w.endTime;
 	    error = false;
@@ -95,8 +97,6 @@ function makeSubLib(text, words) {
 	throw new Error('failed to match subtitle sentence: ' + text);
     }
     
-    // remove it in the words. This is in place removal
-    words.splice(0, i);
     return sub;
 }
 
@@ -174,5 +174,65 @@ function butBreak(sentence) {
 
 function autoBreak(s) {
     var xforms = [commaBreak, andBreak, orBreak, butBreak];
+    // var xforms = [commaBreak];    
     return breakCore(xforms, 0, s);
+}
+
+function make_sub(elems, begin, end) {
+    var sub = {text: '', start: '', end: '', elem: []};
+    sub.start = begin.startTime
+    sub.end = end.endTime
+
+    let on = false;
+    for (e of elems) {
+	if (e === begin) {
+	    on = true;
+	}
+	
+	if (on) {
+	    sub.text += ' ' + e.word
+	    sub.elem.push(e);
+	}
+	    
+	if (e === end) {
+	    on = false;
+	}	
+    }
+    return sub;
+}
+
+function adjustLength(sub) {
+    const max = 20;
+    const split_th = 0;
+    
+    if (sub.text.split(' ').length <= max ||
+	sub.elem.length <= 2) {
+	return [sub];
+    }
+
+    let gap = {last: '', cur: ''}
+    gap.last = sub.elem[0];
+    gap.cur = sub.elem[0];
+
+    let prev = sub.elem[0];
+    let max_diff = 0;
+    
+    for (i=1; i<sub.elem.length; i++) {
+	// update the gap to the largest
+	let diff = Number(sub.elem[i].startTime.replace(/s$/, "")) - Number(prev.endTime.replace(/s$/, ""))
+	if (diff > max_diff) {
+	    gap.last = prev;
+	    gap.cur = sub.elem[i]
+	    max_diff = diff
+	}
+	prev = sub.elem[i]
+    }
+    var res = []
+    if (max_diff > split_th) {
+	let p1 = make_sub(sub.elem, sub.elem[0], gap.last)
+	let p2 = make_sub(sub.elem, gap.cur, sub.elem[sub.elem.length - 1])
+	res = res.concat(adjustLength(p1)).concat(adjustLength(p2))
+	return res;
+    }
+    return [sub];
 }

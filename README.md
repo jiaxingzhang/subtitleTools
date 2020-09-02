@@ -8,6 +8,8 @@ This is small tool written in Node JS to extract subtitle timeline information i
 
 You need to make sure the video is accessible, either by specific permission or public if there's no safety concern. You should be able to get a `uri` of the video, such as `gs://xyz/Q1_1.mp4`
 
+You can also use `gsutil cp` command. See here: https://cloud.google.com/storage/docs/gsutil/commands/cp
+
 ### One shot command
 
 ```bash

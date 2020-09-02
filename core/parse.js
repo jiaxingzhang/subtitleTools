@@ -120,6 +120,17 @@ function transform(sentence, pred, split, suffix) {
     return res;
 }
 
+function breakCore(xforms, i, s) {
+    if (xforms.length-1 == i) {
+	return xforms[i](s);
+    }
+    let res = [];
+    for (t of xforms[i](s)) {
+	res = res.concat(breakCore(xforms, i+1, t))
+    }
+    return res;
+}
+
 function commaBreak(sentence) {
     const max = 5;
     const min = 2;
@@ -135,40 +146,33 @@ function commaBreak(sentence) {
     return transform(sentence, pred, split, suffix);
 }
 
-function andBreak(sentence) {
+function wordBreak(sentence, word) {
     const max = 5;
     const min = 2;
-    const split = ' and ';
-    const suffix = ' and';
+    const split = ' ' + word + ' ';
+    const suffix = ' ' + word;
     
     const pred = (sen) =>
 	  sen.split(' ').length >= max &&
-	  sen.includes(' and ') &&
-	  sen.split(' and ').every(x => x.split(' ').length > min);
+	  sen.includes(split) &&
+	  sen.split(split).every(x => x.split(' ').length > min);
     
-    return transform(sentence, pred, split, suffix);
+    return transform(sentence, pred, split, suffix);    
+}
+
+function andBreak(sentence) {
+    return wordBreak(sentence, 'and');
 }
 
 function orBreak(sentence) {
-    const max = 5;
-    const min = 3;
-    const split = ' or ';
-    const suffix = ' or';
-    
-    const pred = (sen) =>
-	  sen.split(' ').length >= max &&
-	  sen.includes(' or ') &&
-	  sen.split(' or ').every(x => x.split(' ').length > min);
-    
-    return transform(sentence, pred, split, suffix);
+    return wordBreak(sentence, 'or');
+}
+
+function butBreak(sentence) {
+    return wordBreak(sentence, 'but');
 }
 
 function autoBreak(s) {
-    var res = [];
-    commaBreak(s).forEach(
-	x => andBreak(x).forEach(
-	    y => res = res.concat(orBreak(y))
-	)
-    )
-    return res;
+    var xforms = [commaBreak, andBreak, orBreak, butBreak];
+    return breakCore(xforms, 0, s);
 }

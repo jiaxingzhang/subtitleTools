@@ -38,8 +38,8 @@ function wrap(s) {
 
 // Covert duration to HH::MM::SS format
 function duration(s) {
-    const hr = Math.round(s/3600);
-    const min = Math.round(s/60)%60;
+    const hr = Math.floor(s/3600);
+    const min = Math.floor(s/60)%60;
     const sec = Math.round(s%60);
     return wrap(hr) + ":" + wrap(min) + ":" + wrap(sec) + ",000";
 }
@@ -53,7 +53,7 @@ function genSub(subs) {
 
 	console.log(i++);
 	console.log(startTime + " --> " + endTime);
-	console.log(s.text);
+	console.log(s.text.trim());
 	console.log("\n");
     }
 }
@@ -90,7 +90,7 @@ function makeSubLib(text, words) {
     }
 
     if (error) {
-	throw new Error('failed to match subtitle sentence');
+	throw new Error('failed to match subtitle sentence: ' + text);
     }
     
     // remove it in the words. This is in place removal

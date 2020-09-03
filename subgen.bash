@@ -53,3 +53,4 @@ node core/parse.js -auto $RAW $CON > $SUB
 node core/parse.js -control $RAW $CON > $NEWCON
 cat $SUB
 echo "Done."
+echo "subtitle $SUB is done." | mail -s "subtitle conversion is done" jzhang@mathworks.com

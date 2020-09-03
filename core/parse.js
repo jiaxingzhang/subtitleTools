@@ -1,6 +1,6 @@
 try {
     var myArgs = process.argv.slice(2);
-    if (myArgs.length !== 2 && myArgs.length !== 3) {
+    if (myArgs.length > 4) {
 	console.log(myArgs.length)
 	throw new Error('Usage: node parse.js [-auto|-control|-summary] [raw subtitle json] [subtitle control json] ');
     }
@@ -12,15 +12,30 @@ try {
     const genControlFile = myArgs[0] === '-control';
     const genSummary = myArgs[0] === '-summary';
 
+    let tunable = false;
+    let pause = 0.5;
+    
+    if (genSummary) {
+	if (isNaN(Number(myArgs[1]))) {
+	    tunable = false;
+	} else {
+	    tunable = true;
+	    pause = Number(myArgs[1]);
+	}
+    }
+
     const basicUse = !fullAuto && !genControlFile && !genSummary;
     
-    if (myArgs.length === 2) {
+    if (basicUse) {
 	rawFile = myArgs[0];
 	conFile = myArgs[1];
-    } else {
+    } else if (!tunable) {
 	rawFile = myArgs[1];
 	conFile = myArgs[2];	
-    } 
+    } else {
+	rawFile = myArgs[2];
+	conFile = myArgs[3];
+    }
     
     fs = require('fs');    
     var data = fs.readFileSync(rawFile, 'utf8')
@@ -56,7 +71,7 @@ try {
 	return genControl(subs);
     }
     if (genSummary) {
-	return genSum(subs);
+	return genSum(subs, pause);
     }
 
     genSub(subs);
@@ -92,13 +107,13 @@ function genSub(subs) {
     }
 }
 
-function genSum(subs) {
+function genSum(subs, pause) {
     if (subs.length === 0) {
 	throw new Error('empty sub file');
     }
     
     var summary = '';
-    const pause = 0.5;
+    // const pause = 0.5;
 
     var space = '';
     var prev = subs[0];
@@ -192,7 +207,7 @@ function splitSub(sub, split) {
 
 function transform(sub, pred, split) {
     var res = [];
-    var sentence = sub.text;
+    var sentence = sub.text.trim();
     if (pred(sentence)) {
 	var arr = splitSub(sub, split);
 	if (arr.length.length <= 0) {
@@ -212,12 +227,14 @@ function transform(sub, pred, split) {
 
 function puncBreak(sub, punc) {
     const max = 5;
-    const min = 2;
+    const min = 0;
     const pred = (sen) =>
 	  sen.split(' ').length >= max &&
 	  sen.includes(punc) &&
 	  isNaN(sen.split(punc)[0]) &&
-	  sen.split(punc).every(x => x.split(' ').length > min);
+	  sen.split(punc).every(x => x.split(' ').length > min) &&
+	  sen.split(punc)[0].split(' ').length > 1 &&
+	  sen.split(punc)[sen.split(punc).length - 1].split(' ').length > 1;
     
     return transform(sub, pred, punc);
 }

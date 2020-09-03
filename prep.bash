@@ -41,7 +41,8 @@ case "$1" in
 	    if [ $ready == "true" ]; then
 		break
 	    fi
-	    >&2 echo "in progress..."
+	    prog=$(cat .raw.tmp | jq .metadata.annotationProgress[0].progressPercent)
+	    >&2 echo "in progress: $prog%..."
 	    sleep 5
 	done
 	node core/combine.js .raw.tmp | jq .

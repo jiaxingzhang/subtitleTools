@@ -267,6 +267,10 @@ function becauseBreak(sub) {
     return wordBreak(sub, 'because');
 }
 
+function thenBreak(sub) {
+    return wordBreak(sub, 'then');
+}
+
 function breakCore(xforms, i, s) {
     if (xforms.length-1 == i) {
 	return xforms[i](s);
@@ -279,7 +283,7 @@ function breakCore(xforms, i, s) {
 }
 
 function autoBreak(s) {
-    var xforms = [periodBreak, commaBreak, andBreak, orBreak, butBreak, thatBreak, becauseBreak];
+    var xforms = [periodBreak, commaBreak, andBreak, orBreak, butBreak, thatBreak, becauseBreak, thenBreak];
     return breakCore(xforms, 0, s);
 }
 

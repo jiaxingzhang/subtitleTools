@@ -100,10 +100,10 @@ function genSum(subs) {
     var summary = '';
     const pause = 0.5;
 
-    var space = ' ';
+    var space = '';
     var prev = subs[0];
     
-    for (i=1; i<subs.length; i++) {
+    for (i=0; i<subs.length; i++) {
 	let s = subs[i];
 	let gap = Number(s.start.replace(/s$/, "")) - Number(prev.end.replace(/s$/, ""))
 	if (gap > pause && prev.text.includes('.')) {

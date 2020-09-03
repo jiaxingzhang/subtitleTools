@@ -50,7 +50,9 @@ case "$1" in
     -c)
 	echo "
 	{\"trans\": [ " > .control.tmp
-	curl -X GET -H "Authorization: Bearer "$(gcloud auth application-default print-access-token) https://videointelligence.googleapis.com/v1/$2 | jq '.response.annotationResults[].speechTranscriptions[].alternatives[].transcript' | perl -p -e 's/\. /."\n"/' | perl -p -e 's/\n/,/' | perl -p -e's/null,//g' | sed 's/,$//' >> .control.tmp
+	#	curl -X GET -H "Authorization: Bearer "$(gcloud auth application-default print-access-token) https://videointelligence.googleapis.com/v1/$2 | jq '.response.annotationResults[].speechTranscriptions[].alternatives[].transcript' | perl -p -e 's/\. /."\n"/' | perl -p -e 's/\n/,/' | perl -p -e's/null,//g' | sed 's/,$//' >> .control.tmp
+	curl -X GET -H "Authorization: Bearer "$(gcloud auth application-default print-access-token) https://videointelligence.googleapis.com/v1/$2 | jq '.response.annotationResults[].speechTranscriptions[].alternatives[].transcript' | perl -p -e 's/\n/,/' | perl -p -e's/null,//g' | sed 's/,$//' >> .control.tmp
+
 	echo "    ]
 	}" >> .control.tmp
 	cat .control.tmp | jq .

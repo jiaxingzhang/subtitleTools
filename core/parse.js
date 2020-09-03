@@ -195,7 +195,7 @@ function commaBreak(sub) {
 }
 
 function periodBreak(sub) {
-    return puncBreak(sub, '.');
+    return puncBreak(sub, '. ');
 }
 
 function wordBreak(sub, word) {

@@ -178,23 +178,31 @@ function transform(sub, pred, split) {
     return res;
 }
 
-function commaBreak(sub) {
+function puncBreak(sub, punc) {
     const max = 5;
     const min = 2;
-    const split = ',';
     const pred = (sen) =>
 	  sen.split(' ').length >= max &&
-	  sen.includes(',') &&
-	  isNaN(sen.split(',')[0]) &&
-	  sen.split(',').every(x => x.split(' ').length > min);
+	  sen.includes(punc) &&
+	  isNaN(sen.split(punc)[0]) &&
+	  sen.split(punc).every(x => x.split(' ').length > min);
     
-    return transform(sub, pred, split);
+    return transform(sub, pred, punc);
+}
+
+function commaBreak(sub) {
+    return puncBreak(sub, ',');
+}
+
+function periodBreak(sub) {
+    return puncBreak(sub, '.');
 }
 
 function wordBreak(sub, word) {
     const max = 5;
     const min = 2;
     const split = ' ' + word + ' ';
+
     const pred = (sen) =>
 	  sen.split(' ').length >= max &&
 	  sen.includes(split) &&
@@ -215,6 +223,10 @@ function butBreak(sub) {
     return wordBreak(sub, 'but');
 }
 
+function thatBreak(sub) {
+    return wordBreak(sub, 'that');
+}
+
 function breakCore(xforms, i, s) {
     if (xforms.length-1 == i) {
 	return xforms[i](s);
@@ -227,7 +239,7 @@ function breakCore(xforms, i, s) {
 }
 
 function autoBreak(s) {
-    var xforms = [commaBreak, andBreak, orBreak, butBreak];
+    var xforms = [periodBreak, commaBreak, andBreak, orBreak, butBreak, thatBreak];
     return breakCore(xforms, 0, s);
 }
 

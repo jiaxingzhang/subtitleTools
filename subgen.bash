@@ -35,14 +35,16 @@ esac
 
 RAW=$3_raw.json
 CON=$3_control.json
+NEWCON=$3_control.json
 SUB=$3.srt
 echo "Generating $RAW..."
 bash prep.bash -r $URI > $RAW
 echo "Done."
-echo "Generating $CON..."
+echo "Generating original $CON..."
 bash prep.bash -c $URI > $CON
 echo "Done."
 echo "Generating subtitle file: $SUB..."
-node core/parse.js $RAW $CON > $SUB
+node core/parse.js -auto $RAW $CON > $SUB
+node core/updateControl.js $RAW $CON > $NEWCON
 cat $SUB
 echo "Done."

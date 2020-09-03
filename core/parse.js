@@ -235,10 +235,14 @@ function wordBreak(sub, word) {
     const min = 2;
     const split = ' ' + word + ' ';
 
+    const sameStr = (x, y) => x.toUpperCase() === y.toUpperCase;
+
     const pred = (sen) =>
 	  sen.split(' ').length >= max &&
 	  sen.includes(split) &&
-	  sen.split(split).every(x => x.split(' ').length > min);
+	  (sen.split(split).every(x => x.split(' ').length > min) ||
+	   sameStr(sen.split(split)[0], split.trim()) ||
+	   sameStr(sen.split(split)[sen.split(split).length - 1], split.trim()));
     
     return transform(sub, pred, split);
 }

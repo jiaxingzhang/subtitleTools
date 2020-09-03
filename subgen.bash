@@ -14,6 +14,11 @@ usage () {
     echo ""
 }
 
+if [ "$#" -ne 3 ]; then
+    echo "Illegal number of parameters"
+    exit
+fi
+
 case "$1" in
     -h|-help|--help)
 	usage

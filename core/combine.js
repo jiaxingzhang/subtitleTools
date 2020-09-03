@@ -11,7 +11,7 @@ try {
 
     // this is all the words from the video    
     var wordlib = combine(trans);
-    console.log(JSON.stringify(wordlib));
+    console.log(JSON.stringify(wordlib, null, 2));
     
 } catch (err) {
     console.error(err)

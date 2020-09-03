@@ -34,7 +34,7 @@ case "$1" in
 esac
 
 RAW=$3_raw.json
-CON=$3_control.json
+CON=$3_control_orig.json
 NEWCON=$3_control.json
 SUB=$3.srt
 echo "Generating $RAW..."
@@ -45,6 +45,6 @@ bash prep.bash -c $URI > $CON
 echo "Done."
 echo "Generating subtitle file: $SUB..."
 node core/parse.js -auto $RAW $CON > $SUB
-node core/updateControl.js $RAW $CON > $NEWCON
+node core/parse.js -control $RAW $CON > $NEWCON
 cat $SUB
 echo "Done."

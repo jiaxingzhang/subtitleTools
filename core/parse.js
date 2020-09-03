@@ -1,12 +1,16 @@
 try {
     var myArgs = process.argv.slice(2);
-    if (myArgs.length !== 2 || myArgs.length !== 3) {
-	console.error('Usage: node parse.js [-auto] [raw subtitle json] [subtitle control json] ');
+    if (myArgs.length !== 2 && myArgs.length !== 3) {
+	console.log(myArgs.length)
+	console.error('Usage: node parse.js [-auto|-control] [raw subtitle json] [subtitle control json] ');
     }
 
     var rawFile = '';
     var conFile = '';
-    if (myArgs[0] === '-auto') {
+    const fullAuto = myArgs[0] === '-auto';
+    const genControlFile = myArgs[0] === '-control';
+    
+    if (fullAuto || genControlFile) {
 	rawFile = myArgs[1];
 	conFile = myArgs[2];
     } else {
@@ -25,7 +29,7 @@ try {
 
     var subs = [];
 
-    if (myArgs[0] === '-auto') {
+    if (fullAuto || genControlFile) {
 	for (su of subf) {
 	    var sub = makeSubLib(su, wordlib);
 	    var shortSub = adjustLength(sub);
@@ -37,15 +41,18 @@ try {
 	    }
 	}
     } else {
-
 	for (su of subf) {
 	    var sub = makeSubLib(su, wordlib);
 	    subs.push(sub);	
 	}
     }
-    
+
     // subs is an array of sub object {start, end, text}
-    genSub(subs);
+    if (genControlFile) {
+	genControl(subs);
+    } else {
+	genSub(subs);
+    }
     
 } catch (err) {
     console.error(err)
@@ -71,11 +78,19 @@ function genSub(subs) {
 	var startTime = duration(s.start.replace(/s$/, ""));
 	var endTime = duration(s.end.replace(/s$/, ""));	
 
-	console.log(i++);
+	// console.log(i++);
 	console.log(startTime + " --> " + endTime);
 	console.log(s.text.trim());
 	console.log("\n");
     }
+}
+
+function genControl(subs) {
+    var control = {trans: []};
+    for (s of subs) {
+	control.trans.push(s.text.trim());
+    }
+    console.log(JSON.stringify(control, null, 2))
 }
 
 // combine all words of transcript into an array

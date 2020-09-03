@@ -2,21 +2,25 @@ try {
     var myArgs = process.argv.slice(2);
     if (myArgs.length !== 2 && myArgs.length !== 3) {
 	console.log(myArgs.length)
-	console.error('Usage: node parse.js [-auto|-control] [raw subtitle json] [subtitle control json] ');
+	throw new Error('Usage: node parse.js [-auto|-control|-summary] [raw subtitle json] [subtitle control json] ');
     }
 
     var rawFile = '';
     var conFile = '';
+    
     const fullAuto = myArgs[0] === '-auto';
     const genControlFile = myArgs[0] === '-control';
+    const genSummary = myArgs[0] === '-summary';
+
+    const basicUse = !fullAuto && !genControlFile && !genSummary;
     
-    if (fullAuto || genControlFile) {
-	rawFile = myArgs[1];
-	conFile = myArgs[2];
-    } else {
+    if (myArgs.length === 2) {
 	rawFile = myArgs[0];
-	conFile = myArgs[1];	
-    }
+	conFile = myArgs[1];
+    } else {
+	rawFile = myArgs[1];
+	conFile = myArgs[2];	
+    } 
     
     fs = require('fs');    
     var data = fs.readFileSync(rawFile, 'utf8')
@@ -29,7 +33,12 @@ try {
 
     var subs = [];
 
-    if (fullAuto || genControlFile) {
+    if (basicUse) {
+	for (su of subf) {
+	    var sub = makeSubLib(su, wordlib);
+	    subs.push(sub);	
+	}
+    } else {
 	for (su of subf) {
 	    var sub = makeSubLib(su, wordlib);
 	    var shortSub = adjustLength(sub);
@@ -40,19 +49,17 @@ try {
 		}
 	    }
 	}
-    } else {
-	for (su of subf) {
-	    var sub = makeSubLib(su, wordlib);
-	    subs.push(sub);	
-	}
     }
 
     // subs is an array of sub object {start, end, text}
     if (genControlFile) {
-	genControl(subs);
-    } else {
-	genSub(subs);
+	return genControl(subs);
     }
+    if (genSummary) {
+	return genSum(subs);
+    }
+
+    genSub(subs);
     
 } catch (err) {
     console.error(err)
@@ -83,6 +90,31 @@ function genSub(subs) {
 	console.log(s.text.trim());
 	console.log("\n");
     }
+}
+
+function genSum(subs) {
+    if (subs.length === 0) {
+	throw new Error('empty sub file');
+    }
+    
+    var summary = '';
+    const pause = 0.5;
+
+    var space = ' ';
+    var prev = subs[0];
+    
+    for (i=1; i<subs.length; i++) {
+	let s = subs[i];
+	let gap = Number(s.start.replace(/s$/, "")) - Number(prev.end.replace(/s$/, ""))
+	if (gap > pause && prev.text.includes('.')) {
+	    summary += '\n\n';
+	    space = '';
+	}
+	summary += space + s.text.trim();
+	space = ' ';
+	prev = s;
+    }
+    console.log(summary);
 }
 
 function genControl(subs) {

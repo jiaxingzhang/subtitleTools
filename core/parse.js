@@ -92,7 +92,6 @@ function duration(s) {
     const secstr = (s + "").split(".")[0];
     const sec = Math.floor(secstr%60);
     let mil = (s + "").split(".")[1];
-    console.log(s)
     if (mil === undefined) {
 	mil = '000';
     }

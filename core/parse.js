@@ -89,8 +89,15 @@ function wrap(s) {
 function duration(s) {
     const hr = Math.floor(s/3600);
     const min = Math.floor(s/60)%60;
-    const sec = Math.round(s%60);
-    return wrap(hr) + ":" + wrap(min) + ":" + wrap(sec) + ",000";
+    const secstr = (s + "").split(".")[0];
+    const sec = Math.floor(secstr%60);
+    let mil = (s + "").split(".")[1];
+    console.log(s)
+    if (mil === undefined) {
+	mil = '000';
+    }
+
+    return wrap(hr) + ":" + wrap(min) + ":" + wrap(sec) + "," + mil;
 }
 
 // Emit the subtitles to console
@@ -100,7 +107,7 @@ function genSub(subs) {
 	var startTime = duration(s.start.replace(/s$/, ""));
 	var endTime = duration(s.end.replace(/s$/, ""));	
 
-	// console.log(i++);
+	console.log(i++);
 	console.log(startTime + " --> " + endTime);
 	console.log(s.text.trim());
 	console.log("\n");

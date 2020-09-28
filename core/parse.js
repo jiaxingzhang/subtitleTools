@@ -7,7 +7,7 @@ try {
 
     var rawFile = '';
     var conFile = '';
-    
+
     const fullAuto = myArgs[0] === '-auto';
     const genControlFile = myArgs[0] === '-control';
     const genSummary = myArgs[0] === '-summary';

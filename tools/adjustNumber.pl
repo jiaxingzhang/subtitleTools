@@ -1,5 +1,6 @@
 use strict;
 use warnings;
+use open ':std', ':encoding(UTF-8)';
 use Scalar::Util qw(looks_like_number);
 
 my $filename = $ARGV[0];

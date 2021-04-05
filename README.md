@@ -2,6 +2,14 @@
 
 This is small tool written in Node JS to extract subtitle timeline information in MP4 video and generate an SRT file populated with timining and subtitle information leverage Google Cloud ML APIs.
 
+## Setup
+
+1. Install `gsutil` following: https://cloud.google.com/storage/docs/gsutil_install
+2. Set up gcloud crendtials: https://cloud.google.com/docs/authentication/getting-started
+a. make sure to set up the key (in fish): `set -gx GOOGLE_APPLICATION_CREDENTIALS path/to/key.json`
+3. Install node `brew install node`
+4. Install jq `brew install jq`
+
 ## Usage
 
 ### Upload a MP4 file to Google Cloud Platform
